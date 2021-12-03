@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<!-- question: 589  -->
+  <question type="formulas">
+    <name>
+      <text>Función a trozos hallar ecuación</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<h4>Completa:</h4><p>Recuerda que puedes hacer zoom (rueda del ratón) para acercar o alejar la gráfica.</p>
+
+<script src="https://www.desmos.com/api/v1.4/calculator.js?apiKey=dcb31709b452b1cf9dc26972add0fda6"></script>
+<div id="calculator" style="width: 600px; height: 400px;"></div>
+<script>
+    var elt = document.getElementById('calculator');
+    var calculator = Desmos.GraphingCalculator(elt, {
+        expressions: false,
+        settingsMenu: false,
+        zoomButtons: false
+    });
+    // PRIMER TROZO
+    calculator.setExpression({
+        id: 'graph1',
+        latex: 'y=-{a}\\left \\{ x<{b}  \\right \\}',
+        color: Desmos.Colors.BLUE
+    });
+    //    calculator.setExpression({
+    //        id: 'pointA',
+    //        latex: 'A=({a},-{b})',
+    //        pointStyle: Desmos.Styles.OPEN,
+    //        dragMode: Desmos.DragModes.NONE,
+    //        color: Desmos.Colors.PURPLE
+    //    });
+    calculator.setExpression({
+        id: 'pointB',
+        latex: 'B=({b},-{a})',
+        pointStyle: Desmos.Styles.POINT,
+        dragMode: Desmos.DragModes.NONE,
+        color: Desmos.Colors.PURPLE
+    });
+    // SEGUNDO TROZO 
+    calculator.setExpression({
+        id: 'graph2',
+        latex: 'y={a}*x+{b}\\left \\{ {b}<x<{c}  \\right \\}',
+        color: Desmos.Colors.BLUE
+    });
+    calculator.setExpression({
+        id: 'pointC',
+        latex: 'C=({b},{a}*{b}+{b})',
+        pointStyle: Desmos.Styles.OPEN,
+        dragMode: Desmos.DragModes.NONE,
+        color: Desmos.Colors.PURPLE
+    });
+    calculator.setExpression({
+        id: 'pointD',
+        latex: 'D=({c},{a}*{c}+{b})',
+        pointStyle: Desmos.Styles.OPEN,
+        dragMode: Desmos.DragModes.NONE,
+        color: Desmos.Colors.PURPLE
+    });
+    //TERCER TROZO		
+    calculator.setExpression({
+        id: 'graph3',
+        latex: 'y={a}\\left \\{ x>{c}  \\right \\}',
+        color: Desmos.Colors.BLUE
+    });
+    calculator.setExpression({
+        id: 'pointE',
+        latex: 'E=({c},{a})',
+        pointStyle: Desmos.Styles.POINT,
+        dragMode: Desmos.DragModes.NONE,
+        color: Desmos.Colors.PURPLE
+    });
+    //  	calculator.updateSettings({
+    //        xAxisLabel: 'Time',
+    //        yAxisLabel: 'Distance'
+    //   });
+</script>
+
+<br> \(f(x) = \begin{cases} f(x) &amp; si &amp; a \leq x \\ g(x) &amp; si &amp; a &lt; x &lt; b \\ h(x) &amp; si &amp; 4 \leq x \end{cases} \) <br><br> a=
+<div style="display:inline-block;">{#1}</div> b=
+<div style="display:inline-block;">{#2}</div><br> f(x)=
+<div style="display:inline-block;">{#3}</div><br> g(x)=
+<div style="display:inline-block;">{#4}</div><br> h(x)=
+<div style="display:inline-block;">{#5}</div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>5</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+<varsrandom><text>a={-3,-2,-1,1,2,3};
+b={-3:0};
+c={2:6};
+</text>
+</varsrandom>
+<varsglobal><text>H=3</text>
+</varsglobal>
+<answernumbering><text>none</text>
+</answernumbering>
+<answers>
+ <partindex>
+  <text>0</text>
+ </partindex>
+ <placeholder>
+  <text>#1</text>
+ </placeholder>
+ <answermark>
+  <text>1</text>
+ </answermark>
+ <answertype>
+  <text>0</text>
+ </answertype>
+ <numbox>
+  <text>1</text>
+ </numbox>
+ <vars1>
+  <text></text>
+ </vars1>
+ <answer>
+  <text>b</text>
+ </answer>
+ <vars2>
+  <text></text>
+ </vars2>
+ <correctness>
+  <text>_err == 0</text>
+ </correctness>
+ <unitpenalty>
+  <text>1</text>
+ </unitpenalty>
+ <postunit>
+  <text></text>
+ </postunit>
+ <ruleid>
+  <text>1</text>
+ </ruleid>
+ <otherrule>
+  <text></text>
+ </otherrule>
+ <subqtext format="html">
+<text><![CDATA[<br>]]></text>
+ </subqtext>
+ <feedback format="html">
+<text></text>
+ </feedback>
+ <correctfeedback format="html">
+<text></text>
+ </correctfeedback>
+ <partiallycorrectfeedback format="html">
+<text></text>
+ </partiallycorrectfeedback>
+ <incorrectfeedback format="html">
+<text></text>
+ </incorrectfeedback>
+</answers>
+<answers>
+ <partindex>
+  <text>1</text>
+ </partindex>
+ <placeholder>
+  <text>#2</text>
+ </placeholder>
+ <answermark>
+  <text>1</text>
+ </answermark>
+ <answertype>
+  <text>0</text>
+ </answertype>
+ <numbox>
+  <text>1</text>
+ </numbox>
+ <vars1>
+  <text></text>
+ </vars1>
+ <answer>
+  <text>c</text>
+ </answer>
+ <vars2>
+  <text></text>
+ </vars2>
+ <correctness>
+  <text><![CDATA[_relerr < 0.01]]></text>
+ </correctness>
+ <unitpenalty>
+  <text>1</text>
+ </unitpenalty>
+ <postunit>
+  <text></text>
+ </postunit>
+ <ruleid>
+  <text>1</text>
+ </ruleid>
+ <otherrule>
+  <text></text>
+ </otherrule>
+ <subqtext format="html">
+<text></text>
+ </subqtext>
+ <feedback format="html">
+<text></text>
+ </feedback>
+ <correctfeedback format="html">
+<text></text>
+ </correctfeedback>
+ <partiallycorrectfeedback format="html">
+<text></text>
+ </partiallycorrectfeedback>
+ <incorrectfeedback format="html">
+<text></text>
+ </incorrectfeedback>
+</answers>
+<answers>
+ <partindex>
+  <text>2</text>
+ </partindex>
+ <placeholder>
+  <text>#3</text>
+ </placeholder>
+ <answermark>
+  <text>1</text>
+ </answermark>
+ <answertype>
+  <text>1000</text>
+ </answertype>
+ <numbox>
+  <text>1</text>
+ </numbox>
+ <vars1>
+  <text></text>
+ </vars1>
+ <answer>
+  <text><![CDATA["-a"]]></text>
+ </answer>
+ <vars2>
+  <text></text>
+ </vars2>
+ <correctness>
+  <text><![CDATA[_err < 0.01]]></text>
+ </correctness>
+ <unitpenalty>
+  <text>1</text>
+ </unitpenalty>
+ <postunit>
+  <text></text>
+ </postunit>
+ <ruleid>
+  <text>1</text>
+ </ruleid>
+ <otherrule>
+  <text></text>
+ </otherrule>
+ <subqtext format="html">
+<text></text>
+ </subqtext>
+ <feedback format="html">
+<text></text>
+ </feedback>
+ <correctfeedback format="html">
+<text></text>
+ </correctfeedback>
+ <partiallycorrectfeedback format="html">
+<text></text>
+ </partiallycorrectfeedback>
+ <incorrectfeedback format="html">
+<text></text>
+ </incorrectfeedback>
+</answers>
+<answers>
+ <partindex>
+  <text>3</text>
+ </partindex>
+ <placeholder>
+  <text>#4</text>
+ </placeholder>
+ <answermark>
+  <text>1</text>
+ </answermark>
+ <answertype>
+  <text>1000</text>
+ </answertype>
+ <numbox>
+  <text>1</text>
+ </numbox>
+ <vars1>
+  <text>x={20:50};</text>
+ </vars1>
+ <answer>
+  <text><![CDATA["a*x+b"]]></text>
+ </answer>
+ <vars2>
+  <text></text>
+ </vars2>
+ <correctness>
+  <text><![CDATA[_err < 0.01]]></text>
+ </correctness>
+ <unitpenalty>
+  <text>1</text>
+ </unitpenalty>
+ <postunit>
+  <text></text>
+ </postunit>
+ <ruleid>
+  <text>1</text>
+ </ruleid>
+ <otherrule>
+  <text></text>
+ </otherrule>
+ <subqtext format="html">
+<text></text>
+ </subqtext>
+ <feedback format="html">
+<text></text>
+ </feedback>
+ <correctfeedback format="html">
+<text></text>
+ </correctfeedback>
+ <partiallycorrectfeedback format="html">
+<text></text>
+ </partiallycorrectfeedback>
+ <incorrectfeedback format="html">
+<text></text>
+ </incorrectfeedback>
+</answers>
+<answers>
+ <partindex>
+  <text>4</text>
+ </partindex>
+ <placeholder>
+  <text>#5</text>
+ </placeholder>
+ <answermark>
+  <text>1</text>
+ </answermark>
+ <answertype>
+  <text>1000</text>
+ </answertype>
+ <numbox>
+  <text>1</text>
+ </numbox>
+ <vars1>
+  <text></text>
+ </vars1>
+ <answer>
+  <text><![CDATA["a"]]></text>
+ </answer>
+ <vars2>
+  <text></text>
+ </vars2>
+ <correctness>
+  <text><![CDATA[_err < 0.01]]></text>
+ </correctness>
+ <unitpenalty>
+  <text>1</text>
+ </unitpenalty>
+ <postunit>
+  <text></text>
+ </postunit>
+ <ruleid>
+  <text>1</text>
+ </ruleid>
+ <otherrule>
+  <text></text>
+ </otherrule>
+ <subqtext format="html">
+<text></text>
+ </subqtext>
+ <feedback format="html">
+<text></text>
+ </feedback>
+ <correctfeedback format="html">
+<text></text>
+ </correctfeedback>
+ <partiallycorrectfeedback format="html">
+<text></text>
+ </partiallycorrectfeedback>
+ <incorrectfeedback format="html">
+<text></text>
+ </incorrectfeedback>
+</answers>
+    <hint format="html">
+      <text></text>
+      <clearwrong/>
+    </hint>
+    <hint format="html">
+      <text></text>
+      <clearwrong/>
+    </hint>
+  </question>
+
+</quiz>

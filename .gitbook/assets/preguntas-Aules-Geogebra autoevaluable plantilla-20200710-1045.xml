@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<!-- question: 2679  -->
+  <question type="formulas">
+    <name>
+      <text>Geogebra autoevaluable plantilla</text>
+    </name>
+    <questiontext format="moodle_auto_format">
+      <text><![CDATA[<p> Aquí podrían copiarse las instrucciones que consideremos oportunas.</p>
+<br>
+
+<script src="https://cdn.geogebra.org/apps/deployggb.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+
+<div id="ggbApplet"></div>
+
+<script>
+//Este primer script oculará todos los elementos html cuyo nombre sea "elquesoculta"
+$(document).ready(function(){
+    jQuery ("*[name='elqueseoculta']").hide();
+ });
+
+</script>
+
+<script>
+//Para tomar el valor anterior si es que la pregunta ya se ha contestado
+function compruebaRespuesta(part,placeholder,variable){
+    var resp=jQuery( "input[name*='_"+part.toString()+"_"+placeholder.toString()+"']" ).val();
+    if (resp=="") {return variable;}
+   else {return parseFloat(resp);}
+}
+
+
+
+var parameters = {
+"id": "ggbApplet",
+"width":800,
+"height":547,
+"showMenuBar":false,
+"showAlgebraInput":false,
+"showToolBar":false,
+"showToolBarHelp":false,
+"showResetIcon":true,
+"enableLabelDrags":false,
+"enableShiftDragZoom":false,
+"enableRightClick":false,
+"errorDialogsActive":false,
+"useBrowserForJS":false,
+"allowStyleBar":false,
+"preventFocus":false,
+"showZoomButtons":false,
+"capturingThreshold":3,
+// add code here to run when the applet starts
+"appletOnLoad":function(api){
+                  function updateListener(objName) {                                     
+                              jQuery( "input[name*='_0_0']" ).val(api.getValue('SCORMRawScore'));
+                              
+                                                                
+}
+              api.registerUpdateListener(updateListener);
+            
+},
+"showFullscreenButton":true,
+"scale":1,
+"disableAutoScale":true,
+"autoHeight":true,
+"allowUpscale":false,
+"clickToLoad":false,
+"appName":"classic",
+"showSuggestionButtons":false,
+"buttonRounding":1,
+"buttonShadows":false,
+"language":"es",
+// si guardamos el archivo en la nube, aquí irá el material id
+"material_id":"b5ckap8z",
+//"ggbBase64":"cambiar por base64",
+};
+
+var views = {'is3D': 0,'AV': 0,'SV': 0,'CV': 0,'EV2': 0,'CP': 0,'PC': 0,'DA': 0,'FI': 0,'macro': 0};
+var applet = new GGBApplet(parameters, '5.0', views);
+
+window.addEventListener("load", function() {
+                    applet.inject('ggbApplet');
+                    });
+
+</script>
+
+<br>
+{#1}]]></text>
+    </questiontext>
+    <generalfeedback format="moodle_auto_format">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <correctfeedback format="html">
+      <text>Respuesta correcta</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Respuesta parcialmente correcta.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Respuesta incorrecta.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+<varsrandom><text></text>
+</varsrandom>
+<varsglobal><text></text>
+</varsglobal>
+<answernumbering><text>abc</text>
+</answernumbering>
+<answers>
+ <partindex>
+  <text>0</text>
+ </partindex>
+ <placeholder>
+  <text>#1</text>
+ </placeholder>
+ <answermark>
+  <text>1</text>
+ </answermark>
+ <answertype>
+  <text>0</text>
+ </answertype>
+ <numbox>
+  <text>1</text>
+ </numbox>
+ <vars1>
+  <text></text>
+ </vars1>
+ <answer>
+  <text>[5]</text>
+ </answer>
+ <vars2>
+  <text>arraypuntos=fill(10,0);</text>
+ </vars2>
+ <correctness>
+  <text><![CDATA[0.05*(_0>=0.5)+0.05*(_0>=1)+0.05*(_0>=1.5)+0.05*(_0>=2)+0.05*(_0>=2.5)+0.05*(_0>=3)+0.05*(_0>=3.5)+0.05*(_0>=4)+0.05*(_0>=4.5)+0.05*(_0>=5)+0.05*(_0>=5.5)+0.05*(_0>=6)+0.05*(_0>=6.5)+0.05*(_0>=7)+0.05*(_0>=7.5)+0.05*(_0>=8)+0.05*(_0>=8.5)+0.05*(_0>=9)+0.05*(_0>=9.5)+0.05*(_0>=10)]]></text>
+ </correctness>
+ <unitpenalty>
+  <text>1</text>
+ </unitpenalty>
+ <postunit>
+  <text></text>
+ </postunit>
+ <ruleid>
+  <text>1</text>
+ </ruleid>
+ <otherrule>
+  <text></text>
+ </otherrule>
+ <subqtext format="html">
+<text><![CDATA[<p name='elqueseoculta'>{_0}</p>]]></text>
+ </subqtext>
+ <feedback format="html">
+<text></text>
+ </feedback>
+ <correctfeedback format="html">
+<text></text>
+ </correctfeedback>
+ <partiallycorrectfeedback format="html">
+<text></text>
+ </partiallycorrectfeedback>
+ <incorrectfeedback format="html">
+<text></text>
+ </incorrectfeedback>
+</answers>
+  </question>
+
+</quiz>

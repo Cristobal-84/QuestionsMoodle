@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<!-- question: 2320  -->
+  <question type="formulas">
+    <name>
+      <text>Opera los monomios (ax+b)(cx+d)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Responde a las siguientes cuestiones:</p><p><br></p><p>{#1}</p><p><br></p><p>{#2}</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>2</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <correctfeedback format="html">
+      <text>Respuesta correcta</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Respuesta parcialmente correcta.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Respuesta incorrecta.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+<varsrandom><text>a={-5:0,1:6};b={-5:0,1:6};c={-5:0,1:6};d={-5:0,1:6};
+</text>
+</varsrandom>
+<varsglobal><text><![CDATA[#PARTE1-------------------
+#Generamos los polinomios
+poli1=poly("x",[a,b]);
+poli2=poly("x",[c,d]);
+
+#(ax+b)(cx+d)=sol tiene que ser una cadena de texto o no funciona la pregunta
+sol="a*c*x^2+(a*d+b*c)*x+b*d";
+
+#PARTE2------------------- 
+#Las soluciones serán sol21="-sqrt(a)" si a>=0 o sol21="no" si a es negativo. Con cadenas de texto usaremos la función pick ya que el condicional dará error
+# sol21=a>=0?"-sqrt(a)":"no"; nos da error ya que el condicional ternario no funciona con cadenas de texto
+
+sol21=pick(a>=0,["no","-sqrt(a)"]); #si condición falsa coge el primer valor y si condición cierta coge el segundo
+sol22=pick(a>=0,["no","sqrt(a)"]);
+]]></text>
+</varsglobal>
+<answernumbering><text>abc</text>
+</answernumbering>
+<answers>
+ <partindex>
+  <text>0</text>
+ </partindex>
+ <placeholder>
+  <text>#1</text>
+ </placeholder>
+ <answermark>
+  <text>1</text>
+ </answermark>
+ <answertype>
+  <text>1000</text>
+ </answertype>
+ <numbox>
+  <text>1</text>
+ </numbox>
+ <vars1>
+  <text>x={1:100}</text>
+ </vars1>
+ <answer>
+  <text>sol</text>
+ </answer>
+ <vars2>
+  <text></text>
+ </vars2>
+ <correctness>
+  <text><![CDATA[_err < 1e-6]]></text>
+ </correctness>
+ <unitpenalty>
+  <text>1</text>
+ </unitpenalty>
+ <postunit>
+  <text></text>
+ </postunit>
+ <ruleid>
+  <text>1</text>
+ </ruleid>
+ <otherrule>
+  <text></text>
+ </otherrule>
+ <subqtext format="html">
+<text><![CDATA[<p>\( ({poli1})({poli2})= \) {_0}</p><p>Precaución: si se contesta con la expresión del enunciado, la respuesta será correcta al ser equivalente matemáticamente a la solución.</p>]]></text>
+ </subqtext>
+ <feedback format="html">
+<text></text>
+ </feedback>
+ <correctfeedback format="html">
+<text></text>
+ </correctfeedback>
+ <partiallycorrectfeedback format="html">
+<text></text>
+ </partiallycorrectfeedback>
+ <incorrectfeedback format="html">
+<text></text>
+ </incorrectfeedback>
+</answers>
+<answers>
+ <partindex>
+  <text>1</text>
+ </partindex>
+ <placeholder>
+  <text>#2</text>
+ </placeholder>
+ <answermark>
+  <text>1</text>
+ </answermark>
+ <answertype>
+  <text>1000</text>
+ </answertype>
+ <numbox>
+  <text>2</text>
+ </numbox>
+ <vars1>
+  <text>no={100:200}</text>
+ </vars1>
+ <answer>
+  <text>[sol21,sol22]</text>
+ </answer>
+ <vars2>
+  <text></text>
+ </vars2>
+ <correctness>
+  <text><![CDATA[_err < 1e-6]]></text>
+ </correctness>
+ <unitpenalty>
+  <text>1</text>
+ </unitpenalty>
+ <postunit>
+  <text></text>
+ </postunit>
+ <ruleid>
+  <text>1</text>
+ </ruleid>
+ <otherrule>
+  <text></text>
+ </otherrule>
+ <subqtext format="html">
+<text><![CDATA[<p>Resuelve: \(x^2={a}\)</p>
+Si no tuviera solución, indica "no" sin comillas en los campos de respuesta.<br>Ordena las respuestas de menor a mayor. Debe cumplirse que \(x_1&lt;x_2 \).
+Puedes introducir \( \sqrt{5}=\)sqrt(5).
+<br><br><p>\(x_1=\) {_0}, \(x_2=\) {_1}</p>]]></text>
+ </subqtext>
+ <feedback format="html">
+<text></text>
+ </feedback>
+ <correctfeedback format="html">
+<text></text>
+ </correctfeedback>
+ <partiallycorrectfeedback format="html">
+<text></text>
+ </partiallycorrectfeedback>
+ <incorrectfeedback format="html">
+<text></text>
+ </incorrectfeedback>
+</answers>
+  </question>
+
+</quiz>

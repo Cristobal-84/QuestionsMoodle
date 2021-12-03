@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<!-- question: 2290  -->
+  <question type="formulas">
+    <name>
+      <text>Crear gráficamente función que cumpla restricciones</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Mueve los puntos para que la función \( y=f(x)\) representada cumpla que:</p>
+<ul>
+<li>Es creciente en \( \big( {a}, {b} \big) \).</li>
+<li>Tiene un mínimo relativo en \(x={c}\).</li>
+<li>Tiene un máximo relativo, que también es absoluto en \(x={d}\).</li>
+<li>La función es negativa únicamente en \(x<{=b-1}\).</li>
+<li>\(f(5)={e}\).</li>
+</ul>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>2</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+<varsrandom><text>bn={1000:999999};
+b={2,3}; c={4,5}; e={2:6};</text>
+</varsrandom>
+<varsglobal><text><![CDATA[MB=join("", "MyFasHc", bn); 
+a=0; d=6;
+sol0=-5;sol1=(b-1==1)?0:-2;sol2=(b-1==2)?0:3;
+sol3=6;sol4=(c==4)?(e-1):(e+1);sol5=e;sol6=8;sol7=4;]]></text>
+</varsglobal>
+<answernumbering><text>none</text>
+</answernumbering>
+<answers>
+ <partindex>
+  <text>0</text>
+ </partindex>
+ <placeholder>
+  <text></text>
+ </placeholder>
+ <answermark>
+  <text>2</text>
+ </answermark>
+ <answertype>
+  <text>0</text>
+ </answertype>
+ <numbox>
+  <text>8</text>
+ </numbox>
+ <vars1>
+  <text></text>
+ </vars1>
+ <answer>
+  <text>[sol0,sol1,sol2,sol3,sol4,sol5,sol6,sol7]</text>
+ </answer>
+ <vars2>
+  <text><![CDATA[creceenab=(b==2)?((_2>_1)&&(_1>_0)):((_3>_2)&&(_2>_1)&&(_1>_0));
+minrelenc=(c==4)?((_4<_3)&&(_4<_5)):((_5<_4)&&(_5<_6)); #c=4 o c=5
+maxen6=(_6==max(_0,_1,_2,_3,_4,_5,_6,_7))&&((_6>_5)&&(_6>_7));
+negativaalprincipio=((b-1==1)?((_0<0)&&(_1==0)):((_0<0)&&(_1<0)&&(_2==0)))&&((_3>=0)&&(_4>=0)&&(_5>=0)&&(_6>=0)&&(_7>=0));
+fde5valee=(_5==e);]]></text>
+ </vars2>
+ <correctness>
+  <text><![CDATA[creceenab&&minrelenc&&maxen6&&negativaalprincipio&&fde5valee]]></text>
+ </correctness>
+ <unitpenalty>
+  <text>0.2</text>
+ </unitpenalty>
+ <postunit>
+  <text></text>
+ </postunit>
+ <ruleid>
+  <text>1</text>
+ </ruleid>
+ <otherrule>
+  <text></text>
+ </otherrule>
+ <subqtext format="html">
+<text><![CDATA[<script type="text/javascript" src="https://jsxgraph.uni-bayreuth.de/distrib/jsxgraphcore.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+
+<script type="text/javascript">
+var JSXQuestion = function (elmID, jsxCode, debug) {
+        var thiz = this;
+        thiz.elm = document.getElementById(elmID);
+        thiz.inputs = $(thiz.elm).closest(".formulaspart").find("input");
+        $(thiz.elm).closest(".formulaspart").children("formulaspartoutcome").hide();
+        if (debug !== true) {
+            thiz.inputs.hide();
+        }
+        thiz.solved = $(thiz.inputs[0]).prop('readonly');
+
+
+        thiz.set = function (idx, val) {
+            if (!thiz.solved && thiz.inputs && thiz.inputs[idx]) {
+                thiz.inputs[idx].value = Math.round(val * 100) / 100;
+            }
+        };
+        thiz.get = function (idx) {
+            if (thiz.inputs && thiz.inputs[idx]) {
+                var n = parseFloat(thiz.inputs[idx].value);
+                if (isNaN(n)) {
+                    return null
+                }
+                return n;
+            }
+            return null;
+        };
+
+        thiz.brd = null;
+        jsxCode(thiz);
+
+        thiz.reload = function () {
+            jsxCode(thiz);
+        };
+    };
+</script>
+
+<div id="{MB}" class="jxgbox" style="width:400px; height:400px;margin-left:1px; margin-right:auto;"></div>
+
+<script type="text/javascript">
+    $(function () {
+        var jsxCode = function (main) {
+            main.brd = JXG.JSXGraph.initBoard(main.elm.id, {
+                boundingbox:[-1,10,10,-10], showNavigation:false, showCopyright:false, grid:false, axis:true, zoom: {enabled:false,wheel: false}, pan: {enabled:false, needTwoFingers: false}  
+            });
+            var brd = main.brd;
+
+brd.options.point.showInfobox=true;
+
+ 
+
+var t0y = main.get(0);if (t0y === null) {t0y =0; }
+var t1y = main.get(1);if (t1y === null) {t1y = 0; }
+var t2y = main.get(2);if (t2y === null) {t2y = 0; }
+var t3y = main.get(3);if (t3y === null) {t3y = 0; }
+var t4y = main.get(4);if (t4y === null) {t4y = 0; }
+var t5y = main.get(5);if (t5y === null) {t5y = 0; }
+var t6y = main.get(6);if (t6y === null) {t6y = 0; }
+var t7y = main.get(7);if (t7y === null) {t7y = 0; }
+
+
+ 
+var p0 = brd.create('point', [0,t0y], {snapToGrid:true, snapSizeX:0.5, snapSizeY:0.5, fixed: main.solved});
+var p1 = brd.create('point', [1,t1y], {snapToGrid:true, snapSizeX:0.5, snapSizeY:0.5, fixed: main.solved});
+var p2 = brd.create('point', [2,t2y], {snapToGrid:true, snapSizeX:0.5, snapSizeY:0.5, fixed: main.solved});
+var p3 = brd.create('point', [3,t3y], {snapToGrid:true, snapSizeX:0.5, snapSizeY:0.5, fixed: main.solved});
+var p4 = brd.create('point', [4,t4y], {snapToGrid:true, snapSizeX:0.5, snapSizeY:0.5, fixed: main.solved});
+var p5 = brd.create('point', [5,t5y], {snapToGrid:true, snapSizeX:0.5, snapSizeY:0.5, fixed: main.solved});
+var p6 = brd.create('point', [6,t6y], {snapToGrid:true, snapSizeX:0.5, snapSizeY:0.5, fixed: main.solved});
+var p7 = brd.create('point', [7,t7y], {snapToGrid:true, snapSizeX:0.5, snapSizeY:0.5, fixed: main.solved});
+
+brd.on('move', function(){
+        p0.moveTo([0, p0.Y()]);
+        p1.moveTo([1, p1.Y()]);
+        p2.moveTo([2, p2.Y()]);
+        p3.moveTo([3, p3.Y()]);
+        p4.moveTo([4, p4.Y()]);
+        p5.moveTo([5, p5.Y()]);
+        p6.moveTo([6, p6.Y()]);
+        p7.moveTo([7, p7.Y()]);
+});
+
+var s01=brd.create('segment', [p0,p1],{fixed:true});
+var s02=brd.create('segment', [p1,p2],{fixed:true});
+var s03=brd.create('segment', [p2,p3],{fixed:true});
+var s04=brd.create('segment', [p3,p4],{fixed:true});
+var s05=brd.create('segment', [p4,p5],{fixed:true});
+var s06=brd.create('segment', [p5,p6],{fixed:true});
+var s07=brd.create('segment', [p6,p7],{fixed:true});
+
+
+
+            var check =  function(){
+main.set(0, p0.Y());
+main.set(1, p1.Y());
+main.set(2, p2.Y());
+main.set(3, p3.Y());
+main.set(4, p4.Y());
+main.set(5, p5.Y());
+main.set(6, p6.Y());
+main.set(7, p7.Y());
+
+
+
+  }
+            check();
+
+p0.on('drag', function () {
+                check();
+            });
+p1.on('drag', function () {
+                check();
+            });
+p2.on('drag', function () {
+                check();
+            });
+p3.on('drag', function () {
+                check();
+            });
+p4.on('drag', function () {
+                check();
+            });
+p5.on('drag', function () {
+                check();
+            });
+p6.on('drag', function () {
+                check();
+            });
+p7.on('drag', function () {
+                check();
+            });
+
+
+  brd.update();
+          
+        };
+
+        new JSXQuestion("{MB}", jsxCode, false);
+    });
+</script>]]></text>
+ </subqtext>
+ <feedback format="html">
+<text></text>
+ </feedback>
+ <correctfeedback format="html">
+<text></text>
+ </correctfeedback>
+ <partiallycorrectfeedback format="html">
+<text></text>
+ </partiallycorrectfeedback>
+ <incorrectfeedback format="html">
+<text></text>
+ </incorrectfeedback>
+</answers>
+  </question>
+
+</quiz>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<!-- question: 2324  -->
+  <question type="formulas">
+    <name>
+      <text>Tipos de variable</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><span style="font-size: 0.95rem;">El único sentido de este enunciado es visualizarlo junto con la definición de las variables a ver cómo se trabaja con ellas.</span></p><p><span style="font-size: 0.95rem;"><br></span></p><p><span style="font-size: 0.95rem;">num_aleatorio es {num_aleatorio}</span><br></p>
+<p>num_fraccion es {num_fraccion}</p>
+<p>num_notación_científica es {num_notacion_cientifica}</p>
+<p>num_resultado_funcion es {num_resultado_funcion}</p>
+<p><br></p><p>texto_aleatorio es {texto_aleatorio}</p><p>texto1 es {texto1}</p><p><br></p><p>Si se intenta mostrar una lista refiriéndose directamente a la variable, no funcionará: por ejemplo, {lista1} no muestra [{lista1[0]},{lista1[1]},{lista1[2]}]</p><p>El primer elemento de lista1 es {primerelementodelista1}</p><p>La semana tiene {longituddelista2} días</p><p>num_fraccion como texto es {cifraentexto} que se muestra igual pero es una variable que se comporta diferente al ser de texto<br></p><p><br></p><p>Podemos mostrar todos los elementos de lista2 mediante el bucle: Los días son {lista2text}</p><p><b>La respuesta correcta es 1.</b></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <correctfeedback format="html">
+      <text>Respuesta correcta</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Respuesta parcialmente correcta.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Respuesta incorrecta.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+<varsrandom><text><![CDATA[num_aleatorio={1:100:2}; #número entre 1 y 99 impar (intervalo 2)
+num={0:6};
+texto_aleatorio={"Uno","Dos","Tres"};
+lista_aleatoria=shuffle([1:11]); #genera una lista desordenada con los números 1 a 10
+]]></text>
+</varsrandom>
+<varsglobal><text><![CDATA[#NÚMEROS
+num_fraccion=3/5;
+num_notacion_cientifica=2e-10; #notación científica
+num_resultado_operacion=num_aleatorio*4;
+num_resultado_funcion=sqrt(9)+2**4; #las potencias son pow(2,4)=2**4=2 elevado a 4
+
+#STRINGS O CADENAS DE TEXTO
+texto1="Hola";
+
+#ARRAYS O LISTAS
+lista1=[2,3,4];
+lista2=["lunes","martes","miércoles","jueves","viernes","sábado","domingo"];
+lista3=[1:11]; #lista ordenada que genera  [1,2,3,4,5,6,7,8,910]
+
+#Aquí podemos usar funciones
+primerelementodelista1=lista1[0]; #para referirnos a los elementos de la lista [posición empezando en cero]
+segundoelementodelista1=lista1[2];
+longituddelista2=len(lista2); #dará el número de elementos
+cifraentexto=str(num_fraccion); #convierte un número en texto (muy útil cuando usemos preguntas de tipo algebraico
+
+#También bucles para recorrer listas rápidamente
+lista2text=lista2[0];
+for (i:[1:7]) {
+    lista2text=join(" y ",[lista2text,lista2[i]]);
+   }
+#Ojo, que el bucle [1:7] comienza en 1 y acaba en 6]]></text>
+</varsglobal>
+<answernumbering><text>abc</text>
+</answernumbering>
+<answers>
+ <partindex>
+  <text>0</text>
+ </partindex>
+ <placeholder>
+  <text></text>
+ </placeholder>
+ <answermark>
+  <text>1</text>
+ </answermark>
+ <answertype>
+  <text>0</text>
+ </answertype>
+ <numbox>
+  <text>1</text>
+ </numbox>
+ <vars1>
+  <text></text>
+ </vars1>
+ <answer>
+  <text>1</text>
+ </answer>
+ <vars2>
+  <text></text>
+ </vars2>
+ <correctness>
+  <text><![CDATA[_relerr < 0.01]]></text>
+ </correctness>
+ <unitpenalty>
+  <text>1</text>
+ </unitpenalty>
+ <postunit>
+  <text></text>
+ </postunit>
+ <ruleid>
+  <text>1</text>
+ </ruleid>
+ <otherrule>
+  <text></text>
+ </otherrule>
+ <subqtext format="html">
+<text><![CDATA[<p>Respuesta:&nbsp;</p>]]></text>
+ </subqtext>
+ <feedback format="html">
+<text></text>
+ </feedback>
+ <correctfeedback format="html">
+<text></text>
+ </correctfeedback>
+ <partiallycorrectfeedback format="html">
+<text></text>
+ </partiallycorrectfeedback>
+ <incorrectfeedback format="html">
+<text></text>
+ </incorrectfeedback>
+</answers>
+  </question>
+
+</quiz>

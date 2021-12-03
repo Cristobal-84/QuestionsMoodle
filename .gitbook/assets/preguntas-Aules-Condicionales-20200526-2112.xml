@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<!-- question: 2325  -->
+  <question type="formulas">
+    <name>
+      <text>Condicionales</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>{#1}</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <correctfeedback format="html">
+      <text>Respuesta correcta</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Respuesta parcialmente correcta.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Respuesta incorrecta.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+<varsrandom><text>numero={1:101}; #Número aleatorio entre 1 y 100</text>
+</varsrandom>
+<varsglobal><text><![CDATA[#PARTE 1
+opciones=["es múltiplo de 2 y no lo es de 3", "es múltiplo de 3 y no lo es de 2", "es múltiplo de 2 y de 3", "no es múltiplo de 2 ni de 3"];
+
+esmultiplode2=(fmod(numero,2)==0)?1:0;
+esmultiplode3=(fmod(numero,3)==0)?1:0; 
+esmultiplode6=(fmod(numero,6)==0)?1:0;
+
+solparte1=(esmultiplode6==1)?2:(esmultiplode2==1?0:(esmultiplode3==1?1:3));
+
+respuesta=opciones[solparte1]; #esta variable únicamente está para visualizar rápidamente la respuesta correcta en Comprobar la creación de instancias de variables
+
+#PARTE 2
+]]></text>
+</varsglobal>
+<answernumbering><text>abc</text>
+</answernumbering>
+<answers>
+ <partindex>
+  <text>0</text>
+ </partindex>
+ <placeholder>
+  <text>#1</text>
+ </placeholder>
+ <answermark>
+  <text>1</text>
+ </answermark>
+ <answertype>
+  <text>0</text>
+ </answertype>
+ <numbox>
+  <text>1</text>
+ </numbox>
+ <vars1>
+  <text></text>
+ </vars1>
+ <answer>
+  <text>solparte1</text>
+ </answer>
+ <vars2>
+  <text></text>
+ </vars2>
+ <correctness>
+  <text><![CDATA[_relerr < 0.01]]></text>
+ </correctness>
+ <unitpenalty>
+  <text>1</text>
+ </unitpenalty>
+ <postunit>
+  <text></text>
+ </postunit>
+ <ruleid>
+  <text>1</text>
+ </ruleid>
+ <otherrule>
+  <text></text>
+ </otherrule>
+ <subqtext format="html">
+<text><![CDATA[<p>Elegir la respuesta correcta:</p><p>El número {numero} {_0:opciones:MCE}.</p>]]></text>
+ </subqtext>
+ <feedback format="html">
+<text></text>
+ </feedback>
+ <correctfeedback format="html">
+<text></text>
+ </correctfeedback>
+ <partiallycorrectfeedback format="html">
+<text></text>
+ </partiallycorrectfeedback>
+ <incorrectfeedback format="html">
+<text></text>
+ </incorrectfeedback>
+</answers>
+  </question>
+
+</quiz>

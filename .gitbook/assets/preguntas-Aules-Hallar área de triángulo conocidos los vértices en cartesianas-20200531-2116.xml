@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<!-- question: 2351  -->
+  <question type="formulas">
+    <name>
+      <text>Hallar área de triángulo conocidos los vértices en cartesianas</text>
+    </name>
+    <questiontext format="moodle_auto_format">
+      <text><![CDATA[<div id='{MB}' class="jxgbox" style="width:400px; height:400px;margin-left:1px; margin-right:auto;"></div>
+
+<script type="text/javascript" src="https://jsxgraph.uni-bayreuth.de/distrib/jsxgraphcore.js"></script>
+
+<script type="text/javascript">
+    
+  var a1=0; //Para no tener que poner llaves en el código del script
+  var a2=0;
+  var b1={b1};
+  var b2=0;
+  var c1={c1};
+  var c2={c2};
+
+  
+  var brd = JXG.JSXGraph.initBoard('{MB}', {
+    boundingbox: [-1, 10.5, 10.5, -1], //cambiamos los ejes para un mejor encuadre
+    axis:true,
+    grid: false, //no necesitamos la cuadrícula
+    showCopyright: false,
+    shownavigation:false,
+    zoom: {
+      enabled: false,
+      wheel: false
+    },
+    pan: {
+      enabled: false,
+      needTwoFingers: false
+    }
+  });
+  
+  //Podemos establecer opciones generales para toda la construcción
+  
+  brd.options.point.showInfobox=true; //Para que al parar el ratón sobre un 
+                                      //punto se vean las coordenadas
+  brd.options.point.withlabel=false; //No queremos que se vean los nombres
+  brd.options.point.visible=true;
+   
+
+  //Creamos los puntos
+  var ptoA=brd.create('point', [a1,a2], {
+    name: 'A', //realmente no es necesario ponerle nombre
+    fixed:true
+  });
+     
+  var ptoB=brd.create('point', [b1,b2], {
+    name: 'B', 
+    fixed:true //si no indicamos que es fijo
+  });
+
+  var ptoC=brd.create('point', [c1,c2], {
+    name: 'C', 
+    fixed:false //el punto podría moverse y no nos interesa en este caso
+  });
+ 
+  //Lado AB (el código puede ir en línea)
+  var AB= brd.create('segment', [ptoA, ptoB], {withLabel:false, name:''});
+
+  //Lado BC   
+  var BC= brd.create('segment', [ptoB, ptoC], {withLabel:false, name:''});
+
+  //Lado AC (o puede distribuirse en varias líneas)  
+  var AC = brd.create('segment', [ptoA, ptoC], {
+    withLabel: false,
+    name: ''
+  });
+  
+  //Altura del triángulo (será otro segmento)
+  var altura = brd.create('segment', [ptoC,[c1,0]], {
+    withLabel: false,
+    name: '',
+    dash:3 //hace que el segmento sea a trazos
+  });
+
+  brd.update(); 
+
+</script>
+<small> <u>COMPORTAMIENTO INDESEADO</u>: Obsérvese que el punto C (el vértice superior) lo hemos creado con fixed:false y se puede mover sobre el gráfico arrastrándolo con el ratón.</small>
+
+<p>{#1}</p>]]></text>
+    </questiontext>
+    <generalfeedback format="moodle_auto_format">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <correctfeedback format="html">
+      <text>Respuesta correcta</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Respuesta parcialmente correcta.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Respuesta incorrecta.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+<varsrandom><text>bn={1000:99999};
+b1={6:10};
+c1={2:6};c2={5:10};</text>
+</varsrandom>
+<varsglobal><text><![CDATA[MB=join("", "MyBoxA", bn);
+
+area=0.5*b1*c2; #Solución 
+
+]]></text>
+</varsglobal>
+<answernumbering><text>abc</text>
+</answernumbering>
+<answers>
+ <partindex>
+  <text>0</text>
+ </partindex>
+ <placeholder>
+  <text>#1</text>
+ </placeholder>
+ <answermark>
+  <text>1</text>
+ </answermark>
+ <answertype>
+  <text>10</text>
+ </answertype>
+ <numbox>
+  <text>1</text>
+ </numbox>
+ <vars1>
+  <text></text>
+ </vars1>
+ <answer>
+  <text>area</text>
+ </answer>
+ <vars2>
+  <text></text>
+ </vars2>
+ <correctness>
+  <text><![CDATA[_relerr < 0.01]]></text>
+ </correctness>
+ <unitpenalty>
+  <text>1</text>
+ </unitpenalty>
+ <postunit>
+  <text></text>
+ </postunit>
+ <ruleid>
+  <text>1</text>
+ </ruleid>
+ <otherrule>
+  <text></text>
+ </otherrule>
+ <subqtext format="html">
+<text><![CDATA[<p>El área del triángulo mostrado es de {_0} u<sup>2</sup></p>]]></text>
+ </subqtext>
+ <feedback format="html">
+<text></text>
+ </feedback>
+ <correctfeedback format="html">
+<text></text>
+ </correctfeedback>
+ <partiallycorrectfeedback format="html">
+<text></text>
+ </partiallycorrectfeedback>
+ <incorrectfeedback format="html">
+<text></text>
+ </incorrectfeedback>
+</answers>
+  </question>
+
+</quiz>

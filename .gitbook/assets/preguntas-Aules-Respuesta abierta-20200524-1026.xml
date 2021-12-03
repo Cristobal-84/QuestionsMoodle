@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<!-- question: 2313  -->
+  <question type="formulas">
+    <name>
+      <text>Respuesta abierta</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Busca dos números que cumplan al mismo tiempo las siguientes condiciones:</p><p></p><ol><li><span style="font-size: 0.95rem;">Ambos están en el intervalo [10,20].</span></li><li><span style="font-size: 0.95rem;">El primero de ellos es múltiplo de 2.</span></li><li><span style="font-size: 0.95rem;">El otro es múltiplo de 3.</span></li><li><span style="font-size: 0.95rem;">La suma de ambos es &gt;30.</span></li></ol><p>{#1}</p><p></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <correctfeedback format="html">
+      <text>Respuesta correcta</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Respuesta parcialmente correcta.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Respuesta incorrecta.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+<varsrandom><text></text>
+</varsrandom>
+<varsglobal><text>num1=14; num2=18; #únicamente los usaremos para dar una respuesta correcta en la revisión de la pregunta.</text>
+</varsglobal>
+<answernumbering><text>abc</text>
+</answernumbering>
+<answers>
+ <partindex>
+  <text>0</text>
+ </partindex>
+ <placeholder>
+  <text>#1</text>
+ </placeholder>
+ <answermark>
+  <text>1</text>
+ </answermark>
+ <answertype>
+  <text>0</text>
+ </answertype>
+ <numbox>
+  <text>2</text>
+ </numbox>
+ <vars1>
+  <text></text>
+ </vars1>
+ <answer>
+  <text>[num1,num2]</text>
+ </answer>
+ <vars2>
+  <text><![CDATA[#Aquí estableceremos las comprobaciones
+primernumentre10y20=(_0>=10)&&(_0<=20);
+primernummult2=_0%2==0;
+segundonumentre10y20=(_1>=10)&&(_1<=20);
+segundonummult3=_1%3==0;
+sumamayora30=(_0+_1)>30;]]></text>
+ </vars2>
+ <correctness>
+  <text><![CDATA[primernumentre10y20&&primernummult2&&segundonumentre10y20&&segundonummult3&&sumamayora30]]></text>
+ </correctness>
+ <unitpenalty>
+  <text>1</text>
+ </unitpenalty>
+ <postunit>
+  <text></text>
+ </postunit>
+ <ruleid>
+  <text>1</text>
+ </ruleid>
+ <otherrule>
+  <text></text>
+ </otherrule>
+ <subqtext format="html">
+<text><![CDATA[<p>El primero de los números puede ser el {_0} y el segundo el {_1}.</p>]]></text>
+ </subqtext>
+ <feedback format="html">
+<text></text>
+ </feedback>
+ <correctfeedback format="html">
+<text></text>
+ </correctfeedback>
+ <partiallycorrectfeedback format="html">
+<text></text>
+ </partiallycorrectfeedback>
+ <incorrectfeedback format="html">
+<text></text>
+ </incorrectfeedback>
+</answers>
+  </question>
+
+</quiz>

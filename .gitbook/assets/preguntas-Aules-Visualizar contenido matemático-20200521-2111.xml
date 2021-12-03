@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<!-- question: 2310  -->
+  <question type="formulas">
+    <name>
+      <text>Visualizar contenido matemático</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Si queremos que se muestren los valores de a y b, podemos meterlos entre llaves y se mostrará a={a} y b={b}.</p>
+<p>También podemos mostrar operaciones elementales entre las variables como \( 2a+b=2*{a}+({b})=2\cdot{a}{b}=2\cdot{a}-{valorabsolutodeb}={resultado1}={=2*a+b} \)<br></p>
+<p>\( \frac{a}{b+c} \)<br></p>
+<p>\( \frac {a}{b+c} =\dfrac{a}{b+c} =\dfrac{{a}}{{b}+{c}} \)<br></p>
+<p>El resultado de \( (a+b)^{2} \) no es la suma de los cuadrados.</p>
+<p>El resultado de \[ (a+b)^{2} \] no es la suma de los cuadrados.<br></p>
+<p><br></p>
+<p>{#1}</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <correctfeedback format="html">
+      <text>Respuesta correcta</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Respuesta parcialmente correcta.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Respuesta incorrecta.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+<varsrandom><text>a={1:6}; 
+b={-5:0};
+c={-5:6};</text>
+</varsrandom>
+<varsglobal><text>valorabsolutodeb=abs(b);
+resultado1=2*a+b; </text>
+</varsglobal>
+<answernumbering><text>abc</text>
+</answernumbering>
+<answers>
+ <partindex>
+  <text>0</text>
+ </partindex>
+ <placeholder>
+  <text>#1</text>
+ </placeholder>
+ <answermark>
+  <text>1</text>
+ </answermark>
+ <answertype>
+  <text>0</text>
+ </answertype>
+ <numbox>
+  <text>1</text>
+ </numbox>
+ <vars1>
+  <text></text>
+ </vars1>
+ <answer>
+  <text>1</text>
+ </answer>
+ <vars2>
+  <text></text>
+ </vars2>
+ <correctness>
+  <text><![CDATA[_relerr < 0.01]]></text>
+ </correctness>
+ <unitpenalty>
+  <text>1</text>
+ </unitpenalty>
+ <postunit>
+  <text></text>
+ </postunit>
+ <ruleid>
+  <text>1</text>
+ </ruleid>
+ <otherrule>
+  <text></text>
+ </otherrule>
+ <subqtext format="html">
+<text><![CDATA[<p>La respuesta correcta es 1. Respuesta: {_0}</p>]]></text>
+ </subqtext>
+ <feedback format="html">
+<text></text>
+ </feedback>
+ <correctfeedback format="html">
+<text></text>
+ </correctfeedback>
+ <partiallycorrectfeedback format="html">
+<text></text>
+ </partiallycorrectfeedback>
+ <incorrectfeedback format="html">
+<text></text>
+ </incorrectfeedback>
+</answers>
+  </question>
+
+</quiz>

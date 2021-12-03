@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<!-- question: 2321  -->
+  <question type="formulas">
+    <name>
+      <text>Ecuación segundo grado</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Resuelve la ecuación:</p><p>\({ecuacion}=0\)</p><p>{#1}</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <correctfeedback format="html">
+      <text>Respuesta correcta</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Respuesta parcialmente correcta.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Respuesta incorrecta.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+<varsrandom><text>x1={-5:0,1:6};x2={-5:0,1:6}; #Son las soluciones
+a={2:5} #Para aleatorizar un poco más el enunciado</text>
+</varsrandom>
+<varsglobal><text><![CDATA[x2=x1==x2?(2*x2):x2; #Si coincidieran, reasignamos x2=2*x2 y ya no coinciden
+
+#La ecuación será a(x-x1)(x-x2)=0 =Ax^2+Bx+C
+A=a;
+B=-a*(x1+x2);
+C=a*x1*x2;
+ecuacion=poly("x",[A,B,C]);
+]]></text>
+</varsglobal>
+<answernumbering><text>abc</text>
+</answernumbering>
+<answers>
+ <partindex>
+  <text>0</text>
+ </partindex>
+ <placeholder>
+  <text>#1</text>
+ </placeholder>
+ <answermark>
+  <text>1</text>
+ </answermark>
+ <answertype>
+  <text>10</text>
+ </answertype>
+ <numbox>
+  <text>2</text>
+ </numbox>
+ <vars1>
+  <text></text>
+ </vars1>
+ <answer>
+  <text>[x1,x2]</text>
+ </answer>
+ <vars2>
+  <text></text>
+ </vars2>
+ <correctness>
+  <text><![CDATA[(_0==x1&&_1==x2)||(_1==x1&&_0==x2)]]></text>
+ </correctness>
+ <unitpenalty>
+  <text>1</text>
+ </unitpenalty>
+ <postunit>
+  <text></text>
+ </postunit>
+ <ruleid>
+  <text>1</text>
+ </ruleid>
+ <otherrule>
+  <text></text>
+ </otherrule>
+ <subqtext format="html">
+<text><![CDATA[<p>Las soluciones son \(x_1=\){_0} y&nbsp;\(x_2=\){_1}&nbsp;</p><p>Las soluciones correctas son x={x1} y x={x2}. No importa el orden en que se introducen.</p>]]></text>
+ </subqtext>
+ <feedback format="html">
+<text></text>
+ </feedback>
+ <correctfeedback format="html">
+<text></text>
+ </correctfeedback>
+ <partiallycorrectfeedback format="html">
+<text></text>
+ </partiallycorrectfeedback>
+ <incorrectfeedback format="html">
+<text></text>
+ </incorrectfeedback>
+</answers>
+  </question>
+
+</quiz>

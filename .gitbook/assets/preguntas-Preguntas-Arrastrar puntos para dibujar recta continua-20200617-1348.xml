@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<!-- question: 2213  -->
+  <question type="formulas">
+    <name>
+      <text>Arrastrar puntos para dibujar recta continua</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<script type="text/javascript" src="https://jsxgraph.uni-bayreuth.de/distrib/jsxgraphcore.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+<script type="text/javascript">
+    var JSXQuestion = function(elmID, jsxCode, debug) {
+        var thiz = this;
+        thiz.elm = document.getElementById(elmID);
+        thiz.inputs = $(thiz.elm).closest(".qtext").children(".formulaspart").find("input");
+        $(thiz.elm).closest(".qtext").children(".formulaspart").children("formulaspartoutcome").hide();
+        if (debug !== true) {
+            thiz.inputs.hide();
+        }
+        thiz.solved = $(thiz.inputs[0]).prop('readonly');
+
+
+        thiz.set = function(idx, val) {
+            if (!thiz.solved && thiz.inputs && thiz.inputs[idx]) {
+                thiz.inputs[idx].value = Math.round(val * 100) / 100;
+            }
+        };
+        thiz.get = function(idx) {
+            if (thiz.inputs && thiz.inputs[idx]) {
+                var n = parseFloat(thiz.inputs[idx].value);
+                if (isNaN(n)) {
+                    return null
+                }
+                return n;
+            }
+            return null;
+        };
+
+        thiz.brd = null;
+        jsxCode(thiz);
+
+        thiz.reload = function() {
+            jsxCode(thiz);
+        };
+    };
+</script>
+<p>Mueve los puntos para que la recta representada corresponda con la ecuación</p> {ecuacion}
+<br>
+<div id="{MB}" class="jxgbox" style="width:400px; height:400px;margin-left:auto; margin-right:auto;"></div>
+
+<script type="text/javascript">
+    $(function() {
+        var jsxCode = function(main) {
+            var width = 400;
+            var height = 400;
+            main.elm.setAttribute("style", "width:" + width + "px; height:" + height + "px;margin-left:auto; margin-right:auto;");
+
+            if (main.brd != null) JXG.JSXGraph.freeBoard(main.brd);
+            main.brd = JXG.JSXGraph.initBoard(main.elm.id, {
+                boundingbox: [-10, 10, 10, -10],
+                showCopyright: false,
+                axis: true,
+                showNavigation: false
+            });
+            var brd = main.brd;
+            var grid = brd.create('grid', []);
+
+            var tx = main.get(0);
+            if (tx === null) {
+                tx = Math.random() * 3 + 1;
+            }
+            var ty = main.get(1);
+            if (ty === null) {
+                ty = Math.random() * 3 + 1;
+            }
+
+            var t = brd.create('point', [tx, ty], {
+                fixed: main.solved,
+                name: "",
+                snapToGrid: true,
+                showInfobox: true,
+            });
+
+            var sx = main.get(2);
+            if (sx === null) {
+                sx = Math.random() * 3 + 1;
+            }
+            var sy = main.get(3);
+            if (sy === null) {
+                sy = Math.random() * 3 + 1;
+            }
+
+            var s = brd.create('point', [sx, sy], {
+                fixed: main.solved,
+                name: "",
+                snapToGrid: true,
+                showInfobox: true
+            });
+
+            var lin = brd.create('line', [t, s],{fixed: main.solved} );
+
+            var check = function() {
+                main.set(0, t.X());
+                main.set(1, t.Y());
+                main.set(2, s.X());
+                main.set(3, s.Y())
+            }
+            check();
+            t.on('drag', function() {
+                check();
+            });
+            s.on('drag', function() {
+                check();
+            });
+            brd.update();
+        };
+
+        new JSXQuestion("{MB}", jsxCode, false);
+    });
+</script>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+<varsrandom><text>mb={0:999999};
+p1={-4:0};p2={1:6};
+v1={-5:0,1:6};v2={-5:0,1:6};
+</text>
+</varsrandom>
+<varsglobal><text><![CDATA[MB=join("", "MyBox", mb);
+num1=poly("x",[1,-p1]);num2=poly("y",[1,-p2]);
+ecuacion=join("",["\\[\\dfrac{",num1,"}{",str(v1),"}=\\dfrac{",num2,"}{",str(v2),"}\\]"]);
+
+q1=p1+v1;q2=p2+v2; #Otro punto de la recta]]></text>
+</varsglobal>
+<answernumbering><text>none</text>
+</answernumbering>
+<answers>
+ <partindex>
+  <text>0</text>
+ </partindex>
+ <placeholder>
+  <text></text>
+ </placeholder>
+ <answermark>
+  <text>1</text>
+ </answermark>
+ <answertype>
+  <text>0</text>
+ </answertype>
+ <numbox>
+  <text>4</text>
+ </numbox>
+ <vars1>
+  <text></text>
+ </vars1>
+ <answer>
+  <text>[p1,p2,q1,q2]</text>
+ </answer>
+ <vars2>
+  <text></text>
+ </vars2>
+ <correctness>
+  <text><![CDATA[( (_0-p1)/v1==(_1-p2)/v2 )&&( (_2-p1)/v1==(_3-p2)/v2 )&&(_0!=_2&&_1!=_3)]]></text>
+ </correctness>
+ <unitpenalty>
+  <text>0.1</text>
+ </unitpenalty>
+ <postunit>
+  <text></text>
+ </postunit>
+ <ruleid>
+  <text>1</text>
+ </ruleid>
+ <otherrule>
+  <text></text>
+ </otherrule>
+ <subqtext format="html">
+<text></text>
+ </subqtext>
+ <feedback format="html">
+<text></text>
+ </feedback>
+ <correctfeedback format="html">
+<text></text>
+ </correctfeedback>
+ <partiallycorrectfeedback format="html">
+<text></text>
+ </partiallycorrectfeedback>
+ <incorrectfeedback format="html">
+<text></text>
+ </incorrectfeedback>
+</answers>
+    <tags>
+      <tag><text>rectas1</text>
+</tag>
+    </tags>
+  </question>
+
+</quiz>

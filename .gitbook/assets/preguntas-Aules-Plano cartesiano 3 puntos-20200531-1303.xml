@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<!-- question: 2350  -->
+  <question type="formulas">
+    <name>
+      <text>Plano cartesiano 3 puntos</text>
+    </name>
+    <questiontext format="moodle_auto_format">
+      <text><![CDATA[<div id='{MB}' class="jxgbox" style="width:400px; height:400px;margin-left:1px; margin-right:auto;"></div>
+
+<script type="text/javascript" src="https://jsxgraph.uni-bayreuth.de/distrib/jsxgraphcore.js"></script>
+
+<script type="text/javascript">
+  
+  var a1={a1}; //Para no tener que poner llaves en el código del script
+  var a2={a2};
+  var b1={b1};
+  var b2={b2};
+  var c1={c1};
+  var c2={c2};
+
+  var brd = JXG.JSXGraph.initBoard('{MB}', {
+    boundingbox: [-10.5, 10.5, 10.5, -10.5],
+    axis:true,
+    grid: true,
+    showCopyright: false,
+    shownavigation:false,
+    zoom: {
+      enabled: false,
+      wheel: false
+    },
+    pan: {
+      enabled: false,
+      needTwoFingers: false
+    }
+  });
+  
+  //Podemos establecer opciones generales para toda la construcción
+  brd.options.point.showInfobox=false;
+  brd.options.point.withlabel=true;
+  brd.options.point.visible=true;
+   
+
+  //creamos los puntos
+ var ptoA=brd.create('point', [a1,a2], {
+    name: 'A',
+    withlabel:true,
+    visible:true,
+    label:{autoposition:true},
+    fixed:true
+  });
+     
+   var ptoB=brd.create('point', [b1,b2], {
+    name: 'B',
+    withlabel:true,
+    visible:true,
+    label:{autoposition:true},
+    fixed:true
+  });
+
+ var ptoC=brd.create('point', [c1,c2], {
+    name: 'C',
+    withlabel:true,
+    visible:true,
+    label:{autoposition:true},
+    fixed:true
+  });
+   
+  
+brd.update();
+
+</script>
+
+<p>{#1}</p>
+<p>{#2}</p>
+<p>{#3}</p>]]></text>
+    </questiontext>
+    <generalfeedback format="moodle_auto_format">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>3</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <correctfeedback format="html">
+      <text>Respuesta correcta</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Respuesta parcialmente correcta.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Respuesta incorrecta.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+<varsrandom><text>bn={1000:99999};
+a1={1,8};a2={1,8};
+b1={-8,-1};b2={1,8};
+c2={-8,-1};</text>
+</varsrandom>
+<varsglobal><text><![CDATA[MB=join("", "MyBoxD", bn);
+c1=0;]]></text>
+</varsglobal>
+<answernumbering><text>abc</text>
+</answernumbering>
+<answers>
+ <partindex>
+  <text>0</text>
+ </partindex>
+ <placeholder>
+  <text>#1</text>
+ </placeholder>
+ <answermark>
+  <text>1</text>
+ </answermark>
+ <answertype>
+  <text>0</text>
+ </answertype>
+ <numbox>
+  <text>2</text>
+ </numbox>
+ <vars1>
+  <text></text>
+ </vars1>
+ <answer>
+  <text>[a1,a2]</text>
+ </answer>
+ <vars2>
+  <text></text>
+ </vars2>
+ <correctness>
+  <text><![CDATA[_relerr < 0.01]]></text>
+ </correctness>
+ <unitpenalty>
+  <text>1</text>
+ </unitpenalty>
+ <postunit>
+  <text></text>
+ </postunit>
+ <ruleid>
+  <text>1</text>
+ </ruleid>
+ <otherrule>
+  <text></text>
+ </otherrule>
+ <subqtext format="html">
+<text><![CDATA[<p>Las coordenadas de los puntos mostrados son:</p>
+<p>\( A\Big( \){_0},{_1}\( \Big) \)</p>]]></text>
+ </subqtext>
+ <feedback format="html">
+<text></text>
+ </feedback>
+ <correctfeedback format="html">
+<text></text>
+ </correctfeedback>
+ <partiallycorrectfeedback format="html">
+<text></text>
+ </partiallycorrectfeedback>
+ <incorrectfeedback format="html">
+<text></text>
+ </incorrectfeedback>
+</answers>
+<answers>
+ <partindex>
+  <text>1</text>
+ </partindex>
+ <placeholder>
+  <text>#2</text>
+ </placeholder>
+ <answermark>
+  <text>1</text>
+ </answermark>
+ <answertype>
+  <text>0</text>
+ </answertype>
+ <numbox>
+  <text>2</text>
+ </numbox>
+ <vars1>
+  <text></text>
+ </vars1>
+ <answer>
+  <text>[b1,b2]</text>
+ </answer>
+ <vars2>
+  <text></text>
+ </vars2>
+ <correctness>
+  <text><![CDATA[_relerr < 0.01]]></text>
+ </correctness>
+ <unitpenalty>
+  <text>1</text>
+ </unitpenalty>
+ <postunit>
+  <text></text>
+ </postunit>
+ <ruleid>
+  <text>1</text>
+ </ruleid>
+ <otherrule>
+  <text></text>
+ </otherrule>
+ <subqtext format="html">
+<text><![CDATA[<p>\( B\Big( \){_0},{_1}\( \Big) \)</p>]]></text>
+ </subqtext>
+ <feedback format="html">
+<text></text>
+ </feedback>
+ <correctfeedback format="html">
+<text></text>
+ </correctfeedback>
+ <partiallycorrectfeedback format="html">
+<text></text>
+ </partiallycorrectfeedback>
+ <incorrectfeedback format="html">
+<text></text>
+ </incorrectfeedback>
+</answers>
+<answers>
+ <partindex>
+  <text>2</text>
+ </partindex>
+ <placeholder>
+  <text>#3</text>
+ </placeholder>
+ <answermark>
+  <text>1</text>
+ </answermark>
+ <answertype>
+  <text>0</text>
+ </answertype>
+ <numbox>
+  <text>2</text>
+ </numbox>
+ <vars1>
+  <text></text>
+ </vars1>
+ <answer>
+  <text>[c1,c2]</text>
+ </answer>
+ <vars2>
+  <text></text>
+ </vars2>
+ <correctness>
+  <text><![CDATA[_relerr < 0.01]]></text>
+ </correctness>
+ <unitpenalty>
+  <text>1</text>
+ </unitpenalty>
+ <postunit>
+  <text></text>
+ </postunit>
+ <ruleid>
+  <text>1</text>
+ </ruleid>
+ <otherrule>
+  <text></text>
+ </otherrule>
+ <subqtext format="html">
+<text><![CDATA[<p>\( C\Big( \){_0},{_1}\( \Big) \)</p>]]></text>
+ </subqtext>
+ <feedback format="html">
+<text></text>
+ </feedback>
+ <correctfeedback format="html">
+<text></text>
+ </correctfeedback>
+ <partiallycorrectfeedback format="html">
+<text></text>
+ </partiallycorrectfeedback>
+ <incorrectfeedback format="html">
+<text></text>
+ </incorrectfeedback>
+</answers>
+  </question>
+
+</quiz>
