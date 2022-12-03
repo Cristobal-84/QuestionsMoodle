@@ -48,15 +48,15 @@ L'élaboration de ce type de questions est coûteuse en temps et en connaissance
 {% endhint %}
 
 {% hint style="success" %}
-El tiempo que se invierte en la preparación de la pregunta se recupera con la corrección automática.
+Le temps investi dans la préparation de la question est récupéré avec la correction automatique.
 {% endhint %}
 
 {% hint style="success" %}
-La pregunta que recibirá cada alumno será diferente a la del resto, lo que dificulta la copia.
+La question que chaque élève recevra sera différente des autres, ce qui rend la fraude difficile.
 {% endhint %}
 
 {% hint style="danger" %}
-Este libro no pretende ser un banco de preguntas ni un catálogo directamente aplicable al aula. Únicamente es una guía para facilitar el aprendizaje del uso de las preguntas de tipo fórmulas en Moodle.
+Ce livre n'a pas vocation à être une banque de questions ou un catalogue directement applicable en classe. Il s'agit uniquement d'un guide pour faciliter l'apprentissage de l'utilisation des questions de type Formulas dans Moodle.
 {% endhint %}
 
 > #### Largo es el camino de la enseñanza por medio de teorías, breve y eficaz por medio de ejemplos (Séneca)
