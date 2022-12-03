@@ -28,7 +28,7 @@
 
 ## Genially
 
-* [Genially évaluable dans Moodle](genially/genial.ly-calificable-en-moodle.md)
+* [Genially évaluable dans Moodle](genial.ly/genial.ly-calificable-en-moodle.md)
 
 ## Moodle STACK - PAU COMUNIDAD VALENCIANA <a href="#moodle-stack" id="moodle-stack"></a>
 

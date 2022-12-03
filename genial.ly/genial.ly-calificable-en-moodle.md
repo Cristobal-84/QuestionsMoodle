@@ -10,8 +10,8 @@ Utilisez l'**éditeur de texte brut pour modifier le code de la question**. L'é
 
 ## Liens vers Genially
 
-* [Presentación utilizada como ejemplo en la pregunta.](https://view.genial.ly/60216aa58d60280dc12c6c3a/interactive-content-ejemplo-de-genially-en-moodle-que-guarda-nota)
-* [Plantilla con instrucciones y con los elementos para copiar-pegar en los Genial.ly de cada uno](https://view.genial.ly/602168d94df7870d969b7bef/interactive-content-plantilla-genially-moodle-de-uno-en-uno).
+* [Présentation utilisée comme exemple dans la question.](https://view.genial.ly/60216aa58d60280dc12c6c3a/interactive-content-ejemplo-de-genially-en-moodle-que-guarda-nota)
+* [Modèle avec instructions et avec les éléments à copier-coller dans le Genial.ly de chacun.](https://view.genial.ly/602168d94df7870d969b7bef/interactive-content-plantilla-genially-moodle-de-uno-en-uno)
 
 ![](../.gitbook/assets/Genially-Moodle1.gif)
 
