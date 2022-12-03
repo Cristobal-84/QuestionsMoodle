@@ -2,7 +2,7 @@
 
 ## Qu'est-ce que GeoGebra ?
 
-Si vous sommes arrivés jusqu'ici, je ne pense pas qu'il y ait quelqu'un qui lit ceci qui ne connaisse pas GeoGebra.
+Parmi ceux arrivés jusqu'ici, je ne pense pas qu'il y ait quelqu'un qui lit ceci qui ne connaisse pas GeoGebra.
 
 {% hint style="success" %}
 [GeoGebra ](https://www.geogebra.org)possède une **interface bien connue** **et documentée** : les constructions géométriques peuvent être faites sans avoir besoin de programmer en Javascript.
