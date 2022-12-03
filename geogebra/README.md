@@ -1,8 +1,8 @@
 # GeoGebra
 
-## ¿Qué es GeoGebra?
+## Qu'est-ce que GeoGebra ?
 
-Si hemos llegado a este punto, no creo que haya nadie que lea esto y no conozca GeoGebra.&#x20;
+Si hemos llegado a este punto, no creo que haya nadie que lea esto y no conozca GeoGebra.
 
 {% hint style="success" %}
 [GeoGebra ](https://www.geogebra.org)dispone de una **interfaz sobradamente conocida** y documentada: las construcciones geométricas se pueden realizar sin necesidad de programar en Javascript.
@@ -30,7 +30,7 @@ Integraremos las **construcciones dentro de preguntas**, con lo que podrán form
 {% endhint %}
 
 {% hint style="info" %}
-Podremos crear preguntas que incluyan aleatoriedad y **registrar las respuestas del usuario** (no únicamente la puntuación obtenida).&#x20;
+Podremos crear preguntas que incluyan aleatoriedad y **registrar las respuestas del usuario** (no únicamente la puntuación obtenida).
 {% endhint %}
 
 {% hint style="danger" %}
@@ -38,10 +38,3 @@ La preparación de estas preguntas es laboriosa y no es sencilla ya que hay que 
 {% endhint %}
 
 Comenzaremos por las más fáciles de preparar...
-
-&#x20;
-
-
-
-
-

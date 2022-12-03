@@ -26,9 +26,9 @@
   * [Gráficos dinámicos con GeoGebra](geogebra/graficos-dinamicos-con-geogebra.md)
   * [Preguntas con respuesta gráfica mediante GeoGebra](geogebra/preguntas-con-respuesta-grafica-mediante-geogebra.md)
 
-## Genial.ly
+## Genially
 
-* [Genial.ly calificable en Moodle](genial.ly/genial.ly-calificable-en-moodle.md)
+* [Genially évaluable dans Moodle](genially/genial.ly-calificable-en-moodle.md)
 
 ## Moodle STACK - PAU COMUNIDAD VALENCIANA <a href="#moodle-stack" id="moodle-stack"></a>
 
