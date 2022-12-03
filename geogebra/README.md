@@ -16,25 +16,25 @@ GeoGebra a une **importante communauté** et un grand nombre de [matériaux libr
 
 Lors d'une intégration de GeoGebra dans Moodle Formulas, nous avons plusieurs options : en fonction du nombre de paramètres que nous voulons synchroniser entre GeoGebra et <mark style="color:red;">**Aules/Moodle**</mark>. Du plus simple (et moins fonctionnel) au plus laborieux :
 
-1. Pregunta con aleatoriedad generada por GeoGebra y corregida por GeoGebra en que únicamente registramos la puntuación obtenida por el alumno: va a ser muy útil para reutilizar actividades autoevaluables de GeoGebra en Aules.
-2. Pregunta con aleatoriedad generada por Aules y registro de la respuesta del estudiante.
+1. Question avec valeurs aléatoires générée par GeoGebra et corrigée par GeoGebra dans laquelle on n'enregistre que le score obtenu par l'élève : elle sera très utile pour réutiliser les activités d'auto-évaluation GeoGebra dans <mark style="color:red;">**Aules/Moodle**</mark>.
+2. Question avec valeurs aléatoires générée par <mark style="color:red;">**Aules/Moodle**</mark> et enregistrement de la réponse de l'élève.
 
 Toutes les possibilités d'enregistrement de données intermédiaires sont possibles.
 
-## Integración en Moodle
+## Intégration Moodle
 
-Con el plugin Fórmulas, podremos incluir applets de GeoGebra como parte de las preguntas de Moodle. Tendremos la posibilidad de mostrar únicamente el applet, mostrar el applet con valores de parámetros establecidos por Moodle (gráficos aleatorios en cada ejecución de la pregunta) e incluso capturar respuestas gráficas derivadas de la interacción con el applet.
+Avec le plugin Formulas, nous pourrons inclure des applets GeoGebra dans les questions Moodle. Nous aurons la possibilité d'afficher uniquement l'applet, d'afficher l'applet avec des valeurs de paramètres définies par Moodle (graphiques aléatoires à chaque exécution de la question) et même de capturer des réponses graphiques dérivées de l'interaction avec l'applet.
 
 {% hint style="success" %}
-Integraremos las **construcciones dentro de preguntas**, con lo que podrán formar parte de cuestionarios.
+Nous allons intégrer les **constructions dans les questions**, afin qu'elles puissent faire partie des questionnaires.
 {% endhint %}
 
 {% hint style="info" %}
-Podremos crear preguntas que incluyan aleatoriedad y **registrar las respuestas del usuario** (no únicamente la puntuación obtenida).
+Nous pouvons créer des questions aléatoires et **enregistrer les réponses de l'utilisateur** (et pas seulement le score obtenu).
 {% endhint %}
 
 {% hint style="danger" %}
-La preparación de estas preguntas es laboriosa y no es sencilla ya que hay que utilizar código html y Javascript.
+La préparation de ces questions est laborieuse et pas facile puisqu'il faut utiliser du code html et Javascript.
 {% endhint %}
 
-Comenzaremos por las más fáciles de preparar...
+On va commencer par le plus simple à préparer ...
