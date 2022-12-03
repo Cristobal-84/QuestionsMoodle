@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Empezamos](README.md)
+* [On commence](README.md)
 * [Primeros pasos](untitled.md)
 * [Preguntas "sencillas"](estudio-de-casos/README.md)
   * [Variables aleatorias y globales](estudio-de-casos/variables-aleatorias-y-globales.md)

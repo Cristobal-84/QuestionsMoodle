@@ -1,52 +1,54 @@
 ---
 description: >-
-  Guía de uso y ejemplos de uso de Moodle para la evaluación de contenidos
-  matemáticos.
+  Guide d'utilisation et exemples d'utilisation de Moodle pour l'évaluation de
+  contenus mathématiques.
 ---
 
-# Empezamos
+# On commence
+
+
 
 {% hint style="warning" %}
-ESTA DOCUMENTACIÓN SE ELABORÓ DURANTE EL VERANO DE 2020 Y NO SE ACTUALIZA
+CETTE DOCUMENTATION A ÉTÉ RÉALISÉE PENDANT L'ÉTÉ 2020 ET N'EST PAS À JOUR
 {% endhint %}
 
 {% hint style="success" %}
-Actualmente:
+Actuellement :
 
-* Puede no funcionar correctamente.
-* Puede haber otras formas más sencillas de hacer lo que aquí se expone.
+* Cela peut ne pas fonctionner correctement.
+* Il peut y avoir d'autres moyens plus simples de faire ce qui est exposé ici.
 {% endhint %}
 
-## ¿Qué se puede encontrar en esta página?
+## Que peut-on trouver sur cette page ?
 
-Experiencias de uso de Moodle para la creación y evaluación de actividades de Matemáticas.
+Expériences d'utilisation de Moodle pour la création et l'évaluation d'activités mathématiques.
 
-Este libro pretende ser una guía no exhaustiva para la creación de materiales de Matemáticas autoevaluables para Moodle.
+Ce livret se veut un guide non exhaustif pour la création de matériel d'auto-évaluation en mathématiques pour Moodle.
 
-## ¿Qué se necesita?
+## Que vous faut-il ?
 
-Será necesaria una instalación de Moodle y el plugin Fórmulas de Moodle.
+Une installation de Moodle et du plugin Moodle Formulas sera nécessaire.
 
-Este plugin puede encontrarse en [https://moodle.org/plugins/qtype\_formulas](https://moodle.org/plugins/qtype\_formulas).
+Ce plugin peut être trouvé sur [https://moodle.org/plugins/qtype\_formulas](https://moodle.org/plugins/qtype\_formulas).
 
-La instalación de plugins en Moodle requiere de permisos de administrador. Usuarios individuales **no pueden instalar** plugins. Asegúrate de que tu administrador lo ha instalado o solicita su instalación.
+L'installation de plugins dans Moodle nécessite des autorisations d'administrateur. Les utilisateurs individuels **ne peuvent pas installer** de plugins. Assurez-vous que votre administrateur l'a installé ou demandez son installation.
 
-Puedes comprobar si dispones de la pregunta Fórmulas si creas una nueva pregunta y aparece la opción de Fórmulas en los tipos de pregunta que puedes seleccionar:&#x20;
+Puedes comprobar si dispones de la pregunta Fórmulas si creas una nueva pregunta y aparece la opción de Fórmulas en los tipos de pregunta que puedes seleccionar:
 
 ![](.gitbook/assets/pantallaconpregunta.png)
 
 ## ¿A quién va dirigido?
 
-Como profesor de Matemáticas en Secundaria y Bachillerato, me centraré en ejemplos y preguntas adaptadas al nivel en que imparto docencia.&#x20;
+Como profesor de Matemáticas en Secundaria y Bachillerato, me centraré en ejemplos y preguntas adaptadas al nivel en que imparto docencia.
 
 No obstante, el método de trabajo y las propuestas de actividades serán lo suficientemente generales para que puedan ser utilizadas en un curso de Moodle de cualquier nivel. Las preguntas de tipo fórmulas son aptas tanto para matemáticas como para cualquier área en que pueda ser interesante utilizar preguntas que empleen notación matemática o sean susceptibles de ser generadas mediante valores aleatorios.
 
 {% hint style="info" %}
-La elaboración de este tipo de preguntas es costoso tanto en tiempo como en conocimientos: hay que superar una curva de aprendizaje y ser resiliente para no abandonar.&#x20;
+La elaboración de este tipo de preguntas es costoso tanto en tiempo como en conocimientos: hay que superar una curva de aprendizaje y ser resiliente para no abandonar.
 {% endhint %}
 
 {% hint style="success" %}
-El tiempo que se invierte en la preparación de la pregunta se recupera con la corrección automática.&#x20;
+El tiempo que se invierte en la preparación de la pregunta se recupera con la corrección automática.
 {% endhint %}
 
 {% hint style="success" %}
@@ -57,7 +59,7 @@ La pregunta que recibirá cada alumno será diferente a la del resto, lo que dif
 Este libro no pretende ser un banco de preguntas ni un catálogo directamente aplicable al aula. Únicamente es una guía para facilitar el aprendizaje del uso de las preguntas de tipo fórmulas en Moodle.
 {% endhint %}
 
-> ### Largo es el camino de la enseñanza por medio de teorías, breve y eficaz por medio de ejemplos (Séneca)
+> #### Largo es el camino de la enseñanza por medio de teorías, breve y eficaz por medio de ejemplos (Séneca)
 
 ## ¿Qué tipos de pregunta se pueden realizar con Fórmulas?
 
@@ -125,7 +127,7 @@ Es importante que documentes bien la pregunta:
 * Explica bien qué quieres hacer, qué has hecho y qué problema encuentras.
 
 {% hint style="info" %}
-No olvides que quien te trata de ayudar lo hace desinteresadamente y te está regalando su tiempo.&#x20;
+No olvides que quien te trata de ayudar lo hace desinteresadamente y te está regalando su tiempo.
 {% endhint %}
 
 {% hint style="danger" %}
