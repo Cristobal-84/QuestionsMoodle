@@ -1,12 +1,12 @@
-# Primeros pasos
+# Premiers pas
 
-## ¿Dónde hay que ir cuando no tenemos claro cómo hacer algo?
+## Où aller quand nous ne savons pas comment faire quelque chose ?
 
-La documentación más completa de la pregunta fórmulas se puede encontrar en:
+Une documentation plus complète sur les questions de type Formulas peut être trouvée à :
 
 {% embed url="https://moodleformulas.org/" %}
 
-## Vamos a hacer una pregunta muy sencilla.
+## Posons une question très simple.
 
 {% embed url="https://youtu.be/jyIIUFa0E6s" %}
 
@@ -14,7 +14,7 @@ La documentación más completa de la pregunta fórmulas se puede encontrar en:
 
 Las preguntas de tipo Fórmulas se pueden exportar e importar en Moodle.
 
-El **formato adecuado** es el XML de Moodle.&#x20;
+El **formato adecuado** es el XML de Moodle.
 
 En los ejemplos desarrollados se adjuntará el archivo para que pueda importarse y toquetearse.
 
