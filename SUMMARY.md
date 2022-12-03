@@ -1,7 +1,7 @@
 # Table of contents
 
 * [On commence](README.md)
-* [Primeros pasos](untitled.md)
+* [Premiers pas](untitled.md)
 * [Preguntas "sencillas"](estudio-de-casos/README.md)
   * [Variables aleatorias y globales](estudio-de-casos/variables-aleatorias-y-globales.md)
   * [Introducción de contenido matemático](estudio-de-casos/funcionamiento-general-de-la-pregunta.md)
