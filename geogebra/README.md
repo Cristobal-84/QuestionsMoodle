@@ -14,7 +14,7 @@ GeoGebra a une **importante communauté** et un grand nombre de [matériaux libr
 
 ## Plusieurs possibilités
 
-A la hora de integrar GeoGebra y Moodle Fórmulas, tenemos varias opciones: dependiendo del número de parámetros que queramos sincronizar entre GeoGebra y Aules. De más sencillo (y menos funcional) a más laborioso:
+Lors d'une intégration de GeoGebra dans Moodle Formulas, nous avons plusieurs options : en fonction du nombre de paramètres que nous voulons synchroniser entre GeoGebra et Aules. Du plus simple (et moins fonctionnel) au plus laborieux :
 
 1. Pregunta con aleatoriedad generada por GeoGebra y corregida por GeoGebra en que únicamente registramos la puntuación obtenida por el alumno: va a ser muy útil para reutilizar actividades autoevaluables de GeoGebra en Aules.
 2. Pregunta con aleatoriedad generada por Aules y registro de la respuesta del estudiante.
