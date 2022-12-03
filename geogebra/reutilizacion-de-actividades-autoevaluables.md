@@ -1,8 +1,8 @@
-# Reutilización de actividades autoevaluables
+# Réutilisation des activités d'auto-évaluation
 
-## ¿Cuáles son estas actividades?
+## Quelles sont ces activités ?
 
-Son construcciones de GeoGebra que se han elaborado de forma que calculan una puntuación y se pueden integrar en una actividad SCORM.
+Ce sont des constructions GeoGebra qui ont été écrites de telle sorte qu'elles calculent un score et peuvent être intégrées dans une activité SCORM.
 
 {% hint style="danger" %}
 Deben incluir las variables:
@@ -15,7 +15,7 @@ En la página de GeoGebra se encuentran múltiples ejemplos de estas actividades
 
 ## Ventajas de introducir estas actividades como pregunta de Aules y no como SCORM.
 
-Este tipo de actividades se pueden incluir en Aules como actividad SCORM a través de **ExELearning:** [enlace a vídeo explicativo](https://youtu.be/1F9pFOCnZAY).&#x20;
+Este tipo de actividades se pueden incluir en Aules como actividad SCORM a través de **ExELearning:** [enlace a vídeo explicativo](https://youtu.be/1F9pFOCnZAY).
 
 Al introducir una **actividad como paquete SCORM**:
 
@@ -180,4 +180,3 @@ Se incluye a continuación la actividad como pregunta de Fórmulas y como paquet
 {% file src="../.gitbook/assets/preguntas-Aules-Geogebra autoevaluable plantilla-20200710-1045.xml" %}
 
 {% file src="../.gitbook/assets/Scorm.zip" %}
-

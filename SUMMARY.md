@@ -20,7 +20,7 @@
   * [Gráficos dinámicos de JSXGraph](consideraciones-antes-de-empezar-con-esto/graficos-dinamicos-de-jsxgraph.md)
   * [Preguntas con respuesta gráfica mediante JSXGraph](consideraciones-antes-de-empezar-con-esto/preguntas-con-respuesta-grafica-mediante-jsxgraph.md)
 * [GeoGebra](geogebra/README.md)
-  * [Reutilización de actividades autoevaluables](geogebra/reutilizacion-de-actividades-autoevaluables.md)
+  * [Réutilisation des activités d'auto-évaluation](geogebra/reutilizacion-de-actividades-autoevaluables.md)
   * [Actividades autoevaluables de Javier Cayetano de GeoGebra](geogebra/actividades-autoevaluables-de-javier-cayetano-de-geogebra.md)
   * [Actividades autoevaluables de Debora Pereiro de GeoGebra](geogebra/actividades-autoevaluables-de-debora-pereiro-de-geogebra.md)
   * [Gráficos dinámicos con GeoGebra](geogebra/graficos-dinamicos-con-geogebra.md)
