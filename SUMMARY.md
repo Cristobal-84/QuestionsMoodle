@@ -30,7 +30,7 @@
 
 * [Genially évaluable dans Moodle](genial.ly/genial.ly-calificable-en-moodle.md)
 
-## Moodle STACK - PAU COMUNIDAD VALENCIANA <a href="#moodle-stack" id="moodle-stack"></a>
+## Moodle STACK - PAU COMMUNAUTÉ VALENCE <a href="#moodle-stack" id="moodle-stack"></a>
 
 * [Probabilidad](moodle-stack/probabilidad.md)
 * [Álgebra matricial](moodle-stack/algebra-matricial.md)

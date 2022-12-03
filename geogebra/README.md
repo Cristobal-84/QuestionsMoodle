@@ -2,17 +2,17 @@
 
 ## Qu'est-ce que GeoGebra ?
 
-Si hemos llegado a este punto, no creo que haya nadie que lea esto y no conozca GeoGebra.
+Si nous sommes arrivés à ce point, je ne pense pas qu'il y ait quelqu'un qui lit ceci qui ne connaisse pas GeoGebra.
 
 {% hint style="success" %}
-[GeoGebra ](https://www.geogebra.org)dispone de una **interfaz sobradamente conocida** y documentada: las construcciones geométricas se pueden realizar sin necesidad de programar en Javascript.
+[GeoGebra ](https://www.geogebra.org)possède une **interface bien connue** et documentée : les constructions géométriques peuvent être faites sans avoir besoin de programmer en Javascript.
 {% endhint %}
 
 {% hint style="success" %}
 GeoGebra dispone de una importante **comunidad** y de gran número de [materiales compartidos](https://www.geogebra.org/materials) en abierto.
 {% endhint %}
 
-## Varias posibilidades
+## Plusieurs possibilités
 
 A la hora de integrar GeoGebra y Moodle Fórmulas, tenemos varias opciones: dependiendo del número de parámetros que queramos sincronizar entre GeoGebra y Aules. De más sencillo (y menos funcional) a más laborioso:
 
