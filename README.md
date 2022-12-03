@@ -115,27 +115,27 @@ En plus de celles présentées dans la vidéo, qui sont les plus simples à réa
 
 ## Que faire quand ça ne va pas ?
 
-En los momentos de atasco, en que una pregunta no funciona y no sabemos qué ocurre. Todo parece estar bien escrito, el código es el correcto, pero da error o no funciona como debiera.
+Dans les moments de blocage, lorsqu'une question ne fonctionne pas et que nous ne savons pas ce qui se passe. Tout semble bien écrit, le code est correct, mais il donne une erreur ou ne fonctionne pas comme il se doit.
 
-Has buscado y leído la documentación, has buscado ejemplos parecidos, has hecho cursos gratuitos de Javascript y de HTML...
+Vous avez recherché et lu la documentation, vous avez recherché des exemples similaires, vous avez suivi des cours Javascript et HTML gratuits ...
 
-Puedes obtener ayuda en [el foro de Moodle quiz (en inglés)](https://moodle.org/mod/forum/view.php?id=737). Si es problema el idioma, puedes escribir en español y traducir con el traductor de Google. Se entenderá aunque no sea un inglés perfecto.
+Vous pouvez obtenir de l'aide sur le [forum Quiz de Moodle (en anglais)](https://moodle.org/mod/forum/view.php?id=737). Si la langue pose problème, vous pouvez écrire en français et traduire avec le traducteur Google. Il sera compris même si ce n'est pas un anglais parfait.
 
-Es importante que documentes bien la pregunta:
+Il est important de bien documenter votre question sur le forum :
 
-* Incluye tu archivo XML.
-* Explica bien qué quieres hacer, qué has hecho y qué problema encuentras.
+* Incluez votre fichier XML.
+* Expliquez bien ce que vous voulez faire, ce que vous avez fait et quel(s) problème(s) vous rencontrez.
 
 {% hint style="info" %}
-No olvides que quien te trata de ayudar lo hace desinteresadamente y te está regalando su tiempo.
+N'oubliez pas que celui qui essaie de vous aider le fait de manière désintéressée et vous donne de son temps.
 {% endhint %}
 
 {% hint style="danger" %}
-Evita preguntar por cosas que se encuentran haciendo una simple búsqueda en Google o que se han respondido anteriormente en el foro: usa el buscador primero.
+Évitez de demander des choses qui peuvent être trouvées en faisant une simple recherche sur Google ou qui ont déjà été répondues dans le forum : utilisez d'abord le moteur de recherche.
 {% endhint %}
 
 {% hint style="success" %}
-Has preguntado y te han respondido: sé agradecido y comenta la respuesta. La persona que ha respondido merece saber si su respuesta ha sido útil.
+Vous avez demandé et ils vous ont répondu : soyez reconnaissants et commentez la réponse. La personne qui a répondu mérite de savoir si sa réponse a été utile.
 {% endhint %}
 
 ## Garantía de que lo que digo es correcto y de que es la mejor forma de hacerlo
