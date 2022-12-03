@@ -72,11 +72,11 @@ En plus de celles présentées dans la vidéo, qui sont les plus simples à réa
 * D'avoir des éléments à choix multiples :
 
 {% tabs %}
-{% tab title="Desplegable" %}
+{% tab title="Menu déroulant" %}
 ![](<.gitbook/assets/image (28).png>)
 {% endtab %}
 
-{% tab title="Botones de radio" %}
+{% tab title="Boutons radio" %}
 ![](<.gitbook/assets/image (4).png>)
 {% endtab %}
 {% endtabs %}
@@ -84,15 +84,15 @@ En plus de celles présentées dans la vidéo, qui sont les plus simples à réa
 * De générer dynamiquement des graphes : par exemple, le graphe d'une fonction.
 
 {% tabs %}
-{% tab title="Gráficos dinámicos de Desmos" %}
+{% tab title="Graphiques dynamiques Desmos" %}
 ![](<.gitbook/assets/image (11).png>)
 {% endtab %}
 
-{% tab title="Gráficos dinámicos de JSXGraph (recomendado)" %}
+{% tab title="Graphiques dynamiques JSXGraph (recommandé)" %}
 ![](<.gitbook/assets/image (24).png>)
 {% endtab %}
 
-{% tab title="Aleatoriedad a través del color" %}
+{% tab title="Le hasard par la couleur hasard" %}
 ![](<.gitbook/assets/image (76).png>)
 {% endtab %}
 {% endtabs %}
@@ -100,15 +100,15 @@ En plus de celles présentées dans la vidéo, qui sont les plus simples à réa
 * De générer des graphes permettant des réponses graphiques par les élèves : par exemple du type « faire glisser les points pour que la droite qui les relie soit y=mx+n », avec m et n différents pour chaque élève.
 
 {% tabs %}
-{% tab title="Vectores" %}
+{% tab title="Vecteurs" %}
 ![](<.gitbook/assets/image (98).png>)
 {% endtab %}
 
-{% tab title="Rectas" %}
+{% tab title="Droites" %}
 ![](<.gitbook/assets/image (118).png>)
 {% endtab %}
 
-{% tab title="Respuesta abierta" %}
+{% tab title="Réponse ouverte" %}
 ![](<.gitbook/assets/image (10).png>)
 {% endtab %}
 {% endtabs %}
@@ -138,12 +138,12 @@ N'oubliez pas que celui qui essaie de vous aider le fait de manière désintére
 Vous avez demandé et ils vous ont répondu : soyez reconnaissants et commentez la réponse. La personne qui a répondu mérite de savoir si sa réponse a été utile.
 {% endhint %}
 
-## Garantía de que lo que digo es correcto y de que es la mejor forma de hacerlo
+## Garantie que ce que je dis est correct et que c'est la meilleure façon de le faire
 
-Ninguna.
+Aucune.
 
-Este documento únicamente pretende recoger cómo hago yo las cosas o cómo creo que se pueden hacer.
+Ce document vise uniquement à recueillir comment je fais les choses ou comment je pense qu'elles peuvent être faites.
 
-Por supuesto que no todo lo que diga aquí es correcto ni es la mejor forma de hacerlo. Simplemente es cómo considero yo hoy, con lo que sé del tema, que se pueden hacer ciertas cosas. Nada más.
+Bien sûr, tout ce que je dis ici n'est pas correct et ce n'est pas non plus la meilleure façon de le faire. C'est simplement ainsi que je considère aujourd'hui, avec ce que je connais sur le sujet, que certaines choses peuvent être faites. Rien de plus.
 
-Ofrezco la misma garantía que lo que cobro por hacer esto: CERO.
+J'offre la même garantie que ce que je facture pour cela : ZÉRO.
