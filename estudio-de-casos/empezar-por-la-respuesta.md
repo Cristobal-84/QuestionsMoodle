@@ -4,7 +4,7 @@
 
 {% file src="../.gitbook/assets/preguntas-Aules-Ecuación segundo grado-20200525-1726.xml" %}
 
-![](<../.gitbook/assets/image (38).png>)
+![](<../.gitbook/assets/image (74).png>)
 
 ## Enunciado de la pregunta
 
@@ -23,11 +23,11 @@ Podemos seguir el siguiente esquema:
 
 
 
-![](<../.gitbook/assets/image (35).png>)
+![](<../.gitbook/assets/image (90).png>)
 
-![](<../.gitbook/assets/image (36).png>)
+![](<../.gitbook/assets/image (18).png>)
 
-![](<../.gitbook/assets/image (37).png>)
+![](<../.gitbook/assets/image (32).png>)
 
 Al establecer el criterio de calificación como:
 

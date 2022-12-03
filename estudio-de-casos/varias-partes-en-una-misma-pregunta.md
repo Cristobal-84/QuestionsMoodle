@@ -12,7 +12,7 @@ Podríamos decir que una **parte** es un elemento de la pregunta que se califica
 Las distintas partes de una pregunta se referencian en el enunciado con {#i} siendo i el número de la parte. El mismo identificador se incluirá en la parte correspondiente.
 {% endhint %}
 
-![](<../.gitbook/assets/image (21).png>)
+![](<../.gitbook/assets/image (86).png>)
 
 {% hint style="danger" %}
 En el enunciado el marcador va entre llaves y en la parte ya no se ponen las llaves
@@ -26,7 +26,7 @@ En la parte, los campos de respuesta se indican con {\_0}, {\_1}, ... Podremos i
 
 &#x20;Podemos incluir varios campos de entrada en una parte si deseamos calificarlos conjuntamente.
 
-![](<../.gitbook/assets/image (22).png>)
+![](<../.gitbook/assets/image (110).png>)
 
 {% hint style="success" %}
 La respuesta correcta se introduce como array (entre corchetes) y con los campos de entrada en orden: primero respuesta correcta del \_0_,_ luego la del \_1,...
@@ -46,7 +46,7 @@ En un ejemplo como el anterior es más interesante incluir dos partes que se mue
 Para mostrar el código HTML con el editor por defecto de Moodle basta pulsar dos botones.
 {% endhint %}
 
-![](<../.gitbook/assets/image (24).png>)
+![](<../.gitbook/assets/image (66).png>)
 
 ```
 <div style="display:inline-block;">{#1}</div>
@@ -54,4 +54,4 @@ Para mostrar el código HTML con el editor por defecto de Moodle basta pulsar do
 
 Hará que las partes se muestren "inline", es decir, en la misma línea. Al corregir la pregunta, las partes se comprueban de forma independiente una de la otra, con lo que tenemos más información de cuál es correcta y cuál no.
 
-![](<../.gitbook/assets/image (23).png>)
+![](<../.gitbook/assets/image (64).png>)

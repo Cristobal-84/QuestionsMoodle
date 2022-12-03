@@ -10,11 +10,11 @@ description: >-
 
 {% file src="../.gitbook/assets/preguntas-Aules-Tipos de variable-20200525-2103.xml" %}
 
-![](<../.gitbook/assets/image (42).png>)
+![](<../.gitbook/assets/image (52).png>)
 
-![](<../.gitbook/assets/image (43).png>)
+![](<../.gitbook/assets/image (95).png>)
 
-![](<../.gitbook/assets/image (44).png>)
+![](<../.gitbook/assets/image (21).png>)
 
 {% hint style="info" %}
 Hay tres tipos de variable:

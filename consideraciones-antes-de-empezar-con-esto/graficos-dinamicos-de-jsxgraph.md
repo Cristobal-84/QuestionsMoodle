@@ -27,9 +27,9 @@ Se pedirá que el alumno introduzca las coordenadas de los puntos.
 
 ## Archivo XML de referencia
 
-![](<../.gitbook/assets/image (67).png>)
+![](<../.gitbook/assets/image (107).png>)
 
-{% file src="../.gitbook/assets/preguntas-Aules-Plano cartesiano 3 puntos-20200531-1303 (1).xml" %}
+{% file src="../.gitbook/assets/preguntas-Aules-Plano cartesiano 3 puntos-20200531-1303.xml" %}
 
 ## Qué es JSXGraph
 
@@ -174,11 +174,11 @@ Vamos a intentar hacer una pregunta que muestre:
 
 Para ello necesitaremos construir cuatro segmentos además de los tres puntos.
 
-![](<../.gitbook/assets/image (69).png>)
+![](<../.gitbook/assets/image (12).png>)
 
 Visitando la wiki de JSXGraph ([https://jsxgraph.org/wiki/index.php/Main\_Page](https://jsxgraph.org/wiki/index.php/Main\_Page)) y buscando por **segment** podemos ver varios ejemplos de segmentos: el primero de ellos se adapta a lo que buscamos. Copiamos y pegamos en nuestro código.
 
-![](<../.gitbook/assets/image (68).png>)
+![](<../.gitbook/assets/image (69).png>)
 
 {% hint style="warning" %}
 Tendremos que ver que:

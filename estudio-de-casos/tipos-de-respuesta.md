@@ -4,7 +4,7 @@
 
 {% file src="../.gitbook/assets/preguntas-Preguntas-Comunicarse con Moodle-20200524-1316.xml" %}
 
-![](<../.gitbook/assets/image (31).png>)
+![](<../.gitbook/assets/image (71).png>)
 
 ## Comportamiento acumulativo
 

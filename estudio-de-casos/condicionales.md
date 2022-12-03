@@ -10,9 +10,9 @@ Se trata de hacer una pregunta que muestre un número natural aleatorio entre 1 
 
 ![](../.gitbook/assets/desplegable1.gif)
 
-![](<../.gitbook/assets/image (47).png>)
+![](<../.gitbook/assets/image (22).png>)
 
-![](<../.gitbook/assets/image (48).png>)
+![](<../.gitbook/assets/image (113).png>)
 
 ## ¿De qué tipo es la variable?
 
@@ -76,7 +76,7 @@ solparte1=(esmultiplode6==1)?2:(esmultiplode2==1?0:(esmultiplode3==1?1:3));
 
 >
 
-![](<../.gitbook/assets/image (46).png>)
+![](<../.gitbook/assets/image (106).png>)
 
 ### Texto.
 

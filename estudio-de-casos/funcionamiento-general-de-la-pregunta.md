@@ -4,7 +4,7 @@
 
 {% file src="../.gitbook/assets/preguntas-Aules-Visualizar contenido matemático-20200521-2111.xml" %}
 
-![](<../.gitbook/assets/image (19).png>)
+![](<../.gitbook/assets/image (81).png>)
 
 En muchas ocasiones necesitamos introducir contenido matemático en nuestros enunciados.&#x20;
 
@@ -14,11 +14,11 @@ Para introducir contenido en $$\LaTeX$$existen **varias opciones.**
 
 ## Mediante el editor de Moodle
 
-![](<../.gitbook/assets/image (17).png>)
+![](<../.gitbook/assets/image (103).png>)
 
 &#x20;Ofrece ecuaciones predefinidas que podemos seleccionar y adaptar a nuestras necesidades. Al pulsar en salvar ecuación, la introduce con los signos \\( ... \\) que indican a Moodle que entre medias estamos escribiendo código $$\LaTeX$$.&#x20;
 
-![](<../.gitbook/assets/image (18).png>)
+![](<../.gitbook/assets/image (31).png>)
 
 {% hint style="warning" %}
 Esa ecuación mostrará $$\frac{a}{b+c}$$ y no sustituirá el valor de las variables a, b, c.
@@ -27,7 +27,7 @@ Esa ecuación mostrará $$\frac{a}{b+c}$$ y no sustituirá el valor de las varia
 {% hint style="success" %}
 Si queremos que se muestre el valor numérico de las variables, tendríamos que incluirlas entre llaves:
 
-\\( \frac{{a}}{{b}+{c}} \\)
+\\( \frac\{{a\}}\{{b}+{c\}} \\)
 {% endhint %}
 
 {% hint style="success" %}

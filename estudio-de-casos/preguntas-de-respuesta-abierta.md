@@ -25,7 +25,7 @@ Podemos hacer comprobaciones lógicas de las entradas del usuario utilizando las
 Dentro de la parte, hay que pulsar en Ver más... para que se visualicen las opciones de variables de calificación
 {% endhint %}
 
-![](<../.gitbook/assets/image (26).png>)
+![](<../.gitbook/assets/image (73).png>)
 
 Dentro de variables de calificación, introduciremos las comprobaciones que deseamos realizar.
 
@@ -43,7 +43,7 @@ Asignamos valores a las variables mediante operadores lógicos y de comparación
 El valor de cada una de estas variables será 1 ó 0.
 {% endhint %}
 
-![](<../.gitbook/assets/image (27).png>)
+![](<../.gitbook/assets/image (44).png>)
 
 ## Criterios de calificación
 
@@ -57,7 +57,7 @@ segundonummult3 &&
 sumamayora30
 ```
 
-![](<../.gitbook/assets/image (25).png>)
+![](<../.gitbook/assets/image (116).png>)
 
 {% hint style="warning" %}
 Puesto que los operadores de comprobación dan resultado 1 si la comprobación se cumple, podemos operar entre las variables teniendo en cuenta que 1 = cierto y 0=falso.

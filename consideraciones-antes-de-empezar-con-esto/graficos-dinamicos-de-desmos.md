@@ -10,11 +10,11 @@ En este caso vamos a generar una función con tres trozos y se pedirá al alumno
 
 {% file src="../.gitbook/assets/preguntas-Preguntas-Función a trozos hallar ecuación-20200527-0819.xml" %}
 
-![](<../.gitbook/assets/image (61).png>)
+![](<../.gitbook/assets/image (105).png>)
 
-![](<../.gitbook/assets/image (64).png>)
+![](<../.gitbook/assets/image (78).png>)
 
-![](<../.gitbook/assets/image (65).png>)
+![](<../.gitbook/assets/image (26).png>)
 
 {% hint style="warning" %}
 Ahora que empieza a haber  más código en las preguntas, será conveniente ir buscando algún editor de código que resalte por colores para simplificar la redacción y lectura de lo que hacemos.
@@ -109,7 +109,7 @@ Resumiendo lo que se ha hecho en la pregunta:
 3. Definir un contenedor de tamaño 600x400 para alojar la gráfica.
 4. Mediante otro script, rellenar ese contenedor mediante puntos y rectas definidas en base a las variables a, b, c definidas en la pregunta.
 
-![](<../.gitbook/assets/image (63).png>)
+![](<../.gitbook/assets/image (121).png>)
 
 {% hint style="success" %}
 Las variables se deben pasar a la API de Desmos entre llaves (igual que cuando queremos que aparezcan con su valor numérico en un enunciado).
@@ -129,7 +129,7 @@ Esta pregunta **no es apta para utilizar directamente con alumnos** ya que, en o
 Modificadla antes de utilizarla para no confundir al alumnado. Bastaría dibujar primero la rama central para que al dibujar la de la izquierda, que acaba con el punto relleno, quede visible en caso de coincidir.
 {% endhint %}
 
-![](<../.gitbook/assets/image (66).png>)
+![](<../.gitbook/assets/image (42).png>)
 
 ## Y por qué al principio del documento no se recomiendan estos gráficos
 

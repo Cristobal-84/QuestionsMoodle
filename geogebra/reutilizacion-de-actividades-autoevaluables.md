@@ -24,7 +24,7 @@ Al introducir una **actividad como paquete SCORM**:
 * se genera un ítem de calificación en el cuaderno de calificaciones
 * únicamente se puede introducir (que yo sepa) una actividad autoevaluable en cada paquete SCORM
 
-![](<../.gitbook/assets/image (88).png>)
+![](<../.gitbook/assets/image (47).png>)
 
 Al introducir una **actividad como pregunta de Fórmulas**:
 
@@ -39,7 +39,7 @@ Al introducir una **actividad como pregunta de Fórmulas**:
 
 Vamos a introducir en un curso de Aules una pregunta de Fórmulas que incluya la [siguiente actividad autoevaluable de Problemas de Números](https://www.geogebra.org/m/Az5bY5zR) (autor Javier Cayetano Rodríguez).
 
-![](<../.gitbook/assets/image (89).png>)
+![](<../.gitbook/assets/image (80).png>)
 
 ## Plantilla de pregunta: Archivo XML
 
@@ -53,7 +53,7 @@ Utilizaremos la siguiente pregunta como **plantilla** para importar la actividad
 El editor de Moodle debe estar en texto plano o puede que se "estropee" el código de la pregunta.
 {% endhint %}
 
-1. A través de la biblioteca [jQuery](https://jquery.com), capturamos el valor de la calificación de la actividad (variable SCORMRawScore) y lo pasamos al placeholder {\_0} de la Parte 1: utilizamos un Listener que se ejecuta con el applet de GeoGebra.
+1. A través de la biblioteca [jQuery](https://jquery.com/), capturamos el valor de la calificación de la actividad (variable SCORMRawScore) y lo pasamos al placeholder {\_0} de la Parte 1: utilizamos un Listener que se ejecuta con el applet de GeoGebra.
 2. Ocultamos todos los elementos con name='elqueseoculta'. En este caso el único que hay es el placeholder {\_0} de la parte 1.
 3. Establecemos un criterio de corrección para la parte 1 de modo que la puntuación de la pregunta corresponda con el valor de {\_0} en tanto por uno.
 
@@ -161,7 +161,7 @@ Necesitaremos varios parámetros, que son los que vamos a incluir en el código 
 
 * [x] **Código de la actividad** de GeoGebra: está en la dirección web de la pregunta. En este caso es Az5bY5zR.
 
-![](<../.gitbook/assets/image (90).png>)
+![](<../.gitbook/assets/image (50).png>)
 
 * [x] **Tamaño del Applet**: en este caso es de 675 pixeles de ancho (width) y 417 de alto (height).
 

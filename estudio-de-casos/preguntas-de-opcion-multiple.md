@@ -4,11 +4,11 @@
 
 {% file src="../.gitbook/assets/preguntas-Aules-Preguntas de opción múltiple-20200525-1832.xml" %}
 
-![](<../.gitbook/assets/image (39).png>)
+![](<../.gitbook/assets/image (55).png>)
 
-![](<../.gitbook/assets/image (40).png>)
+![](<../.gitbook/assets/image (45).png>)
 
-![](<../.gitbook/assets/image (41).png>)
+![](<../.gitbook/assets/image (115).png>)
 
 ## Las listas...
 

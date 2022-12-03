@@ -20,11 +20,11 @@ De hecho, confieso que ni soy programador ni tengo casi idea de programación. V
 
 Sí, lamentablemente, el editor de texto que probablemente utilices en Aules o Moodle, que se llama editor Atto y que tiene esta pinta tan chula con todos sus botoncitos visibles, a veces **estropea el código que escribimos.**
 
-![](<../.gitbook/assets/image (50).png>)
+![](<../.gitbook/assets/image (77).png>)
 
 Afortunadamente, tenemos la opción de modificar el editor de texto que utilizamos en Aules. Para ello basta hacer click en la parte superior derecha, donde aparece nuestro **nombre de usuario** y entrar a **preferencias**, dentro hay que buscar **Configuración del editor**.
 
-![Esta ventana no será igual, pero también tendrás la Configuración del editor en algún sitio](<../.gitbook/assets/image (52).png>)
+![Esta ventana no será igual, pero también tendrás la Configuración del editor en algún sitio](<../.gitbook/assets/image (84).png>)
 
 Nuestro editor, en lo sucesivo, debería ser el **editor de texto plano**.
 

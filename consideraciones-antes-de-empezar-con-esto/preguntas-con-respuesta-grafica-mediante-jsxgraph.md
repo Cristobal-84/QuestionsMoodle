@@ -17,7 +17,7 @@ Se recomienda utilizar el filtro de JSXGraph en caso de estar disponible, ya que
 
 Se trata de crear una pregunta en se pida al usuario que mueva dos puntos para que el vector que representan sea un vector aleatorio dado.
 
-![](<../.gitbook/assets/image (78).png>)
+![](<../.gitbook/assets/image (97).png>)
 
 ### Archivo XML de referencia
 
@@ -31,9 +31,9 @@ Recuerda que el **editor de texto por defecto de Moodle** puede hacer que el có
 
 La información aquí mostrada se ha extraído básicamente de tres proyectos cofinanciados por la Unión Europea:
 
-* Proyecto COMPASS: [https://moodle.compasspro.eu/](https://moodle.compasspro.eu)
-* Proyecto SCORE: [https://moodle.scorepro.eu/](https://moodle.scorepro.eu)
-* Proyecto ITEMS: [https://moodle.itemspro.eu/](https://moodle.itemspro.eu)
+* Proyecto COMPASS: [https://moodle.compasspro.eu/](https://moodle.compasspro.eu/)
+* Proyecto SCORE: [https://moodle.scorepro.eu/](https://moodle.scorepro.eu/)
+* Proyecto ITEMS: [https://moodle.itemspro.eu/](https://moodle.itemspro.eu/)
 
 A través de los enlaces se puede acceder a los cursos de Moodle donde se encuentran los materiales generados en dichos proyectos.
 
@@ -60,7 +60,7 @@ Habrá que definir varias cosas:
 
 Como variables aleatorias únicamente tendremos las coordenadas del vector buscado:
 
-![](<../.gitbook/assets/image (79).png>)
+![](<../.gitbook/assets/image (109).png>)
 
 En el enunciado de la pregunta tendremos:
 
@@ -218,7 +218,7 @@ Nos quedará comprobar si la respuesta es correcta o no.
 
 ### Calificación de la respuesta
 
-![](<../.gitbook/assets/image (80).png>)
+![](<../.gitbook/assets/image (36).png>)
 
 {% hint style="info" %}
 Puesto que es una actividad de respuesta abierta, usaremos el **criterio de calificación** para evaluar la respuesta.
@@ -237,7 +237,7 @@ La comprobación será (ambas deben verificarse al mismo tiempo):
 
 Basándonos en la pregunta anterior vamos a **crear una pregunta** que muestre los ejes cartesianos, dos puntos, la recta que los une y, dada una ecuación en forma continua, nos pida mover los puntos para que la recta mostrada corresponda con la ecuación.
 
-![](<../.gitbook/assets/image (82).png>)
+![](<../.gitbook/assets/image (65).png>)
 
 {% hint style="success" %}
 Esencialmente esta pregunta es **muy parecida** a la anterior: el usuario interacciona con **dos puntos** y realizamos comprobaciones para ver si dichos puntos cumplen con una serie de condiciones.
@@ -259,7 +259,7 @@ Recuerda que el **editor de texto por defecto de Moodle** puede hacer que el có
 * **Comprobaremos** la respuesta **sustituyendo directamente** en la ecuación de la recta los dos puntos introducidos por el usuario.
 * También comprobaremos que los dos puntos sean **diferentes** para evitar dar por válidas preguntas en que los dos puntos son coincidentes.
 
-![](<../.gitbook/assets/image (83).png>)
+![](<../.gitbook/assets/image (41).png>)
 
 {% hint style="info" %}
 Obsérvese que para pasar ecuaciones en $$\LaTeX$$ a través de variables es necesario escapar las \ (introduciendo otra \ previa).&#x20;
@@ -395,7 +395,7 @@ En el enunciado de la pregunta:
 
 ### Calificar la respuesta
 
-![](<../.gitbook/assets/image (84).png>)
+![](<../.gitbook/assets/image (13).png>)
 
 {% hint style="success" %}
 * El punto "t" debe verificar la ecuación.
@@ -413,7 +413,7 @@ En el enunciado de la pregunta:
 
 Queremos preparar una pregunta que pida al usuario que interaccione con una serie de puntos para que el resultado sea una función que verifique una serie de condiciones:
 
-![](<../.gitbook/assets/image (85).png>)
+![](<../.gitbook/assets/image (30).png>)
 
 ### Archivo XML de referencia
 
@@ -426,7 +426,7 @@ Queremos preparar una pregunta que pida al usuario que interaccione con una seri
 * El código será muy parecido a las preguntas anteriores, solamente que incluye más puntos.
 * Generaremos las variables sol1 hasta sol7 que serán una posible respuesta correcta.
 
-![](<../.gitbook/assets/image (86).png>)
+![](<../.gitbook/assets/image (62).png>)
 
 En texto de la parte:
 
@@ -590,4 +590,4 @@ Para visualizar las variables de calificación hay que pulsar en **Ver más...**
 1. Comprobamos aisladamente las condiciones y
 2. Calificamos imponiendo que se cumplan todas las condiciones simultáneamente
 
-![](<../.gitbook/assets/image (87).png>)
+![](<../.gitbook/assets/image (99).png>)

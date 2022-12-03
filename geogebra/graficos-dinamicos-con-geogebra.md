@@ -10,11 +10,11 @@ Vamos a resolver la misma pregunta que ya hicimos en [Gráficos dinámicos de JS
 Utilizando GeoGebra no necesitaremos crear la construcción gráfica programáticamente (escribiendo código): podemos **crear las construcciones directamente desde la interfaz gráfica** de GeoGebra o reutilizar construcciones de [www.geogebra.org](https://www.geogebra.org).
 {% endhint %}
 
-![](<../.gitbook/assets/image (96).png>)
+![](<../.gitbook/assets/image (23).png>)
 
 ## Archivo XML de referencia
 
-{% file src="../.gitbook/assets/preguntas-Aules-Plano cartesiano 3 puntos GeoGebra-20200718-1247 (1) (1).xml" %}
+{% file src="../.gitbook/assets/preguntas-Aules-Plano cartesiano 3 puntos GeoGebra-20200718-1247 (1).xml" %}
 
 ## Archivo de GeoGebra
 
@@ -24,7 +24,7 @@ Será conveniente crearlo en base a las **mismas variables que aparezcan en la p
 
 {% file src="../.gitbook/assets/3puntos.ggb" %}
 
-![](<../.gitbook/assets/image (95).png>)
+![](<../.gitbook/assets/image (60).png>)
 
 ![](../.gitbook/assets/pant3ptos.png)
 
@@ -48,7 +48,7 @@ Se obtiene el id directamente de la dirección web del navegador.
 {% tab title="Archivo creado en local" %}
 Una vez creado el archivo, se **exporta como página web**:
 
-![](<../.gitbook/assets/image (93).png>)
+![](<../.gitbook/assets/image (15).png>)
 
 Esto sube el archivo a la nube y podremos encontrarlo en la pestaña de Recursos.
 {% endtab %}
@@ -58,7 +58,7 @@ Esto sube el archivo a la nube y podremos encontrarlo en la pestaña de Recursos
 
 Hay varias opciones, resulta cómodo guardar el archivo con la vista que queremos que aparezca en el applet.
 
-![Captura de la pantalla de GeoGebra previa a exportación](<../.gitbook/assets/image (94).png>)
+![Captura de la pantalla de GeoGebra previa a exportación](<../.gitbook/assets/image (14).png>)
 
 {% hint style="success" %}
 Si ocultamos la vista algebraica y la barra de entrada, y hacemos que el tamaño de la ventana sea el que queremos que tenga la gráfica en Moodle, la construcción que se sube a la nube no necesita más ajustes.
@@ -77,7 +77,7 @@ Al igual que hemos hecho en la reutilización de actividades autoevaluables, uti
 
 En este caso incluyo la pregunta en XML, que se podrá utilizar como plantilla.
 
-{% file src="../.gitbook/assets/preguntas-Aules-Plano cartesiano 3 puntos GeoGebra-20200718-1247 (1).xml" %}
+{% file src="../.gitbook/assets/preguntas-Aules-Plano cartesiano 3 puntos GeoGebra-20200718-1247 (1) (1).xml" %}
 
 ## Adaptar la pregunta a otros archivos de GeoGebra
 

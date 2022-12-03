@@ -6,7 +6,7 @@ Queremos mostrar un applet de GeoGebra en la pregunta de Moodle y capturar la in
 
 Por ejemplo:
 
-![](<../.gitbook/assets/image (97).png>)
+![](<../.gitbook/assets/image (89).png>)
 
 Pedimos al usuario que mueva los puntos para que:
 
@@ -39,7 +39,7 @@ En una vista previa de la pregunta, sin ocultar todos los placeholders que hemos
 
 ![](../.gitbook/assets/vistapreviasinocultar.gif)
 
-![](<../.gitbook/assets/image (98).png>)
+![](<../.gitbook/assets/image (51).png>)
 
 A pesar de que no resulta complicado calcular el área y las longitudes de los lados a partir de las coordenadas, hemos optado por calcularlas en GeoGebra e importarlas directamente a Moodle. Esto simplificará mucho la corrección.
 
@@ -189,13 +189,13 @@ Bastará con asignarles name="elqueseoculta" en cualquier etiqueta \<html>.&#x20
 En este caso se ha hecho en un párrafo, aunque podría ser con \<span>, \<div>...
 {% endhint %}
 
-![](<../.gitbook/assets/image (99).png>)
+![](<../.gitbook/assets/image (85).png>)
 
 {% hint style="info" %}
 En la última parte se ha ocultado un placeholder (que hemos utilizado para "recoger" el valor del perímetro del triángulo del applet) y se ha dejado otro para el usuario:
 {% endhint %}
 
-![](<../.gitbook/assets/image (101).png>)
+![](<../.gitbook/assets/image (8).png>)
 
 
 
@@ -219,5 +219,5 @@ Si pulsamos en "Rellenar con las respuestas correctas" y comprobamos, obtendremo
 La respuesta dada será correcta si \_4 (longitud de BC) es igual a L (longitud que hemos pedido  para uno de los lados en el enunciado) o si \_5 (longitud de AC) es igual a L o si \_6 lo es.
 {% endhint %}
 
-![](<../.gitbook/assets/image (100).png>)
+![](<../.gitbook/assets/image (104).png>)
 

@@ -18,15 +18,15 @@ Las etiquetas tienen esta pinta: habrá un elemento de inicio, uno de cierre y e
 
 Ahora que tenemos desactivado el editor Atto, los enunciados de nuestras preguntas han pasado de algo como esto:
 
-![](<../.gitbook/assets/image (55).png>)
+![](<../.gitbook/assets/image (83).png>)
 
 Cuyo código HTML podíamos visualizar mediante los botones sombreados en la imagen
 
-![](<../.gitbook/assets/image (56).png>)
+![](<../.gitbook/assets/image (108).png>)
 
 A esto otro que es lo mismo de antes pero visualizado como texto plano y sin la "ayuda" del editor Atto para poner cada elemento en una línea diferente y para ordenarlo todo un poco.
 
-![](<../.gitbook/assets/image (54).png>)
+![](<../.gitbook/assets/image (17).png>)
 
 ## Etiquetas "elementales"
 
@@ -38,8 +38,8 @@ En [esta guía](http://platea.pntic.mec.es/\~abercian/guiahtml/formatos.htm) o e
 
 {% file src="../.gitbook/assets/preguntas-Aules-Texto HTML-20200527-0712.xml" %}
 
-![](<../.gitbook/assets/image (57).png>)
+![](<../.gitbook/assets/image (43).png>)
 
-![](<../.gitbook/assets/image (59).png>)
+![](<../.gitbook/assets/image (75).png>)
 
-![](<../.gitbook/assets/image (60).png>)
+![](<../.gitbook/assets/image (20).png>)

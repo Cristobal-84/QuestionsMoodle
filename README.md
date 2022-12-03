@@ -71,11 +71,11 @@ Además de las mostradas en el vídeo, que son las más sencillas de realizar, t
 
 {% tabs %}
 {% tab title="Desplegable" %}
-![](<.gitbook/assets/image (6).png>)
+![](<.gitbook/assets/image (28).png>)
 {% endtab %}
 
 {% tab title="Botones de radio" %}
-![](<.gitbook/assets/image (8).png>)
+![](<.gitbook/assets/image (4).png>)
 {% endtab %}
 {% endtabs %}
 
@@ -83,15 +83,15 @@ Además de las mostradas en el vídeo, que son las más sencillas de realizar, t
 
 {% tabs %}
 {% tab title="Gráficos dinámicos de Desmos" %}
-![](<.gitbook/assets/image (1).png>)
+![](<.gitbook/assets/image (11).png>)
 {% endtab %}
 
 {% tab title="Gráficos dinámicos de JSXGraph (recomendado)" %}
-![](<.gitbook/assets/image (2).png>)
+![](<.gitbook/assets/image (24).png>)
 {% endtab %}
 
 {% tab title="Aleatoriedad a través del color" %}
-![](<.gitbook/assets/image (28).png>)
+![](<.gitbook/assets/image (76).png>)
 {% endtab %}
 {% endtabs %}
 
@@ -99,15 +99,15 @@ Además de las mostradas en el vídeo, que son las más sencillas de realizar, t
 
 {% tabs %}
 {% tab title="Vectores" %}
-![](<.gitbook/assets/image (3).png>)
+![](<.gitbook/assets/image (98).png>)
 {% endtab %}
 
 {% tab title="Rectas" %}
-![](<.gitbook/assets/image (4).png>)
+![](<.gitbook/assets/image (118).png>)
 {% endtab %}
 
 {% tab title="Respuesta abierta" %}
-![](<.gitbook/assets/image (5).png>)
+![](<.gitbook/assets/image (10).png>)
 {% endtab %}
 {% endtabs %}
 

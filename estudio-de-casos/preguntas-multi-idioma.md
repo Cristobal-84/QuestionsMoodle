@@ -12,21 +12,21 @@ El enunciado de la pregunta debe aparecer en el mismo idioma que está seleccion
 
 ![](<../.gitbook/assets/image (70).png>)
 
-![](<../.gitbook/assets/image (71).png>)
+![](<../.gitbook/assets/image (67).png>)
 
-![](<../.gitbook/assets/image (72).png>)
+![](<../.gitbook/assets/image (3).png>)
 
-![](<../.gitbook/assets/image (73).png>)
+![](<../.gitbook/assets/image (94).png>)
 
-![](<../.gitbook/assets/image (74).png>)
+![](<../.gitbook/assets/image (1).png>)
 
-![](<../.gitbook/assets/image (75).png>)
+![](<../.gitbook/assets/image (25).png>)
 
 ## Etiquetas multi-idioma
 
 Bastará encerrar el texto que queremos que aparezca en un idioma determinado entre dos etiquetas que definen cuando empieza y cuando termina cada uno de los idiomas.
 
-![](<../.gitbook/assets/image (76).png>)
+![](<../.gitbook/assets/image (29).png>)
 
 {% hint style="success" %}
 La abreviatura que corresponde a cada idioma es la que aparece entre paréntesis junto al idioma cuando nos paramos sobre él con el ratón en el menú superior de Aules.
@@ -34,7 +34,7 @@ La abreviatura que corresponde a cada idioma es la que aparece entre paréntesis
 
 {% endhint %}
 
-![](<../.gitbook/assets/image (77).png>)
+![](<../.gitbook/assets/image (68).png>)
 
 {% hint style="success" %}
 Si queremos dejar algo de texto que aparezca igual en cualquier idioma, basta con no incluirlo en ninguna de las etiquetas
