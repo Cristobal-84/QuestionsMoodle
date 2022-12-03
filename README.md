@@ -33,18 +33,18 @@ Ce plugin peut être trouvé sur [https://moodle.org/plugins/qtype\_formulas](ht
 
 L'installation de plugins dans Moodle nécessite des autorisations d'administrateur. Les utilisateurs individuels **ne peuvent pas installer** de plugins. Assurez-vous que votre administrateur l'a installé ou demandez son installation.
 
-Puedes comprobar si dispones de la pregunta Fórmulas si creas una nueva pregunta y aparece la opción de Fórmulas en los tipos de pregunta que puedes seleccionar:
+Vous pouvez vérifier si vous avez le type de question Formulas si vous créez une nouvelle question et que l'option Formulas apparaît dans les types de questions que vous pouvez sélectionner :
 
 ![](.gitbook/assets/pantallaconpregunta.png)
 
-## ¿A quién va dirigido?
+## A qui s'adresse-t-elle ?
 
-Como profesor de Matemáticas en Secundaria y Bachillerato, me centraré en ejemplos y preguntas adaptadas al nivel en que imparto docencia.
+En tant que professeur de mathématiques au collège et au lycée, je me concentrerai sur des exemples et des questions adaptés au niveau auquel j'enseigne.
 
-No obstante, el método de trabajo y las propuestas de actividades serán lo suficientemente generales para que puedan ser utilizadas en un curso de Moodle de cualquier nivel. Las preguntas de tipo fórmulas son aptas tanto para matemáticas como para cualquier área en que pueda ser interesante utilizar preguntas que empleen notación matemática o sean susceptibles de ser generadas mediante valores aleatorios.
+Cependant, la méthode de travail et les propositions d'activités seront suffisamment générales pour pouvoir être utilisées dans un cours Moodle de tout niveau. Les questions de type Formulas conviennent aussi bien aux mathématiques qu'à tout domaine dans lequel il peut être intéressant d'utiliser des questions utilisant des notations mathématiques ou susceptibles d'être générées par des valeurs aléatoires.
 
 {% hint style="info" %}
-La elaboración de este tipo de preguntas es costoso tanto en tiempo como en conocimientos: hay que superar una curva de aprendizaje y ser resiliente para no abandonar.
+L'élaboration de ce type de questions est coûteuse en temps et en connaissances : il faut surmonter une courbe d'apprentissage et être résilient pour ne pas abandonner.
 {% endhint %}
 
 {% hint style="success" %}
