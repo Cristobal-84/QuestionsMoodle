@@ -59,17 +59,17 @@ La question que chaque élève recevra sera différente des autres, ce qui rend 
 Ce livre n'a pas vocation à être une banque de questions ou un catalogue directement applicable en classe. Il s'agit uniquement d'un guide pour faciliter l'apprentissage de l'utilisation des questions de type Formulas dans Moodle.
 {% endhint %}
 
-> #### Largo es el camino de la enseñanza por medio de teorías, breve y eficaz por medio de ejemplos (Séneca)
+> #### Le chemin de l'enseignement à travers les théories est long,  court et efficace à travers des exemples (Sénèque)
 
-## ¿Qué tipos de pregunta se pueden realizar con Fórmulas?
+## Quels types de questions peuvent être posées avec les Formulas ?
 
-En este vídeo (en inglés) se observan varios de ejemplos de pregunta. También se puede ver algo del código que es necesario escribir para llegar al resultado que se muestra.
+Dans cette vidéo (en anglais, sous-titres et traduction automatique disponibles), vous pouvez voir plusieurs exemples de questions. Vous pouvez également voir une partie du code qui doit être écrit pour obtenir le résultat affiché.
 
 {% embed url="https://youtu.be/brWP7LRjPS0" %}
 
-Además de las mostradas en el vídeo, que son las más sencillas de realizar, también es posible incluir preguntas que:
+En plus de celles présentées dans la vidéo, qui sont les plus simples à réaliser, il est également possible dans ces questions :
 
-* Tengan elementos de opción múltiple:
+* D'avoir des éléments à choix multiples :
 
 {% tabs %}
 {% tab title="Desplegable" %}
@@ -81,7 +81,7 @@ Además de las mostradas en el vídeo, que son las más sencillas de realizar, t
 {% endtab %}
 {% endtabs %}
 
-* Generen gráficos dinámicamente: por ejemplo, la gráfica de una función.
+* De générer dynamiquement des graphes : par exemple, le graphe d'une fonction.
 
 {% tabs %}
 {% tab title="Gráficos dinámicos de Desmos" %}
@@ -97,7 +97,7 @@ Además de las mostradas en el vídeo, que son las más sencillas de realizar, t
 {% endtab %}
 {% endtabs %}
 
-* Generen gráficos que permitan respuestas gráficas por parte del alumnado: por ejemplo, del tipo "arrastra los puntos para que la recta que los une sea y=mx+n", con m y n diferentes para cada alumno.
+* De générer des graphes permettant des réponses graphiques par les élèves : par exemple du type « faire glisser les points pour que la droite qui les relie soit y=mx+n », avec m et n différents pour chaque élève.
 
 {% tabs %}
 {% tab title="Vectores" %}
@@ -113,7 +113,7 @@ Además de las mostradas en el vídeo, que son las más sencillas de realizar, t
 {% endtab %}
 {% endtabs %}
 
-## ¿Qué hacer cuando las cosas no funcionan?
+## Que faire quand ça ne va pas ?
 
 En los momentos de atasco, en que una pregunta no funciona y no sabemos qué ocurre. Todo parece estar bien escrito, el código es el correcto, pero da error o no funciona como debiera.
 
