@@ -2,7 +2,7 @@
 
 * [On commence](README.md)
 * [Premiers pas](untitled.md)
-* [Preguntas "sencillas"](estudio-de-casos/README.md)
+* [Questions "simples"](estudio-de-casos/README.md)
   * [Variables aleatorias y globales](estudio-de-casos/variables-aleatorias-y-globales.md)
   * [Introducción de contenido matemático](estudio-de-casos/funcionamiento-general-de-la-pregunta.md)
   * [Varias partes en una misma pregunta](estudio-de-casos/varias-partes-en-una-misma-pregunta.md)
@@ -14,7 +14,7 @@
   * [Preguntas de opción múltiple](estudio-de-casos/preguntas-de-opcion-multiple.md)
   * [Condicionales](estudio-de-casos/condicionales.md)
   * [Preguntas multi-idioma](estudio-de-casos/preguntas-multi-idioma.md)
-* [Preguntas "menos sencillas"](consideraciones-antes-de-empezar-con-esto/README.md)
+* [Questions "moins faciles"](consideraciones-antes-de-empezar-con-esto/README.md)
   * [HTML](consideraciones-antes-de-empezar-con-esto/html.md)
   * [Gráficos dinámicos de Desmos](consideraciones-antes-de-empezar-con-esto/graficos-dinamicos-de-desmos.md)
   * [Gráficos dinámicos de JSXGraph](consideraciones-antes-de-empezar-con-esto/graficos-dinamicos-de-jsxgraph.md)

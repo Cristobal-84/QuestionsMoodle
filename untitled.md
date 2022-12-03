@@ -10,14 +10,14 @@ Une documentation plus complète sur les questions de type Formulas peut être t
 
 {% embed url="https://youtu.be/jyIIUFa0E6s" %}
 
-## Pregunta en XML
+## Questions en XML
 
-Las preguntas de tipo Fórmulas se pueden exportar e importar en Moodle.
+Les questions de formule peuvent être exportées et importées dans Moodle.
 
-El **formato adecuado** es el XML de Moodle.
+Le **format approprié** est Moodle XML.
 
-En los ejemplos desarrollados se adjuntará el archivo para que pueda importarse y toquetearse.
+Dans les exemples développés, le fichier sera joint afin qu'il puisse être importé et modifié.
 
-A continuación está la pregunta del vídeo (ligeramente modificada).
+Ci-dessous la question de la vidéo (légèrement modifiée).
 
 {% file src=".gitbook/assets/preguntas-Aules-Área y perímetro del rectángulo-20200520-1348.xml" %}
