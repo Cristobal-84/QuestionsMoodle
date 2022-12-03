@@ -5,11 +5,11 @@
 Si nous sommes arrivés à ce point, je ne pense pas qu'il y ait quelqu'un qui lit ceci qui ne connaisse pas GeoGebra.
 
 {% hint style="success" %}
-[GeoGebra ](https://www.geogebra.org)possède une **interface bien connue** et documentée : les constructions géométriques peuvent être faites sans avoir besoin de programmer en Javascript.
+[GeoGebra ](https://www.geogebra.org)possède une **interface bien connue** **et documentée** : les constructions géométriques peuvent être faites sans avoir besoin de programmer en Javascript.
 {% endhint %}
 
 {% hint style="success" %}
-GeoGebra dispone de una importante **comunidad** y de gran número de [materiales compartidos](https://www.geogebra.org/materials) en abierto.
+GeoGebra a une **importante communauté** et un grand nombre de [matériaux librement partagés](https://www.geogebra.org/materials).
 {% endhint %}
 
 ## Plusieurs possibilités
