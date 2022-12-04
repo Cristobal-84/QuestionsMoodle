@@ -27,16 +27,16 @@ Une seule activité d'auto-évaluation peut être saisie (pour autant que je sac
 
 ![](<../.gitbook/assets/image (47).png>)
 
-Al introducir una **actividad como pregunta de Fórmulas**:
+L'introduction d'une **activité en tant que question Formulas** :
 
-* no requiere programas externos
-* es "algo más" complicado
-* se puede incluir en el **banco de preguntas**, por lo que se puede clasificar fácilmente
-* se puede incluir en **cuestionarios**
-* ocupa **mucho menos espacio de almacenamiento** en el curso (hay un límite de tamaño del curso para restaurarlo posteriormente)
-* si incluye aleatoriedad, **es posible almacenar la respuesta del usuario** (aunque dependiendo de cómo esté programada la actividad puede ser complicado) y no únicamente la calificación obtenida
+* ne requiert aucun programme externe,
+* est quelque chose "de plus" compliqué,
+* peut être inclus dans la **banque de questions**, de sorte qu'il peut être facilement catégorisé,
+* peut être inclus dans les **questionnaires**,
+* occupe beaucoup moins d'espace de stockage dans le cours (il y a une limite à la taille d'un cours pour une restauration ultérieure),
+* si elle comprend des variables aléatoires, **il est possible de stocker la réponse de l'utilisateur** (bien que selon la programmation de l'activité, cela puisse être compliqué) et pas seulement la note obtenue.
 
-## ¿Qué queremos hacer?
+## Que voulons-nous faire ?
 
 Vamos a introducir en un curso de Aules una pregunta de Fórmulas que incluya la [siguiente actividad autoevaluable de Problemas de Números](https://www.geogebra.org/m/Az5bY5zR) (autor Javier Cayetano Rodríguez).
 
