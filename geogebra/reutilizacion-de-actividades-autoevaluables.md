@@ -51,15 +51,15 @@ Nous utiliserons la question suivante comme **modèle** pour importer l'activit�
 ## Brève explication de son fonctionnement (pas indispensable pour comprendre).
 
 {% hint style="danger" %}
-L'éditeur Moodle doit être en texte brut ou le code de la question peut "casser".
+**L'éditeur Moodle doit être en texte brut** ou le code de la question peut "casser".
 {% endhint %}
 
-1. A través de la biblioteca [jQuery](https://jquery.com/), capturamos el valor de la calificación de la actividad (variable SCORMRawScore) y lo pasamos al placeholder {\_0} de la Parte 1: utilizamos un Listener que se ejecuta con el applet de GeoGebra.
-2. Ocultamos todos los elementos con name='elqueseoculta'. En este caso el único que hay es el placeholder {\_0} de la parte 1.
-3. Establecemos un criterio de corrección para la parte 1 de modo que la puntuación de la pregunta corresponda con el valor de {\_0} en tanto por uno.
+1. Grâce à la bibliothèque [jQuery](https://jquery.com/), nous capturons la valeur de la note d'activité (variable SCORMRawScore) et la transmettons à l'espace réservé {\_0} de la partie 1 : nous utilisons un Listener qui s'exécute avec l'applet GeoGebra.
+2. Nous cachons tous les éléments avec name='elqueseoculta'. Dans ce cas, le seul qui existe est placeholder {\_0} de la partie 1.
+3. Nous avons défini un critère de correction pour la partie 1 afin que le score de la question corresponde à la valeur de {\_0} <mark style="color:red;">**par un.**</mark>
 
 ```javascript
-<p> Aquí podrían copiarse las instrucciones que consideremos oportunas.</p>
+<p> Ici, les instructions que nous estimons appropriées peuvent être copiées.</p>
 <br>
 
 <script src="https://cdn.geogebra.org/apps/deployggb.js"></script>
@@ -69,7 +69,7 @@ L'éditeur Moodle doit être en texte brut ou le code de la question peut "casse
 
 <script>
 
-//Este primer script oculará todos los elementos html cuyo nombre sea "elquesoculta"
+//Ce premier script cachera tous les éléments html dont le nom est "elquesoculta"
 $(document).ready(function(){
     jQuery ("*[name='elqueseoculta']").hide();
  });
@@ -78,7 +78,7 @@ $(document).ready(function(){
 
 <script>
 
-//Para tomar el valor anterior si es que la pregunta ya se ha contestado, no se usa en esta pregunta
+//Pour prendre la valeur précédente si la question a déjà été traitée, elle n'est pas utilisée dans cette question
 function compruebaRespuesta(part,placeholder,variable){
     var resp=jQuery( "input[name*='_"+part.toString()+"_"+placeholder.toString()+"']" ).val();
     if (resp=="") {return variable;}
@@ -105,7 +105,7 @@ var parameters = {
 "preventFocus":false,
 "showZoomButtons":false,
 "capturingThreshold":3,
-// add code here to run when the applet starts
+// ajouter ici du code à exécuter au démarrage de l'applet
 "appletOnLoad":function(api){
                   function updateListener(objName) {                                     
                               jQuery( "input[name*='_0_0']" ).val(api.getValue('SCORMRawScore'));
@@ -126,9 +126,9 @@ var parameters = {
 "buttonRounding":1,
 "buttonShadows":false,
 "language":"es",
-// si guardamos el archivo en la nube, aquí irá el material id
+// si nous enregistrons le fichier dans le cloud, l'id du matériau ira ici
 "material_id":"b5ckap8z",
-//"ggbBase64":"cambiar por base64",
+//"ggbBase64":"changer pour base64",
 };
 
 var views = {'is3D': 0,'AV': 0,'SV': 0,'CV': 0,'EV2': 0,'CP': 0,'PC': 0,'DA': 0,'FI': 0,'macro': 0};
@@ -144,39 +144,39 @@ window.addEventListener("load", function() {
 {#1}
 ```
 
-Referencia de los **parámetros** que se aplican al cargar la construcción de GeoGebra: [PARÁMETROS](https://wiki.geogebra.org/en/Reference:GeoGebra\_App\_Parameters).
+Référence des **paramètres** appliqués lors du chargement de la construction GeoGebra : [PARAMETERS](https://wiki.geogebra.org/en/Reference:GeoGebra\_App\_Parameters).
 
-Referencia del **API** de GeoGebra: [API](https://wiki.geogebra.org/en/Reference:GeoGebra\_Apps\_API).
+Référence de l'**API** GeoGebra : [API](https://wiki.geogebra.org/en/Reference:GeoGebra\_Apps\_API).
 
-## Adaptar una pregunta a nuestra plantilla
+## Adapter une question à notre modèle
 
 {% hint style="danger" %}
-El **editor de Moodle debe estar en texto plano** o puede que se "estropee" el código de la pregunta.
+**L'éditeur Moodle doit être en texte brut** ou le code de la question peut "casser".
 {% endhint %}
 
-Necesitaremos varios parámetros, que son los que vamos a incluir en el código de la plantilla:
+Nous aurons besoin de plusieurs paramètres, qui sont ce que nous allons inclure dans le code du modèle :
 
-* [x] Comprobar que la actividad **guarda la puntuación en SCORMRawScore**: abrimos la actividad con GeoGebra y vemos que está la variable en la pregunta.
+* [x] Vérifier que l'activité **enregistre le score dans SCORMRawScore** : on ouvre l'activité avec GeoGebra et on voit que la variable est dans la question.
 
 ![](../.gitbook/assets/verSCORMRawScore.gif)
 
-* [x] **Código de la actividad** de GeoGebra: está en la dirección web de la pregunta. En este caso es Az5bY5zR.
+* [x] **Code d'activité** GeoGebra : il se trouve dans l'adresse Web de la question. Dans ce cas, il s'agit de Az5bY5zR.
 
 ![](<../.gitbook/assets/image (50).png>)
 
-* [x] **Tamaño del Applet**: en este caso es de 675 pixeles de ancho (width) y 417 de alto (height).
+* [x] **Taille de l'applet** : dans ce cas, elle mesure 675 pixels de large (width) et 417 pixels de haut (height).
 
 ![](../.gitbook/assets/tamaño.gif)
 
 {% hint style="success" %}
-Con la edición de estos tres parámetros en la pregunta suministrada como plantilla, tendremos lista la pregunta autoevaluable de GeoGebra.
+En modifiant ces trois paramètres dans la question fournie comme modèle, nous aurons la question d'auto-évaluation GeoGebra prête.
 {% endhint %}
 
 ![](../.gitbook/assets/edicion.gif)
 
-## Archivos adjuntos
+## Pièces jointes
 
-Se incluye a continuación la actividad como pregunta de Fórmulas y como paquete SCORM. Obsérvese la diferencia de tamaño entre uno y el otro formato: con lo que ocupa esta pregunta en SCORM, podemos más de 40 preguntas en formato de Fórmulas.
+L'activité est donnée ci-dessous en tant que question Formulas et en tant que package SCORM. Notez la différence de taille entre l'un et l'autre format : avec ce que cette question occupe dans SCORM, on peut avoir plus de 40 questions au format Formulas.
 
 {% file src="../.gitbook/assets/preguntas-Aules-Geogebra autoevaluable plantilla-20200710-1045.xml" %}
 
