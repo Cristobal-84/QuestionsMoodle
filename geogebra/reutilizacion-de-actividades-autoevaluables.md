@@ -5,24 +5,25 @@
 Ce sont des constructions GeoGebra qui ont été écrites de telle sorte qu'elles calculent un score et peuvent être intégrées dans une activité SCORM.
 
 {% hint style="danger" %}
-Deben incluir las variables:
+Elles doivent inclure les variables :
 
-* **SCORMMaxScore**: que registra la puntuación máxima de la actividad.
-* **SCORMRawScore**: que registra la puntuación obtenida por el alumno.
+* **SCORMMaxScore** : qui enregistre le score maximum de l'activité.
+* **SCORMRawScore** : qui enregistre le score obtenu par l'étudiant.
 {% endhint %}
 
-En la página de GeoGebra se encuentran múltiples ejemplos de estas actividades. Un magnífico ejemplo son las de [Javier Cayetano](https://www.geogebra.org/u/javier+cayetano).
+Plusieurs exemples de ces activités peuvent être trouvés sur la page GeoGebra. Des exemples magnifiques sont ceux de [Javier Cayetano](https://www.geogebra.org/u/javier+cayetano).
 
-## Ventajas de introducir estas actividades como pregunta de Aules y no como SCORM.
+## Avantages d'introduire ces activités comme une question <mark style="color:red;">Aules/Moodle</mark> et non comme un SCORM.
 
-Este tipo de actividades se pueden incluir en Aules como actividad SCORM a través de **ExELearning:** [enlace a vídeo explicativo](https://youtu.be/1F9pFOCnZAY).
+Ce type d'activité peut être inclus dans <mark style="color:red;">**Aules/Moodle**</mark> en tant qu'activité SCORM via **eXeLearning** : [lien vers un tutoriel vidéo](https://www.youtube.com/watch?v=1F9pFOCnZAY).
 
-Al introducir una **actividad como paquete SCORM**:
+L'introduction d'une **activité en tant que package SCORM** :
 
-* es muy sencillo mediante ExELearning
-* aparece en la página principal del curso
-* se genera un ítem de calificación en el cuaderno de calificaciones
-* únicamente se puede introducir (que yo sepa) una actividad autoevaluable en cada paquete SCORM
+* est très simple avec eXeLearning,
+* s'affiche sur la page d'accueil du cours,
+* généré une note est dans le carnet de notes.
+
+Une seule activité d'auto-évaluation peut être saisie (pour autant que je sache) dans chaque package SCORM.
 
 ![](<../.gitbook/assets/image (47).png>)
 
