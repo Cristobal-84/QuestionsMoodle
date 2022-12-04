@@ -38,20 +38,20 @@ L'introduction d'une **activité en tant que question Formulas** :
 
 ## Que voulons-nous faire ?
 
-Vamos a introducir en un curso de Aules una pregunta de Fórmulas que incluya la [siguiente actividad autoevaluable de Problemas de Números](https://www.geogebra.org/m/Az5bY5zR) (autor Javier Cayetano Rodríguez).
+Nous allons introduire dans un cours <mark style="color:red;">**Aules/Moodle**</mark> une question Formulas qui comprend l'[activité d'auto-évaluation suivante sur les problèmes de nombres](https://www.geogebra.org/m/Az5bY5zR) (auteur Javier Cayetano Rodríguez).
 
 ![](<../.gitbook/assets/image (80).png>)
 
-## Plantilla de pregunta: Archivo XML
+## Modèle de question : fichier XML
 
-Utilizaremos la siguiente pregunta como **plantilla** para importar la actividad autoevaluable.
+Nous utiliserons la question suivante comme **modèle** pour importer l'activité d'auto-évaluation.
 
 {% file src="../.gitbook/assets/preguntas-Aules-Geogebra autoevaluable plantilla-20200710-1049.xml" %}
 
-## Breve explicación sobre su funcionamiento (no necesario entender)
+## Brève explication de son fonctionnement (pas indispensable pour comprendre).
 
 {% hint style="danger" %}
-El editor de Moodle debe estar en texto plano o puede que se "estropee" el código de la pregunta.
+L'éditeur Moodle doit être en texte brut ou le code de la question peut "casser".
 {% endhint %}
 
 1. A través de la biblioteca [jQuery](https://jquery.com/), capturamos el valor de la calificación de la actividad (variable SCORMRawScore) y lo pasamos al placeholder {\_0} de la Parte 1: utilizamos un Listener que se ejecuta con el applet de GeoGebra.
