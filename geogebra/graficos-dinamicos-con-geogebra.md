@@ -19,7 +19,7 @@ En utilisant GeoGebra, nous n'aurons pas besoin de créer la construction graphi
 ## Fichier GeoGebra
 
 {% hint style="info" %}
-Il sera pratique de le créer en se basant sur les **mêmes variables qui apparaissent dans la question Formulas** pour pouvoir passer facilement les valeurs entre la question Formules et l'applet GeoGebra.
+Il sera pratique de le créer en se basant sur les **mêmes variables qui apparaissent dans la question Formulas** pour pouvoir passer facilement les valeurs entre la question Formulas et l'applet GeoGebra.
 {% endhint %}
 
 {% file src="../.gitbook/assets/3puntos.ggb" %}
@@ -35,38 +35,38 @@ Les points A, B et C ont été créés sur la base des paramètres : A=(a1,a2), 
 ## Obtenir l'id du fichier GeoGebra
 
 {% hint style="info" %}
-Puede crearse el archivo directamente en la nube o bien trabajar en local. En el primer caso, el id se obtiene directamente de la dirección web del navegador.
+Le fichier peut être créé directement dans le cloud ou on peut travailler localement. Dans le premier cas, l'identifiant est obtenu directement à partir de l'adresse Web du navigateur.
 {% endhint %}
 
 {% tabs %}
-{% tab title="Archivo creado en la nube" %}
-Se obtiene el id directamente de la dirección web del navegador.
+{% tab title="Fichier créé dans le cloud" %}
+L'identifiant est obtenu directement à partir de l'adresse Web du navigateur.
 
 ![](<../.gitbook/assets/image (92).png>)
 {% endtab %}
 
-{% tab title="Archivo creado en local" %}
-Una vez creado el archivo, se **exporta como página web**:
+{% tab title="Fichier créé localement" %}
+Une fois le fichier créé, il est **exporté sous forme de page Web**.
 
 ![](<../.gitbook/assets/image (15).png>)
 
-Esto sube el archivo a la nube y podremos encontrarlo en la pestaña de Recursos.
+Cela télécharge le fichier sur le cloud et nous pouvons le trouver dans l'onglet Ressources.
 {% endtab %}
 {% endtabs %}
 
-## Como ajustar el tamaño del applet
+## Comment ajuster la taille de l'applet
 
-Hay varias opciones, resulta cómodo guardar el archivo con la vista que queremos que aparezca en el applet.
+Il existe plusieurs options, il est pratique d'enregistrer le fichier avec la vue que l'on souhaite voir apparaître dans l'applet.
 
-![Captura de la pantalla de GeoGebra previa a exportación](<../.gitbook/assets/image (14).png>)
+![Capture d'écran GeoGebra avant l'export](<../.gitbook/assets/image (14).png>)
 
 {% hint style="success" %}
-Si ocultamos la vista algebraica y la barra de entrada, y hacemos que el tamaño de la ventana sea el que queremos que tenga la gráfica en Moodle, la construcción que se sube a la nube no necesita más ajustes.
+Si nous masquons la vue algébrique et la barre de saisie, et faisons de la taille de la fenêtre ce que nous voulons que le graphique soit dans Moodle, la construction qui est téléchargée sur le cloud ne nécessite aucun autre ajustement.
 {% endhint %}
 
-## Enfoque general
+## Approche générale
 
-La estrategia que seguiremos es:
+La stratégie que nous suivrons est :
 
 1. Introduciremos el gráfico de GeoGebra en la pregunta de Fórmulas.
 2. Modificaremos los parámetros del gráfico para que sean los que se generan aleatoriamente en la pregunta de Fórmulas.
