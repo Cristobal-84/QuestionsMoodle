@@ -1,25 +1,25 @@
-# Gráficos dinámicos con GeoGebra
+# Graphiques dynamiques avec GeoGebra
 
-## ¿Qué queremos hacer?
+## Que voulons-nous faire ?
 
-Se trata de mostrar gráficos de GeoGebra que se generen en base a ciertas variables (aleatorias o no) establecidas en la pregunta de Fórmulas.&#x20;
+Il s'agit de montrer des graphiques GeoGebra générés en fonction de certaines variables (aléatoires ou non) établies dans la question Formulas.
 
-Vamos a resolver la misma pregunta que ya hicimos en [Gráficos dinámicos de JSXGraph](../consideraciones-antes-de-empezar-con-esto/graficos-dinamicos-de-jsxgraph.md).
+Nous allons résoudre la même question que celle déjà posée dans les [graphiques dynamiques de JSXGraph](../consideraciones-antes-de-empezar-con-esto/graficos-dinamicos-de-jsxgraph.md).
 
 {% hint style="success" %}
-Utilizando GeoGebra no necesitaremos crear la construcción gráfica programáticamente (escribiendo código): podemos **crear las construcciones directamente desde la interfaz gráfica** de GeoGebra o reutilizar construcciones de [www.geogebra.org](https://www.geogebra.org).
+En utilisant GeoGebra, nous n'aurons pas besoin de créer la construction graphique par programmation (en écrivant du code) : nous pouvons **créer les constructions directement depuis l'interface graphique** de GeoGebra ou réutiliser les constructions de[ www.geogebra.org](https://www.geogebra.org/).
 {% endhint %}
 
 ![](<../.gitbook/assets/image (23).png>)
 
-## Archivo XML de referencia
+## Fichier XML de référence
 
 {% file src="../.gitbook/assets/preguntas-Aules-Plano cartesiano 3 puntos GeoGebra-20200718-1247 (1).xml" %}
 
-## Archivo de GeoGebra
+## Fichier GeoGebra
 
 {% hint style="info" %}
-Será conveniente crearlo en base a las **mismas variables que aparezcan en la pregunta de Fórmulas** para poder pasar fácilmente los valores entre la pregunta de Fórmulas y el applet de GeoGebra.
+Il sera pratique de le créer en se basant sur les **mêmes variables qui apparaissent dans la question Formulas** pour pouvoir passer facilement les valeurs entre la question Formules et l'applet GeoGebra.
 {% endhint %}
 
 {% file src="../.gitbook/assets/3puntos.ggb" %}
@@ -29,10 +29,10 @@ Será conveniente crearlo en base a las **mismas variables que aparezcan en la p
 ![](../.gitbook/assets/pant3ptos.png)
 
 {% hint style="info" %}
-Los puntos A, B y C se han creado en base a los parámetros: A=(a1,a2), ...
+Les points A, B et C ont été créés sur la base des paramètres : A=(a1,a2), ...
 {% endhint %}
 
-## Obtener el id del archivo de GeoGebra
+## Obtenir l'id du fichier GeoGebra
 
 {% hint style="info" %}
 Puede crearse el archivo directamente en la nube o bien trabajar en local. En el primer caso, el id se obtiene directamente de la dirección web del navegador.
@@ -73,7 +73,7 @@ La estrategia que seguiremos es:
 
 ## Plantilla de referencia
 
-Al igual que hemos hecho en la reutilización de actividades autoevaluables, utilizaremos una plantilla para  evitar tener que escribir demasiado código Javascript.
+Al igual que hemos hecho en la reutilización de actividades autoevaluables, utilizaremos una plantilla para evitar tener que escribir demasiado código Javascript.
 
 En este caso incluyo la pregunta en XML, que se podrá utilizar como plantilla.
 
@@ -168,7 +168,7 @@ window.addEventListener("load", function() {
 ```
 
 {% hint style="success" %}
-En la función que se ejecuta en "AppletOnLoad", podemos ejecutar comandos de GeoGebra para adaptar la construcción a nuestro gusto.&#x20;
+En la función que se ejecuta en "AppletOnLoad", podemos ejecutar comandos de GeoGebra para adaptar la construcción a nuestro gusto.
 
 La documentación de la API se encuentra en: [https://wiki.geogebra.org/en/Reference:GeoGebra\_Apps\_API](https://wiki.geogebra.org/en/Reference:GeoGebra\_Apps\_API)
 {% endhint %}
