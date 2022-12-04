@@ -68,8 +68,8 @@ Si nous masquons la vue algébrique et la barre de saisie, et faisons de la tail
 
 La stratégie que nous suivrons est :
 
-1. Introduciremos el gráfico de GeoGebra en la pregunta de Fórmulas.
-2. Modificaremos los parámetros del gráfico para que sean los que se generan aleatoriamente en la pregunta de Fórmulas.
+1. Nous introduirons le graphe GeoGebra dans la question Formulas.
+2. Nous modifierons les paramètres du graphique pour qu'ils soient ceux qui sont générés aléatoirement dans la question Formulas.
 
 ## Plantilla de referencia
 
