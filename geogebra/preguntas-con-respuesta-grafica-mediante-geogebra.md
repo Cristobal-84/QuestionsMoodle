@@ -1,14 +1,14 @@
-# Preguntas con respuesta gráfica mediante GeoGebra
+# Questions avec réponses graphiques avec GeoGebra
 
-## ¿Qué queremos hacer?
+## Que voulons-nous faire ?
 
-Queremos mostrar un applet de GeoGebra en la pregunta de Moodle y capturar la interacción del usuario con dicho gráfico.
+Nous voulons afficher une applet GeoGebra dans la question Moodle et capturer l'interaction de l'utilisateur avec le graphique.
 
-Por ejemplo:
+Par exemple :
 
 ![](<../.gitbook/assets/image (89).png>)
 
-Pedimos al usuario que mueva los puntos para que:
+Nous demandons à l'utilisateur de déplacer les points de sorte que :
 
 * Un punto quede en unas coordenadas dadas (cambian cada vez que se ejecuta la pregunta).
 * Uno de los lados del triángulo resultante tenga una longitud dada (cambia cada vez que se ejecuta la pregunta).
@@ -17,11 +17,11 @@ Pedimos al usuario que mueva los puntos para que:
 
 ## Estrategia a seguir
 
-Incrustaremos el applet de GeoGebra tal y como lo hemos hecho en el [apartado anterior](graficos-dinamicos-con-geogebra.md).&#x20;
+Incrustaremos el applet de GeoGebra tal y como lo hemos hecho en el [apartado anterior](graficos-dinamicos-con-geogebra.md).
 
 Puesto que ahora necesitamos **guardar y recuperar la construcción** que ha hecho el usuario, almacenaremos los valores de las variables que definen la respuesta **en tantos placeholders como necesitemos**. Posteriormente **ocultaremos los placeholders** mediante jQuery para que no sean visibles para el usuario.
 
-En este caso, guardaremos las coordenadas de los tres puntos por lo que necesitaremos 6 placeholders (cajas de respuesta) para almacenar el estado del applet. &#x20;
+En este caso, guardaremos las coordenadas de los tres puntos por lo que necesitaremos 6 placeholders (cajas de respuesta) para almacenar el estado del applet.
 
 Cada vez que carguemos la pregunta (o se cargue el applet), comprobaremos si hay valores almacenados de respuestas previas, para dibujar el gráfico con los valores iniciales o con los dados previamente por el usuario.
 
@@ -184,7 +184,7 @@ window.addEventListener("load", function() {
 ## Ocultar los placeholder
 
 {% hint style="info" %}
-Bastará con asignarles name="elqueseoculta" en cualquier etiqueta \<html>.&#x20;
+Bastará con asignarles name="elqueseoculta" en cualquier etiqueta \<html>.
 
 En este caso se ha hecho en un párrafo, aunque podría ser con \<span>, \<div>...
 {% endhint %}
@@ -196,8 +196,6 @@ En la última parte se ha ocultado un placeholder (que hemos utilizado para "rec
 {% endhint %}
 
 ![](<../.gitbook/assets/image (8).png>)
-
-
 
 ## Corregir la respuesta
 
@@ -216,8 +214,7 @@ Si pulsamos en "Rellenar con las respuestas correctas" y comprobamos, obtendremo
 {% endhint %}
 
 {% hint style="success" %}
-La respuesta dada será correcta si \_4 (longitud de BC) es igual a L (longitud que hemos pedido  para uno de los lados en el enunciado) o si \_5 (longitud de AC) es igual a L o si \_6 lo es.
+La respuesta dada será correcta si \_4 (longitud de BC) es igual a L (longitud que hemos pedido para uno de los lados en el enunciado) o si \_5 (longitud de AC) es igual a L o si \_6 lo es.
 {% endhint %}
 
 ![](<../.gitbook/assets/image (104).png>)
-

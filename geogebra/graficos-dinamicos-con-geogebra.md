@@ -168,11 +168,12 @@ window.addEventListener("load", function() {
 ```
 
 {% hint style="success" %}
-En la función que se ejecuta en "AppletOnLoad", podemos ejecutar comandos de GeoGebra para adaptar la construcción a nuestro gusto.
+Dans la fonction exécutée dans "AppletOnLoad", nous pouvons exécuter des commandes GeoGebra pour adapter la construction à notre goût.
 
-La documentación de la API se encuentra en: [https://wiki.geogebra.org/en/Reference:GeoGebra\_Apps\_API](https://wiki.geogebra.org/en/Reference:GeoGebra\_Apps\_API)
+La documentation de l'API se trouve à : [API](https://wiki.geogebra.org/en/Reference:GeoGebra\_Apps\_API).
 {% endhint %}
 
 {% hint style="info" %}
-Descripción de los parámetros de carga del applet en: [https://wiki.geogebra.org/en/Reference:GeoGebra\_App\_Parameters](https://wiki.geogebra.org/en/Reference:GeoGebra\_App\_Parameters)
+Description des paramètres de chargement de l'applet dans : [PARAMETERS](https://wiki.geogebra.org/en/Reference:GeoGebra\_App\_Parameters).
 {% endhint %}
+

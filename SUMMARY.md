@@ -24,7 +24,7 @@
   * [Actividades autoevaluables de Javier Cayetano de GeoGebra](geogebra/actividades-autoevaluables-de-javier-cayetano-de-geogebra.md)
   * [Actividades autoevaluables de Debora Pereiro de GeoGebra](geogebra/actividades-autoevaluables-de-debora-pereiro-de-geogebra.md)
   * [Graphiques dynamiques avec GeoGebra](geogebra/graficos-dinamicos-con-geogebra.md)
-  * [Preguntas con respuesta gráfica mediante GeoGebra](geogebra/preguntas-con-respuesta-grafica-mediante-geogebra.md)
+  * [Questions avec réponses graphiques avec GeoGebra](geogebra/preguntas-con-respuesta-grafica-mediante-geogebra.md)
 
 ## Genially
 
