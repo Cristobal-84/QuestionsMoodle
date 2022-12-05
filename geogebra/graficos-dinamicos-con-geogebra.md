@@ -86,8 +86,8 @@ Ayant une question fonctionnelle, le plus confortable sera de l'adapter pour en 
 {% endhint %}
 
 ```javascript
-//ESTE SERÍA EL ENUNCIADO QUE SE MUESTRA SOBRE EL GRÁFICO
-<p> A la vista del gráfico que se muestra: </p>
+//ICI SERAIT L'ÉNONCÉ AFFICHÉ SUR LE GRAPHIQUE
+<p> À la vue du graphique présenté : </p>
 
 <script src="https://cdn.geogebra.org/apps/deployggb.js"></script>
 
@@ -96,8 +96,8 @@ Ayant une question fonctionnelle, le plus confortable sera de l'adapter pour en 
 
 <script>
 
-//Variables de dibujo del applet QUE HAY QUE EDITAR
-  var a1={a1}; //Para no tener que poner llaves en el código del script
+//Variables du dessin de l'applet À MODIFIER
+  var a1={a1}; //Pour éviter d'avoir à mettre des accolades dans le code du script
   var a2={a2};
   var b1={b1};
   var b2={b2};
@@ -107,8 +107,8 @@ Ayant une question fonctionnelle, le plus confortable sera de l'adapter pour en 
 
 var parameters = {
 "id": "ggbApplet",
-"width":612, //AQUÍ HAY QUE INTRODUCIR EL ANCHO DE LA CONSTRUCCIÓN
-"height":608, //AQUÍ VA EL ALTO DE LA CONSTRUCCIÓN
+"width":612, //ICI VOUS DEVEZ ENTRER LA LARGEUR DE LA CONSTRUCTION
+"height":608, //ICI VOUS DEVEZ ENTRER LA HAUTEUR DE LA CONSTRUCTION
 "showMenuBar":false,
 "showAlgebraInput":false,
 "showToolBar":false,
@@ -123,7 +123,7 @@ var parameters = {
 "preventFocus":true,
 "showZoomButtons":true,
 "capturingThreshold":3,
-// add code here to run when the applet starts
+// ajouter ici du code à exécuter au démarrage de l'applet
 "appletOnLoad":function(api){
 
               //Ajustamos los valores iniciales del dibujo COGIENDO LAS VARIABLES DE MOODLE
