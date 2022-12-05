@@ -82,7 +82,7 @@ Dans ce cas, j'inclus la question en XML, qui peut être utilisée comme modèle
 ## Adapter la question à d'autres fichiers GeoGebra
 
 {% hint style="info" %}
-Teniendo una pregunta funcional, lo más cómodo será adaptarla para crear nuevas preguntas a partir de ella.
+Ayant une question fonctionnelle, le plus confortable sera de l'adapter pour en créer de nouvelles.
 {% endhint %}
 
 ```javascript
