@@ -71,15 +71,15 @@ La stratégie que nous suivrons est :
 1. Nous introduirons le graphe GeoGebra dans la question Formulas.
 2. Nous modifierons les paramètres du graphique pour qu'ils soient ceux qui sont générés aléatoirement dans la question Formulas.
 
-## Plantilla de referencia
+## Modèle de référence
 
-Al igual que hemos hecho en la reutilización de actividades autoevaluables, utilizaremos una plantilla para evitar tener que escribir demasiado código Javascript.
+Tout comme nous l'avons fait en réutilisant les activités d'auto-évaluation, nous utiliserons un modèle pour éviter d'avoir à écrire trop de code Javascript.
 
-En este caso incluyo la pregunta en XML, que se podrá utilizar como plantilla.
+Dans ce cas, j'inclus la question en XML, qui peut être utilisée comme modèle.
 
 {% file src="../.gitbook/assets/preguntas-Aules-Plano cartesiano 3 puntos GeoGebra-20200718-1247 (1) (1).xml" %}
 
-## Adaptar la pregunta a otros archivos de GeoGebra
+## Adapter la question à d'autres fichiers GeoGebra
 
 {% hint style="info" %}
 Teniendo una pregunta funcional, lo más cómodo será adaptarla para crear nuevas preguntas a partir de ella.
