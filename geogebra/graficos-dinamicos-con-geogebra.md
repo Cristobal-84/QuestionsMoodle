@@ -126,8 +126,8 @@ var parameters = {
 // ajouter ici du code à exécuter au démarrage de l'applet
 "appletOnLoad":function(api){
 
-              //Ajustamos los valores iniciales del dibujo COGIENDO LAS VARIABLES DE MOODLE
-//Aquí podríamos ejecutar comandos en la construcción de GeoGebra
+              //On ajuste les valeurs initiales du dessin COLLECTANT LES VARIABLES DE MOODLE
+//Ici, nous pourrions exécuter des commandes dans la construction GeoGebra
               api.setValue('a1',a1);
               api.setValue('a2',a2);
               api.setValue('b1',b1);
@@ -147,9 +147,9 @@ var parameters = {
 "buttonRounding":1,
 "buttonShadows":false,
 "language":"es",
-// si guardamos el archivo en la nube, aquí irá el material id
-"material_id":"vbstt5ue", //AQUÍ HAY QUE INTRODUCIR EL ID DEL ARCHIVO GEOGEBRA
-//"ggbBase64":"cambiar por base64",
+// si nous sauvegardons le fichier dans le cloud, l'id du matériau ira ici
+"material_id":"vbstt5ue", //ICI VOUS DEVEZ ENTRER L'ID DU FICHIER GEOGEBRA
+//"ggbBase64":"changer pour base64",
 };
 
 var views = {'is3D': 0,'AV': 0,'SV': 0,'CV': 0,'EV2': 0,'CP': 0,'PC': 0,'DA': 0,'FI': 0,'macro': 0};

@@ -126,7 +126,7 @@ var parameters = {
 "buttonRounding":1,
 "buttonShadows":false,
 "language":"es",
-// si nous enregistrons le fichier dans le cloud, l'id du matériau ira ici
+// si nous sauvegardons le fichier dans le cloud, l'id du matériau ira ici
 "material_id":"b5ckap8z",
 //"ggbBase64":"changer pour base64",
 };
