@@ -41,26 +41,26 @@ Dans un aperçu de la question, sans masquer tous les placeholders que nous avon
 
 ![](<../.gitbook/assets/image (51).png>)
 
-A pesar de que no resulta complicado calcular el área y las longitudes de los lados a partir de las coordenadas, hemos optado por calcularlas en GeoGebra e importarlas directamente a Moodle. Esto simplificará mucho la corrección.
+Bien qu'il ne soit pas difficile de calculer l'aire et les longueurs des côtés à partir des coordonnées, nous avons choisi de les calculer dans GeoGebra et de les importer directement dans Moodle. Cela simplifiera beaucoup la correction.
 
-## Archivo XML de referencia
+## Fichier XML de référence
 
 {% file src="../.gitbook/assets/preguntas-Aules-Geogebra proof of concept v1-20200728-2052.xml" %}
 
-## Código de la pregunta
+## Code de la question
 
 ```javascript
-//Todo lo que tenga por nombre "esqueseoculta" se ocultará al ejecutar la pregunta
-<p name="elqueseoculta">Info mía: A({a1},{a2}), B ({b1},{b2}) y C({c1},{c2}) </p>
+//Tout ce qui porte le nom "esqueseoculta" sera masqué lors de l'exécution de la question
+<p name="elqueseoculta">Mes informations : A({a1},{a2}), B ({b1},{b2}) et C({c1},{c2}) </p>
  
  
-<p>Mueve los puntos del gráfico para que:</p>
+<p>Déplacez les points sur le graphique de sorte que :</p>
 <ul>
-<li>El punto A esté en las coordenadas \( ({d1},{d2}) \).</li>
-<li>Uno de los lados del triángulo tenga longitud \( {L}~u\).</li>
-<li>El área del triángulo sea de \( {area}~u^2 \).</li>
+<li>Le point A soit aux coordonnées \( ({d1},{d2}) \).</li>
+<li>Un des côtés du triangle ait pour longueur \( {L}~u\).</li>
+<li>L'aire du triangle soit \( {area}~u^2 \).</li>
 </ul>
-<small>Puedes hacer zoom con la rueda del ratón y desplazar la gráfica haciendo clic sobre el fondo de la misma y arrastrando</small>
+<small>Vous pouvez zoomer avec la molette de la souris ou déplacer le graphique en cliquant sur l'arrière-plan puis en le faisant glisser</small>
 
 <script src="https://cdn.geogebra.org/apps/deployggb.js"></script>
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
@@ -68,7 +68,7 @@ A pesar de que no resulta complicado calcular el área y las longitudes de los l
 <div id="ggbApplet"></div>
 
 <script>
-//Este primer script oculará todos los elementos html cuyo nombre sea "elquesoculta"
+//Ce premier script va masquer tous les éléments html dont le nom est "elquesoculta"
 $(document).ready(function(){
     jQuery ("*[name='elqueseoculta']").hide();
  });
@@ -76,15 +76,15 @@ $(document).ready(function(){
 </script>
 
 <script>
-//Para tomar el valor anterior si es que la pregunta ya se ha contestado
-//También sirve para inicializar la construcción en la primera ejecución
+//Pour reprendre la valeur précédente si la question a déjà été répondue
+//Il est également utilisé pour initialiser la construction lors de la première exécution.
 function compruebaRespuesta(part,placeholder,variable){
     var resp=jQuery( "input[name*='_"+part.toString()+"_"+placeholder.toString()+"']" ).val();
     if (resp=="") {return variable;}
    else {return parseFloat(resp);}
 }
 
-//Variables de dibujo del applet. Corresponden con las variables definidas en Moodle
+//Variables du dessin de l'applet. Elles correspondent aux variables définies dans Moodle
 var a1={a1}; var a2={a2};
 var b1={b1}; var b2={b2};
 var c1={c1}; var c2={c2};
@@ -109,10 +109,10 @@ var parameters = {
 "preventFocus":false,
 "showZoomButtons":false,
 "capturingThreshold":3,
-// add code here to run when the applet starts
+// ajouter ici du code à exécuter au démarrage de l'applet
 "appletOnLoad":function(api){
 
-              //Ajustamos los valores iniciales del dibujo
+              //On ajuste les valeurs initiales du dessin
 
               api.setValue('a1',compruebaRespuesta(0,0,a1));
 //Asigna a a1 el valor del placeholder 0=parte1, 0=primer placeholder de la parte o, si
