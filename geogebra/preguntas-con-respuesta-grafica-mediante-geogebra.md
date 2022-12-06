@@ -10,14 +10,14 @@ Par exemple :
 
 Nous demandons à l'utilisateur de déplacer les points de sorte que :
 
-* Un punto quede en unas coordenadas dadas (cambian cada vez que se ejecuta la pregunta).
-* Uno de los lados del triángulo resultante tenga una longitud dada (cambia cada vez que se ejecuta la pregunta).
-* El triángulo debe tener un área dada (cambia cada vez que se ejecuta la pregunta).
-* Debe indicar el perímetro del triángulo que ha dibujado con un error absoluto de 2 unidades.
+* Un point se trouve a des coordonnées données (elles changent à chaque fois que la question est exécutée).
+* L'un des côtés du triangle qui en résulte a une longueur donnée (il change à chaque fois que la question est exécutée).
+* Le triangle doit avoir une aire donnée (elle change à chaque exécution de la question).
+* Vous devez indiquer le périmètre du triangle que vous avez tracé avec une erreur absolue de 2 unités.
 
-## Estrategia a seguir
+## Stratégie à suivre
 
-Incrustaremos el applet de GeoGebra tal y como lo hemos hecho en el [apartado anterior](graficos-dinamicos-con-geogebra.md).
+Nous allons intégrer l'applet GeoGebra comme nous l'avons fait dans la [section précédente](graficos-dinamicos-con-geogebra.md).
 
 Puesto que ahora necesitamos **guardar y recuperar la construcción** que ha hecho el usuario, almacenaremos los valores de las variables que definen la respuesta **en tantos placeholders como necesitemos**. Posteriormente **ocultaremos los placeholders** mediante jQuery para que no sean visibles para el usuario.
 
