@@ -127,18 +127,18 @@ var parameters = {
               api.setValue('c1',compruebaRespuesta(1,2,c1));
               api.setValue('c2',compruebaRespuesta(1,3,c2));          
 
-              //Función para vincular los parámetros del applet con las cajas de respuesta de Aules _(nº de parte de la pregunta -1)_nº de placeholder
+              //Fonction permettant de lier les paramètres de l'applet aux cases de réponse Aules _(nº de parte de la pregunta -1)_nº de placeholder
 
               function updateListener(objName) { 
- //estas órdenes son las que pasan los valores del applet a los placeholder
+ //ces commandes sont celles qui transmettent les valeurs de l'applet aux placeholder
                                 
                               jQuery( "input[name*='_0_0']" ).val(api.getValue('a1'));
                               jQuery( "input[name*='_0_1']" ).val(api.getValue('a2'));
                               jQuery( "input[name*='_1_0']" ).val(api.getValue('b1'));
                               jQuery( "input[name*='_1_1']" ).val(api.getValue('b2'));                              
                               jQuery( "input[name*='_1_2']" ).val(api.getValue('c1'));
-//_1_2 corresponde a la parte 2(=1+1), tercer placeholder de dicha parte(el primero tiene
-//índice cero). Ahí almacenamos la variable c1 del applet.   
+//_1_2 correspond à la partie 2(=1+1), le troisième placeholder de cette partie (le premier a un
+//index nul). Nous y stockons la variable c1 de l'applet.   
                               jQuery( "input[name*='_1_3']" ).val(api.getValue('c2'));
                               jQuery( "input[name*='_1_4']" ).val(api.getValue('a'));
                               jQuery( "input[name*='_1_5']" ).val(api.getValue('b'));
@@ -181,40 +181,40 @@ window.addEventListener("load", function() {
 {#4}
 ```
 
-## Ocultar los placeholder
+## Masquer les placeholder
 
 {% hint style="info" %}
-Bastará con asignarles name="elqueseoculta" en cualquier etiqueta \<html>.
+Tout ce que vous avez à faire est de leur attribuer name="elqueseoculta" dans n'importe quelle balise \<html>.
 
-En este caso se ha hecho en un párrafo, aunque podría ser con \<span>, \<div>...
+Dans ce cas, cela a été fait dans un paragraphe, bien que cela puisse être avec \<span>, \<div>...
 {% endhint %}
 
 ![](<../.gitbook/assets/image (85).png>)
 
 {% hint style="info" %}
-En la última parte se ha ocultado un placeholder (que hemos utilizado para "recoger" el valor del perímetro del triángulo del applet) y se ha dejado otro para el usuario:
+Dans la dernière partie, un placeholder a été masqué (que nous avons utilisé pour "récupérer" la valeur du périmètre du triangle de l'applet) et un autre a été laissé à l'utilisateur :
 {% endhint %}
 
 ![](<../.gitbook/assets/image (8).png>)
 
-## Corregir la respuesta
+## Corriger la réponse
 
-En la primera parte basta comparar el valor de las dos coordenadas del punto A con el valor conocido de la respuesta dado por las variables d1 y d2.
+Dans la première partie, il suffit de comparer la valeur des deux coordonnées du point A avec la valeur connue de la réponse donnée par les variables d1 et d2.
 
 {% hint style="success" %}
-En la parte 2 necesitamos 7 placeholders por lo que la respuesta correcta deben ser 7 números.
+Dans la première partie, il suffit de comparer la valeur des deux coordonnées du point A avec la valeur connue de la réponse donnée par les variables d1 et d2.
 {% endhint %}
 
 {% hint style="warning" %}
-No es lo más correcto, pero como **vamos a corregir utilizando criterios de calificación**, en esta pregunta no nos hemos preocupado en buscar analíticamente las coordenadas de los puntos que son solución de la actividad.
+Ce n'est pas le plus correct, mais puisque **nous allons corriger à l'aide de critères de qualification**, dans cette question, nous ne nous sommes pas souciés de rechercher analytiquement les coordonnées des points qui sont des solutions à l'activité.
 {% endhint %}
 
 {% hint style="danger" %}
-Si pulsamos en "Rellenar con las respuestas correctas" y comprobamos, obtendremos una respuesta errónea ya que no hemos establecido una respuesta correcta de ejemplo en el campo de Respuesta\*.
+Si nous cliquons sur "Remplir avec les bonnes réponses" et vérifions, nous obtiendrons une mauvaise réponse car nous n'avons pas défini d'exemple de réponse correcte dans le champ Réponse\*.
 {% endhint %}
 
 {% hint style="success" %}
-La respuesta dada será correcta si \_4 (longitud de BC) es igual a L (longitud que hemos pedido para uno de los lados en el enunciado) o si \_5 (longitud de AC) es igual a L o si \_6 lo es.
+La réponse donnée sera correcte si \_4 (longueur de BC) est égale à L (longueur que nous avons demandée pour un des côtés dans l'énoncé) ou si \_5 (longueur de AC) est égale à L ou si \_6 l'est.
 {% endhint %}
 
 ![](<../.gitbook/assets/image (104).png>)
