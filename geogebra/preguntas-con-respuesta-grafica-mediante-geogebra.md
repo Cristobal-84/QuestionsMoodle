@@ -115,11 +115,11 @@ var parameters = {
               //On ajuste les valeurs initiales du dessin
 
               api.setValue('a1',compruebaRespuesta(0,0,a1));
-//Asigna a a1 el valor del placeholder 0=parte1, 0=primer placeholder de la parte o, si
-//estuviera vacío le asignará el valor a1 (variable aleatoria de Moodle) - 
-//hubiera sido más sencillo no aleatorizar el gráfico incluyendo directamente
-//api.setValue('a1',compruebaRespuesta(0,0,3)); y la coordenada x de A siempre empezaría
-//en el valor 3 si no lo ha movido antes el usuario
+//Définissez a1 sur la valeur  placeholder 0=partie1, 0 = premier placeholder de la partie ou,
+//s'il est vide, définissez sur a1 (variable aléatoire Moodle) -
+//il aurait été plus facile de ne pas randomiser le graphique en incluant directement
+//api.setValue('a1',compruebaRespuesta(0,0,3)); et la coordonnée x de A commencerait toujours
+//à la valeur 3 si elle n'a pas été déplacée auparavant par l'utilisateur
 
               api.setValue('a2',compruebaRespuesta(0,1,a2));
               api.setValue('b1',compruebaRespuesta(1,0,b1));
@@ -160,9 +160,9 @@ var parameters = {
 "buttonRounding":1,
 "buttonShadows":false,
 "language":"es",
-// si guardamos el archivo en la nube, aquí irá el material id
+// si nous sauvegardons le fichier dans le cloud, l'id du matériau ira ici.
 "material_id":"p6tbqcav",
-//"ggbBase64":"cambiar por base64",
+//"ggbBase64":"changer pour base64",
 };
 
 var views = {'is3D': 0,'AV': 0,'SV': 0,'CV': 0,'EV2': 0,'CP': 0,'PC': 0,'DA': 0,'FI': 0,'macro': 0};
