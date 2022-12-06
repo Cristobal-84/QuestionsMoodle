@@ -19,23 +19,23 @@ Nous demandons à l'utilisateur de déplacer les points de sorte que :
 
 Nous allons intégrer l'applet GeoGebra comme nous l'avons fait dans la [section précédente](graficos-dinamicos-con-geogebra.md).
 
-Puesto que ahora necesitamos **guardar y recuperar la construcción** que ha hecho el usuario, almacenaremos los valores de las variables que definen la respuesta **en tantos placeholders como necesitemos**. Posteriormente **ocultaremos los placeholders** mediante jQuery para que no sean visibles para el usuario.
+Puisque nous devons maintenant **sauvegarder et récupérer la construction** que l'utilisateur a faite, nous stockerons les valeurs des variables qui définissent la réponse **dans autant de placeholders que nécessaire**. Plus tard, **nous masquerons les** **placeholders** à l'aide de jQuery afin qu'ils ne soient pas visibles pour l'utilisateur.
 
-En este caso, guardaremos las coordenadas de los tres puntos por lo que necesitaremos 6 placeholders (cajas de respuesta) para almacenar el estado del applet.
+Dans ce cas, nous allons stocker les coordonnées des trois points, nous aurons donc besoin de 6 placeholders (cases de réponse) pour stocker l'état de l'applet.
 
-Cada vez que carguemos la pregunta (o se cargue el applet), comprobaremos si hay valores almacenados de respuestas previas, para dibujar el gráfico con los valores iniciales o con los dados previamente por el usuario.
+Chaque fois que nous chargeons la question (ou chargeons l'applet), nous vérifierons s'il y a des valeurs stockées à partir des réponses précédentes, pour dessiner le graphique avec les valeurs initiales ou avec celles précédemment données par l'utilisateur.
 
 {% hint style="success" %}
-Una vez resuelto como pasar datos de Moodle Fórmulas a GeoGebra y al revés, ya tenemos resuelto el problema.
+Une fois résolu comment transmettre les données de Moodle Formulas à GeoGebra et inversement, nous avons résolu le problème.
 {% endhint %}
 
 {% hint style="success" %}
-Además, como podemos recuperar el valor de cualquier variable de GeoGebra almacenado en el applet, por lo que **podemos hacer uso de cualquier función de GeoGebra para evaluar** el trabajo realizado en el applet.
+De plus, puisque nous pouvons récupérer la valeur de n'importe quelle variable GeoGebra stockée dans l'applet, **nous pouvons donc utiliser n'importe quelle fonction GeoGebra pour évaluer** le travail effectué dans l'applet.
 {% endhint %}
 
-## Vista previa de la pregunta durante el desarrollo
+## Aperçu de la question pendant le développement
 
-En una vista previa de la pregunta, sin ocultar todos los placeholders que hemos utilizado, tendríamos lo siguiente:
+Dans un aperçu de la question, sans masquer tous les placeholders que nous avons utilisés, nous aurions les éléments suivants :
 
 ![](../.gitbook/assets/vistapreviasinocultar.gif)
 
