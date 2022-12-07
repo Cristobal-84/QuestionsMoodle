@@ -7,19 +7,19 @@ Tout d'abord, voyons quelques généralités sur les questions STACK.
 Les questions STACK utilisent le moteur de calcul symbolique [Maxima](https://maxima.sourceforge.io/) (légèrement modifié) ce qui signifie que nous aurons un environnement de programmation mathématique qui simplifiera grandement la logique des questions. Nous aurons, par exemple, des fonctions pour :
 
 * Résoudre des équations ou des systèmes d'équations.
-* Des types de données variés : listes, ensembles, matrices, ...
-* Operativa con matrices: determinante, inversa, traspuesta, ...
-* Condiciones lógicas (if/else), bucles, ...
-* Funciones para comprobar si dos expresiones son algebraicamente equivalentes, si una expresión está factorizada, si un número es igual a otro con una cierta tolerancia...
+* Types de données variés : listes, ensembles, matrices, ...
+* Opérations sur les matrices : déterminant, inverse, transposée, ...
+* Conditions logiques (if/else), boucles, ...
+* Fonctions pour vérifier si deux expressions sont algébriquement équivalentes, si une expression est factorisée, si un nombre est égal à un autre avec une certaine tolérance...
 
-## Familiarizarse con Máxima
+## Faites connaissance avec Maxima
 
-La forma más rápida, pero no más recomendable, es usar una versión online de Máxima: [http://maxima.cesga.es/](http://maxima.cesga.es/)
+Le moyen le plus rapide, mais pas le plus recommandé, consiste à utiliser une [version en ligne de Maxima](http://maxima.cesga.es/).
 
-La forma más recomendable, es instalar Máxima en local y utilizar el entorno gráfico de WxMaxima para hacer nuestras pruebas. Las instrucciones de instalación se pueden encontrar en [este enlace](https://github.com/maths/moodle-qtype\_stack/blob/master/doc/en/CAS/STACK-Maxima\_sandbox.md).
+La méthode la plus recommandée consiste à installer Maxima localement et à utiliser l'environnement graphique WxMaxima pour effectuer nos tests. Les instructions d'installation peuvent être trouvées sur [ce lien](https://github.com/maths/moodle-qtype\_stack/blob/master/doc/en/CAS/STACK-Maxima\_sandbox.md).
 
 {% hint style="info" %}
-No hay que olvidarse de editar las primeras líneas del Sandbox de acuerdo con nuestro sistema operativo.
+N'oubliez pas de modifier les premières lignes de la Sandbox selon notre système d'exploitation.
 {% endhint %}
 
 {% hint style="success" %}
