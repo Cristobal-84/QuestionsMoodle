@@ -1,32 +1,32 @@
-# Mi primera pregunta STACK
+# Ma première question STACK
 
-## Archivo xml
+## Fichier XML
 
 {% file src="../.gitbook/assets/preguntas-DemoStack-12022021-Superficie estancia-20220420-2123.rar" %}
-Comprimido en .rar y en formato xml de Moodle
+Compression au format .rar du fichier XML Moodle
 {% endfile %}
 
-## Descripción de la pregunta
+## Description de la question
 
-Se trata de preparar una pregunta muy sencilla en que se pida calcular el área de una estancia rectangular (puede ser una cocina, un comedor, una habitación o una terraza).
+Il s'agit de préparer une question très simple qui demande de calculer l'aire d'une pièce rectangulaire (cela peut être une cuisine, une salle à manger, une chambre ou une terrasse).
 
-* Las dimensiones deben estar entre 5 y 10 metros.
-* De momento, no pediremos unidades en la respuesta del usuario.
-* En el enunciado, se mostrarán, por un lado, las dimensiones en formato $$\LaTeX$$ y por otro como texto sin formato.
+* Les dimensions doivent être comprises entre 5 et 10 mètres.
+* Pour l'instant, nous ne demanderons pas d'unités dans la réponse de l'utilisateur.
+* Dans le relevé, les dimensions seront affichées au format $$\LaTeX$$ d'une part et en texte brut d'autre part.
 
-## Explicación paso a paso de la pregunta
+## Explication étape par étape de la question
 
 ### Variables
 
 ![](<../.gitbook/assets/image (56).png>)
 
 {% hint style="info" %}
-Uno de los puntos fuertes de las preguntas STACK es la posibilidad de **aleatorización**.&#x20;
+L'un des points forts des questions STACK est la possibilité de **randomisation**.
 
-En [esta página](https://github.com/maths/moodle-qtype\_stack/blob/master/doc/en/CAS/Random.md) están las funciones que tenemos disponibles para aleatorizar.
+Sur [cette page](https://github.com/maths/moodle-qtype\_stack/blob/master/doc/en/CAS/Random.md) se trouvent les fonctions dont nous disposons pour randomiser.
 {% endhint %}
 
-En este caso hemos utilizado la función `rand(lista)` para elegir aleatoriamente un elemento de la lista y la función `rand_with_step(límite inferior, límite superior, paso)` para elegir un número que esté entre 5 y 10 (ambos incluidos) y avanzando de  uno en uno.
+En este caso hemos utilizado la función `rand(lista)` para elegir aleatoriamente un elemento de la lista y la función `rand_with_step(límite inferior, límite superior, paso)` para elegir un número que esté entre 5 y 10 (ambos incluidos) y avanzando de uno en uno.
 
 Los caracteres especiales (o con tilde en "habitación") se deben escribir como:
 
@@ -100,7 +100,7 @@ Por **cada uno de los inputs** que tengamos en la pregunta, tendremos una pesta�
 
 Veamos cómo configurar los campos más importantes:
 
-* **Tipo de entrada**: permite elegir el tipo de entrada que esperamos del usuario. Documentación detallada [aquí](https://github.com/maths/moodle-qtype\_stack/blob/master/doc/en/Authoring/Inputs.md). \
+* **Tipo de entrada**: permite elegir el tipo de entrada que esperamos del usuario. Documentación detallada [aquí](https://github.com/maths/moodle-qtype\_stack/blob/master/doc/en/Authoring/Inputs.md).\
   Las que utilizaremos habitualmente son:
 
 ![](../.gitbook/assets/image.png)
@@ -129,7 +129,7 @@ Aquí será donde:
 
 * Haremos todas las comprobaciones que deseemos a la respuesta del usuario.
 * Asignaremos la puntuación que consideremos dependiendo del resultado de dichas comprobaciones.
-* Ofreceremos retroalimentación al usuario dependiendo del resultado de las comprobaciones que hagamos.&#x20;
+* Ofreceremos retroalimentación al usuario dependiendo del resultado de las comprobaciones que hagamos.
 {% endhint %}
 
 En nuestra pregunta, únicamente verificamos que la respuesta del usuario(`Sans` que en este caso hemos llamado `ans1`) sea algebraicamente equivalente a la respuesta correcta (`Tans` que en este caso hemos llamado `tans1`). En caso de que así sea, que se asigna el 100% de la puntuación (1) y en caso contrario, se asigna una puntuación de cero. No ofrecemos retroalimentación.
