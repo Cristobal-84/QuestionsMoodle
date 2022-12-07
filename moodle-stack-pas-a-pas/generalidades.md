@@ -1,13 +1,13 @@
-# Generalidades
+# Généralités
 
-Antes de nada, veamos algunas generalidades de las preguntas STACK.
+Tout d'abord, voyons quelques généralités sur les questions STACK.
 
-## Máxima CAS
+## Maxima CAS
 
-Las preguntas STACK utilizan el motor de cálculo simbólico [Máxima](https://maxima.sourceforge.io/) (ligeramente modificado) lo que se traduce en que dispondremos de un entorno de programación matemático que simplificará mucho la lógica de las preguntas. Tendremos, por ejemplo, funciones para:
+Les questions STACK utilisent le moteur de calcul symbolique [Maxima](https://maxima.sourceforge.io/) (légèrement modifié) ce qui signifie que nous aurons un environnement de programmation mathématique qui simplifiera grandement la logique des questions. Nous aurons, par exemple, des fonctions pour :
 
-* Resolver ecuaciones o sistemas de ecuaciones.
-* Tipos de datos variados: listas, conjuntos, matrices, ...
+* Résoudre des équations ou des systèmes d'équations.
+* Des types de données variés : listes, ensembles, matrices, ...
 * Operativa con matrices: determinante, inversa, traspuesta, ...
 * Condiciones lógicas (if/else), bucles, ...
 * Funciones para comprobar si dos expresiones son algebraicamente equivalentes, si una expresión está factorizada, si un número es igual a otro con una cierta tolerancia...
@@ -35,4 +35,3 @@ En las preguntas podremos diferenciar tres procesos independientes:
 1. Validación de la respuesta del usuario: podemos establecer el tipo de respuesta que esperamos y validarla previamente a valorar si es o no correcta.
 2. Comprobación de la respuesta: realizaremos diversas pruebas a la respuesta para establecer si es o no correcta. En principio podemos hacer tantas pruebas como queramos.
 3. Feedback: dependiendo de los resultados de las pruebas que hagamos, podemos dar feedback personalizado al usuario.
-

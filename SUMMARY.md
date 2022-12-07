@@ -41,7 +41,7 @@
 ## MOODLE STACK - PAS À PAS
 
 * [Qu'y a-t-il dans les pages ci-dessous ?](moodle-stack-pas-a-pas/que-hay-en-las-paginas-a-continuacion.md)
-* [Generalidades](moodle-stack-pas-a-pas/generalidades.md)
+* [Généralités](moodle-stack-pas-a-pas/generalidades.md)
 * [Mi primera pregunta STACK](moodle-stack-pas-a-pas/mi-primera-pregunta-stack.md)
 
 ## MOODLE STACK - PREGUNTAS PISA DE MATEMÁTICAS
