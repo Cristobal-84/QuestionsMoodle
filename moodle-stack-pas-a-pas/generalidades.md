@@ -28,10 +28,10 @@ La documentación de Máxima puede encontrarse en [aquí](https://maxima.sourcef
 
 ![WxMaxima instalado en local](<../.gitbook/assets/image (16).png>)
 
-## La filosofía de STACK
+## La philosophie STACK
 
-En las preguntas podremos diferenciar tres procesos independientes:
+Dans les questions, nous pouvons distinguer trois processus indépendants :
 
-1. Validación de la respuesta del usuario: podemos establecer el tipo de respuesta que esperamos y validarla previamente a valorar si es o no correcta.
-2. Comprobación de la respuesta: realizaremos diversas pruebas a la respuesta para establecer si es o no correcta. En principio podemos hacer tantas pruebas como queramos.
-3. Feedback: dependiendo de los resultados de las pruebas que hagamos, podemos dar feedback personalizado al usuario.
+1. Validation de la réponse de l'utilisateur : nous pouvons établir le type de réponse que nous attendons et le valider avant d'évaluer s'il elle est correct ou non.
+2. Vérification de la réponse : nous effectuerons divers tests sur la réponse pour établir si elle est correcte ou non. En principe, nous pouvons faire autant de tests que nous voulons.
+3. Feedback : en fonction des résultats des tests que nous effectuons, nous pouvons donner un feedback personnalisé à l'utilisateur.
