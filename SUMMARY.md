@@ -38,11 +38,11 @@
 * [Programación lineal](moodle-stack/programacion-lineal.md)
 * [Análisis](moodle-stack/analisis.md)
 
-## MOODLE STACK - PASO A PASO
+## MOODLE STACK - PAS À PAS
 
-* [¿Qué hay en las páginas a continuación?](moodle-stack-paso-a-paso/que-hay-en-las-paginas-a-continuacion.md)
-* [Generalidades](moodle-stack-paso-a-paso/generalidades.md)
-* [Mi primera pregunta STACK](moodle-stack-paso-a-paso/mi-primera-pregunta-stack.md)
+* [Qu'y a-t-il dans les pages ci-dessous ?](moodle-stack-pas-a-pas/que-hay-en-las-paginas-a-continuacion.md)
+* [Generalidades](moodle-stack-pas-a-pas/generalidades.md)
+* [Mi primera pregunta STACK](moodle-stack-pas-a-pas/mi-primera-pregunta-stack.md)
 
 ## MOODLE STACK - PREGUNTAS PISA DE MATEMÁTICAS
 
