@@ -1,16 +1,16 @@
 ---
-description: Preguntas de sistemas de ecuaciones de las PAU de la Comunidad Valenciana
+description: Questions de systèmes d'équations du PAU de la Communauté de Valence
 ---
 
-# Sistemas de ecuaciones
+# Systèmes d'équation
 
-## Archivo XML
+## Fichier XML
 
 {% file src="../.gitbook/assets/preguntas  Matemáticas aplicadas a las Ciencias Sociales II Sistemas de ecuaciones.rar" %}
 Descomprimir el rar para obtener el archivo con las preguntas en formato XML de Moodle
 {% endfile %}
 
-## ¿Qué contiene el archivo?
+## Que contient le fichier ?
 
 Son 20 preguntas AUTOCORRECTIVAS y ALEATORIZADAS (cada vez que se ejecuta la pregunta, cambia el enunciado), de las que han aparecido en la PAU en MATEMÁTICAS APLICADAS A LAS CIENCIAS SOCIALES II de la Comunidad Valenciana en los últimos años.
 
@@ -30,4 +30,3 @@ Las preguntas califican:
 * Por otro lado, la solución del sistema.
 
 ![Click sobre imagen para verla más grande](../.gitbook/assets/sistemas.gif)
-

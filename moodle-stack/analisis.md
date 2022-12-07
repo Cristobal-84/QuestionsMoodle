@@ -1,14 +1,14 @@
 ---
-description: Preguntas de análisis (Matemáticas CCSS II) de las PAU Comunidad Valenciana
+description: Questions d'analyse (Mathématiques CCSS II) du PAU de la Communauté de Valence
 ---
 
-# Análisis
+# Analyse
 
-## Archivo xml
+## Fichier xml
 
 {% file src="../.gitbook/assets/preguntas-2BAH Matemáticas aplicadas a las Ciencias Sociales II 2122   1632309294-Funciones-20220415-1151.rar" %}
 
-## ¿Qué incluye el archivo?
+## Que contient le fichier ?
 
 Las observaciones realizadas en las páginas relativas al resto de preguntas de las PAU son también aplicables aquí. No lo repito.
 
@@ -23,4 +23,3 @@ Algunas de las preguntas incluyen resolución paso a paso para facilitar el uso 
 {% endhint %}
 
 ![Ejemplo de pregunta de análisis con resolución paso a paso](../.gitbook/assets/analisis.gif)
-

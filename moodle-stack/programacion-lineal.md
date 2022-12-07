@@ -1,14 +1,14 @@
 ---
-description: Preguntas de programación lineal de las PAU de la Comunidad Valenciana
+description: Questions de programmation linéaire du PAU de la Communauté de Valence
 ---
 
-# Programación lineal
+# Programmation linéaire
 
-## Archivo xml
+## Fichier xml
 
 {% file src="../.gitbook/assets/Programación lineal.rar" %}
 
-## ¿Qué contiene el archivo?
+## Que contient le fichier ?
 
 En el archivo hay:
 
@@ -30,4 +30,3 @@ Al igual que en las preguntas de sistemas de ecuaciones:
 {% endhint %}
 
 ![Ejemplo de pregunta de programación lineal](../.gitbook/assets/progrLin.gif)
-

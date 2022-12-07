@@ -1,14 +1,14 @@
 ---
-description: Preguntas de probabilidad de la PAU Comunidad Valenciana
+description: Questions de probabilité du PAU de la Communauté de Valence
 ---
 
-# Probabilidad
+# Probabilité
 
-## Archivo XML
+## Fichier XML
 
 {% file src="../.gitbook/assets/preguntas-DemoStack-12022021-Probabilidad tablas contingencia-20220103-1915.rar" %}
 
-## ¿Qué contiene?
+## Que contient le fichier ?
 
 Son 56 preguntas AUTOCORRECTIVAS y ALEATORIZADAS (cada vez que se ejecuta la pregunta, cambia el enunciado), de las que han aparecido en la PAU en MATEMÁTICAS APLICADAS A LAS CIENCIAS SOCIALES II de la Comunidad Valenciana en los últimos años.
 

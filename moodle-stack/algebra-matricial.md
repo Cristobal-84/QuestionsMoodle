@@ -1,16 +1,16 @@
 ---
-description: Preguntas de álgebra matricial de las PAU de la Comunidad Valenciana
+description: Questions d'algèbre matricielle du PAU de la Communauté de Valence
 ---
 
-# Álgebra matricial
+# Algèbre matricielle
 
-## Archivo XML
+## Fichier XML
 
 {% file src="../.gitbook/assets/preguntas-2BAH Matemáticas aplicadas a las Ciencias Sociales II 2122   1632309294-Algebra matrices 2 batCCSS selectivo-20220219-1329.rar" %}
 Descomprimir el .rar. Preguntas en formato XML de Moodle
 {% endfile %}
 
-## ¿Qué contiene el archivo?
+## Que contient le fichier ?
 
 Son 18 preguntas AUTOCORRECTIVAS y ALEATORIZADAS (cada vez que se ejecuta la pregunta, cambia el enunciado), de las que han aparecido en la PAU en MATEMÁTICAS APLICADAS A LAS CIENCIAS SOCIALES II de la Comunidad Valenciana en los últimos años.
 
@@ -31,4 +31,3 @@ En caso de ser la respuesta incorrecta, se indica al usuario **qué elementos de
 {% endhint %}
 
 ![Cick sobre imagen para verla más grande](../.gitbook/assets/matrices.gif)
-
