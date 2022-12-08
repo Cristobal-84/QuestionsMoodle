@@ -95,10 +95,10 @@ Les annotations de questions devront inclure certaines des variables aléatoires
 ![](<../.gitbook/assets/image (59).png>)
 
 {% hint style="info" %}
-Por **cada uno de los inputs** que tengamos en la pregunta, tendremos una pestaña **Entrada** para configurar dicho campo de entrada.
+Pour **chacun des input** que nous avons dans la question, nous aurons un onglet **Input** pour configurer ledit champ de saisie.
 {% endhint %}
 
-Veamos cómo configurar los campos más importantes:
+Voyons comment configurer les champs les plus importants :
 
 * **Tipo de entrada**: permite elegir el tipo de entrada que esperamos del usuario. Documentación detallada [aquí](https://github.com/maths/moodle-qtype\_stack/blob/master/doc/en/Authoring/Inputs.md).\
   Las que utilizaremos habitualmente son:
