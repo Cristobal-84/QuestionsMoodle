@@ -59,22 +59,22 @@ Chaque fois que nous voulons inclure un **champ de réponse** (un espace pour qu
 * `[[input:nombre_campo]]` où nous voulons que le champ de réponse apparaisse,
 * `[[validation:nombre_campo]]` où nous voulons que la validation de la réponse apparaisse. Notez qu'il s'agit d'une validation du format de la réponse (décimal/non décimal, numérique, expression algébrique...).
 
-Donde queramos que aparezca la **corrección** de la validez de la respuesta del usuario (generalmente comparando con la respuesta correcta) tendremos que introducir:
+Là où nous voulons que la correction de la validité de la réponse de l'utilisateur apparaisse (généralement en la comparant à la bonne réponse) nous devrons introduire :
 
 * `[[feedback:nombre_feedback]]`
 {% endhint %}
 
-{% hint style="info" %}
-Téngase en cuenta que:
+{% hint style="warning" %}
+Veuillez noter que :
 
-* Podremos incluir más de un campo de **feedback** para un campo de respuesta (input).
-* Podrá haber campos de respuesta sin **feedback**.
-* Podrá haber un único **feedback** para varios campos de respuesta.
+* Nous pouvons inclure plus d'un champ de **feedback** pour un champ de réponse (input).
+* Il peut y avoir des champs de réponse sans **feedback**.
+* Il peut y avoir un seul **feedback** pour plusieurs champs de réponse.
 {% endhint %}
 
 ![Resultado que vería el usuario](<../.gitbook/assets/image (38).png>)
 
-### Notas de la pregunta
+## Notes de questions
 
 En las preguntas que incluyen **aleatoriedad**, Moodle STACK nos pedirá que rellenemos el campo notas de la pregunta para poder guardar la pregunta.
 
