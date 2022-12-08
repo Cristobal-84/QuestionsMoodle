@@ -100,8 +100,9 @@ Pour **chacun des input** que nous avons dans la question, nous aurons un onglet
 
 Voyons comment configurer les champs les plus importants :
 
-* **Tipo de entrada**: permite elegir el tipo de entrada que esperamos del usuario. Documentación detallada [aquí](https://github.com/maths/moodle-qtype\_stack/blob/master/doc/en/Authoring/Inputs.md).\
-  Las que utilizaremos habitualmente son:
+* **Type d'input :** vous permet de choisir le type d'entrée que nous attendons de l'utilisateur. Documentation détaillée [ici](https://github.com/maths/moodle-qtype\_stack/blob/master/doc/en/Authoring/Inputs.md).
+
+Ceux que nous utiliserons généralement sont :
 
 ![](../.gitbook/assets/image.png)
 
