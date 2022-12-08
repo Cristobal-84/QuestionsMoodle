@@ -90,7 +90,7 @@ Il est pratique de définir **des annotations de question qui nous aident à ide
 Les annotations de questions devront inclure certaines des variables aléatoires que nous avons utilisées.
 {% endhint %}
 
-### Características del campo de entrada
+## Fonctionnalités du champ de saisie (Input)
 
 ![](<../.gitbook/assets/image (59).png>)
 
