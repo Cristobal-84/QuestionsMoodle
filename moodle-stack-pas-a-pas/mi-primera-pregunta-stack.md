@@ -54,10 +54,10 @@ Pour écrire des variables dans l'instruction, nous pouvons utiliser :
 {% hint style="danger" %}
 TRÈS IMPORTANT
 
-Cada ver que queramos incluir un **campo de respuesta** (hueco para que el usuario pueda responder), habremos de introducir **SIEMPRE LOS DOS**:
+Chaque fois que nous voulons inclure un **champ de réponse** (un espace pour que l'utilisateur réponde), nous devons **TOUJOURS introduire LES DEUX** champs suivants :
 
-* `[[input:nombre_campo]]` donde queramos que aparezca el campo de respuesta
-* `[[validation:nombre_campo]]` donde queramos que aparezca la validación de la respuesta. Notar que se trata de una validación del formato de la respuesta (decimal / no decimal, numérica, expresión algebraica...)
+* `[[input:nombre_campo]]` où nous voulons que le champ de réponse apparaisse,
+* `[[validation:nombre_campo]]` où nous voulons que la validation de la réponse apparaisse. Notez qu'il s'agit d'une validation du format de la réponse (décimal/non décimal, numérique, expression algébrique...).
 
 Donde queramos que aparezca la **corrección** de la validez de la respuesta del usuario (generalmente comparando con la respuesta correcta) tendremos que introducir:
 
