@@ -35,9 +35,9 @@ Les caractères spéciaux (ou avec l'accent dans "habitación") doivent être é
 Comme dernière variable, nous avons choisi tans1 ("teacher answer 1") qui stocke la valeur de la bonne réponse à la question.
 
 {% hint style="info" %}
-En las preguntas de ejemplo (que están en el [curso demostración de STACK](https://github.com/maths/moodle-qtype\_stack/blob/master/samplequestions/STACK-demo.mbz), que se puede descargar y restaurar en cualquier instalación de Moodle) se suele utilizar TANS para la respuesta del profesor.
+Dans les exemples de questions (qui se trouvent dans le [cours de démonstration STACK](https://github.com/maths/moodle-qtype\_stack/blob/master/samplequestions/STACK-demo.mbz), qui peut être téléchargé et restauré sur n'importe quelle installation Moodle), TANS est souvent utilisé pour la réponse de l'enseignant.
 
-En caso de que usemos preguntas previamente preparadas para elaborar nuevas preguntas, puede ahorrar tiempo utilizar variables con nombres genéricos para las respuestas finales ya que, en la comprobación de la respuesta y en el feedback, se utilizará varias veces la "respuesta correcta".
+Dans le cas où nous utilisons des questions préalablement préparées pour créer de nouvelles questions, cela peut faire gagner du temps d'utiliser des variables avec des noms génériques pour les réponses finales puisque, dans la vérification des réponses et dans le feedback, la "bonne réponse" sera utilisée plusieurs fois.
 {% endhint %}
 
 ## Enoncé
@@ -45,14 +45,14 @@ En caso de que usemos preguntas previamente preparadas para elaborar nuevas preg
 ![](<../.gitbook/assets/image (119).png>)
 
 {% hint style="success" %}
-Para escribir variables en el enunciado podemos utilizar:
+Pour écrire des variables dans l'instruction, nous pouvons utiliser :
 
-* `{#nombre_variable#}` mostrará el valor de la variable como texto sin formato. Si la variable es una cadena de texto, la mostrará como texto plano entre comillas.
-* `{@nombre_variable@}` mostrará el valor de la variable como código $$\LaTeX$$. Si la variable es una cadena de texto, la mostrará como texto plano sin las comillas.
+* `{#nombre_variable#}` affichera la valeur de la variable sous forme de texte brut. Si la variable est une chaîne de texte, elle sera affichée sous forme de texte brut entre guillemets.
+* `{@nombre_variable@}` affichera la valeur de la variable sous forme de code $$\LaTeX$$. Si la variable est une chaîne de texte, elle sera affichée sous forme de texte brut sans les guillemets.
 {% endhint %}
 
 {% hint style="danger" %}
-**MUY IMPORTANTE**
+TRÈS IMPORTANT
 
 Cada ver que queramos incluir un **campo de respuesta** (hueco para que el usuario pueda responder), habremos de introducir **SIEMPRE LOS DOS**:
 
