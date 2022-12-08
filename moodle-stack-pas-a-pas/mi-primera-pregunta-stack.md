@@ -72,22 +72,22 @@ Veuillez noter que :
 * Il peut y avoir un seul **feedback** pour plusieurs champs de réponse.
 {% endhint %}
 
-![Resultado que vería el usuario](<../.gitbook/assets/image (38).png>)
+![Résultat que l'utilisateur verrait](<../.gitbook/assets/image (38).png>)
 
-## Notes de questions
+## Annotation
 
-En las preguntas que incluyen **aleatoriedad**, Moodle STACK nos pedirá que rellenemos el campo notas de la pregunta para poder guardar la pregunta.
+Dans les questions qui incluent des variables aléatoires, Moodle STACK nous demandera de remplir le champ annotation de question avant de pouvoir sauvegarder la question.
 
-La nota de la pregunta debe ser un texto que sea **diferente para cada una de las variantes de la pregunta**. STACK considerará que dos preguntas son la misma si sus notas de la pregunta son iguales.
+Le but d'une annotation de question est de distinguer les différentes versions aléatoires d'une question. L'annotation de question doit donc être un texte **différente pour chacune des variantes de la question**. STACK considèrera que deux versions d'une question sont égales si, et seulement si, leurs annotations de question sont égales.
 
 {% hint style="info" %}
-Es conveniente definir **notas de la pregunta que nos ayuden a identificar fácilmente a qué variante de cada pregunta corresponden** ya que, cuando despleguemos las variantes de cada pregunta, la forma de identificarlas será a través de la nota de la pregunta.
+Il est pratique de définir **des annotations de question qui nous aident à identifier facilement à quelle variante de chaque question elles correspondent** puisque, lorsque nous afficherons les variantes de chaque question, la façon de les identifier se fera par l'annotation de question.
 {% endhint %}
 
 ![](<../.gitbook/assets/image (111).png>)
 
 {% hint style="success" %}
-Las notas de la pregunta tendrán que incluir algunas de las variables aleatorizadas que hemos utilizado.
+Les annotations de questions devront inclure certaines des variables aléatoires que nous avons utilisées.
 {% endhint %}
 
 ### Características del campo de entrada
