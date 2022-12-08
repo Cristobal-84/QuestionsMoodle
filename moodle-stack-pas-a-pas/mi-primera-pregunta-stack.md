@@ -26,13 +26,13 @@ L'un des points forts des questions STACK est la possibilité de **randomisation
 Sur [cette page](https://github.com/maths/moodle-qtype\_stack/blob/master/doc/en/CAS/Random.md) se trouvent les fonctions dont nous disposons pour randomiser.
 {% endhint %}
 
-En este caso hemos utilizado la función `rand(lista)` para elegir aleatoriamente un elemento de la lista y la función `rand_with_step(límite inferior, límite superior, paso)` para elegir un número que esté entre 5 y 10 (ambos incluidos) y avanzando de uno en uno.
+Dans ce cas, nous avons utilisé la fonction`rand(lista)` pour choisir au hasard un élément de la liste et la fonction `rand_with_step(límite inferior, límite superior, paso)` pour choisir un nombre compris entre 5 et 10 (les deux inclus) et avancer de un en un.
 
-Los caracteres especiales (o con tilde en "habitación") se deben escribir como:
+Les caractères spéciaux (ou avec l'accent dans "habitación") doivent être écrits comme suit :
 
 ![](<../.gitbook/assets/image (2).png>)
 
-Como última variable hemos elegido tans1 ("teacher answer 1") que almacena el valor de la respuesta correcta a la pregunta.
+Comme dernière variable, nous avons choisi tans1 ("teacher answer 1") qui stocke la valeur de la bonne réponse à la question.
 
 {% hint style="info" %}
 En las preguntas de ejemplo (que están en el [curso demostración de STACK](https://github.com/maths/moodle-qtype\_stack/blob/master/samplequestions/STACK-demo.mbz), que se puede descargar y restaurar en cualquier instalación de Moodle) se suele utilizar TANS para la respuesta del profesor.
@@ -40,7 +40,7 @@ En las preguntas de ejemplo (que están en el [curso demostración de STACK](htt
 En caso de que usemos preguntas previamente preparadas para elaborar nuevas preguntas, puede ahorrar tiempo utilizar variables con nombres genéricos para las respuestas finales ya que, en la comprobación de la respuesta y en el feedback, se utilizará varias veces la "respuesta correcta".
 {% endhint %}
 
-### Enunciado
+## Enoncé
 
 ![](<../.gitbook/assets/image (119).png>)
 
