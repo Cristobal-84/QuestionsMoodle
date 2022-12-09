@@ -106,10 +106,10 @@ Ceux que nous utiliserons généralement sont :
 
 ![](../.gitbook/assets/image.png)
 
-1. Algebraica: admite expresiones algebraicas formadas por números y variables. Aunque no esperemos variables, es también válida para números.
-2. Numerical: únicamente serán válidas las respuestas numéricas. También admite operaciones entre números cuyo resultado sea un número. Puede configurarse para admitir determinados tipos de número y no operaciones. Documentación detallada [aquí](https://github.com/maths/moodle-qtype\_stack/blob/master/doc/en/Authoring/Numerical\_input.md).
+1. Forme algébrique : Prend en charge les expressions algébriques composées de nombres et de variables. Bien qu'on ne s'attende pas à des variables, c'est aussi valable pour les nombres.
+2. Numerical : seules les réponses numériques seront valides. Il prend également en charge les opérations sur les nombres dont le résultat est un nombre. Il peut être configuré pour prendre en charge certains types de nombres et des non-opérations. Documentation détaillée [ici](https://github.com/maths/moodle-qtype\_stack/blob/master/doc/en/Authoring/Numerical\_input.md).
 
-* **Respuesta modelo**: aquí incluiremos una posible respuesta correcta a la pregunta. Es el valor que se introduce como respuesta correcta al pulsar en el botón `Rellenar con las respuestas correctas` de la vista previa de la pregunta. NO ES EL VALOR QUE SE UTILIZA PARA DECIDIR SI ES CORRECTA O NO LA RESPUESTA DEL USUARIO.
+* **Modèle de réponse** : nous inclurons ici une éventuelle réponse correcte à la question. C'est la valeur qui est saisie comme bonne réponse en cliquant sur le bouton "Remplir les réponses correctes" depuis l'aperçu de la question. CE N'EST PAS LA VALEUR UTILISÉE POUR DÉCIDER SI LA RÉPONSE DE L'UTILISATEUR EST CORRECTE OU NON.
 * **Prohibir flotantes**: en caso de que esté marcado como Sí, la respuesta del usuario no podrá incluir decimales de coma flotante (números decimales) y únicamente serán válidas respuestas con **números fraccionarios**. MUY ÚTIL EN MATEMÁTICA ELEMENTAL EN QUE NO DESEAMOS RESULTADOS DECIMALES.
 * **Requerir mínima expresión**: fuerza a que las fracciones estén simplificadas. En caso contrario, da un aviso de que deben estarlo. EN LUGAR DE UTILIZAR ESTA OPCIÓN, NORMALMENTE SERÁ PREFERIBLE EVALUAR LA SIMPLIFICACIÓN CUANDO PUNTUEMOS LA PREGUNTA.
 * **Comprobar tipo**: en caso de estar activado, muestra un mensaje de error al usuario en caso de que la expresión introducida no sea del tipo esperado y definido en el tipo de variable que sea la Respuesta modelo.
