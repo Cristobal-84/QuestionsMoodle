@@ -110,16 +110,16 @@ Ceux que nous utiliserons généralement sont :
 2. Numerical : seules les réponses numériques seront valides. Il prend également en charge les opérations sur les nombres dont le résultat est un nombre. Il peut être configuré pour prendre en charge certains types de nombres et des non-opérations. Documentation détaillée [ici](https://github.com/maths/moodle-qtype\_stack/blob/master/doc/en/Authoring/Numerical\_input.md).
 
 * **Modèle de réponse** : nous inclurons ici une éventuelle réponse correcte à la question. C'est la valeur qui est saisie comme bonne réponse en cliquant sur le bouton "Remplir les réponses correctes" depuis l'aperçu de la question. CE N'EST PAS LA VALEUR UTILISÉE POUR DÉCIDER SI LA RÉPONSE DE L'UTILISATEUR EST CORRECTE OU NON.
-* **Prohibir flotantes**: en caso de que esté marcado como Sí, la respuesta del usuario no podrá incluir decimales de coma flotante (números decimales) y únicamente serán válidas respuestas con **números fraccionarios**. MUY ÚTIL EN MATEMÁTICA ELEMENTAL EN QUE NO DESEAMOS RESULTADOS DECIMALES.
-* **Requerir mínima expresión**: fuerza a que las fracciones estén simplificadas. En caso contrario, da un aviso de que deben estarlo. EN LUGAR DE UTILIZAR ESTA OPCIÓN, NORMALMENTE SERÁ PREFERIBLE EVALUAR LA SIMPLIFICACIÓN CUANDO PUNTUEMOS LA PREGUNTA.
-* **Comprobar tipo**: en caso de estar activado, muestra un mensaje de error al usuario en caso de que la expresión introducida no sea del tipo esperado y definido en el tipo de variable que sea la Respuesta modelo.
-* **Verificar respuesta** y **Mostrar validación**: permiten mostrar al usuario su respuesta en un formato habitual. Por ejemplo, las fracciones, potencias y raíces se muestran de la forma estándar. NORMALMENTE, LA VALIDACIÓN COMPACTA SERÁ LA QUE MÁS SE UTILICE YA QUE SE MUESTRA EN LA MISMA LÍNEA DE LA RESPUESTA Y ES BASTANTE MÁS SENCILLA.
+* **Interdire les nombres à virgule** : si elle est marquée comme Oui, la réponse de l'utilisateur ne pourra pas inclure de nombres à virgule (nombres décimaux) et seules les réponses avec des **nombres fractionnaires** seront valides. TRÈS UTILE EN MATHS ÉLÉMENTAIRES DANS LESQUELS NOUS NE VOULONS PAS DE RÉSULTATS DÉCIMAUX.
+* **Imposer des fractions réduites** : force les fractions à être simplifiées. Sinon, il donne un avertissement qu'ils devraient l'être. AU LIEU D'UTILISER CETTE OPTION, IL SERA NORMALEMENT PRÉFÉRABLE D'ÉVALUER LA SIMPLIFICATION LORSQUE NOUS NOTONS LA QUESTION.
+* **Vérifier le type de la réponse** : Si activé, affiche un message d'erreur à l'utilisateur au cas où l'expression saisie n'est pas du type attendu et défini dans le type de variable qui est la réponse du modèle.
+* **Demander à l'étudiant de vérifier** et **Afficher la validation** : permet de montrer à l'utilisateur sa réponse dans un format commun. Par exemple, les fractions, les puissances et les racines sont affichées de manière standard. NORMALEMENT, LA VALIDATION COMPACTE SERA LA PLUS UTILISÉE CAR ELLE S'AFFICHE SUR LA MÊME LIGNE QUE LA RÉPONSE ET EST BEAUCOUP PLUS SIMPLE.
 
-![Ejemplo de validación incluyendo lista de variables](<../.gitbook/assets/image (63).png>)
+![Exemple de validation incluant la liste des variables](<../.gitbook/assets/image (63).png>)
 
-![Ejemplo de validación Compacta](<../.gitbook/assets/image (79).png>)
+![Exemple de validation compacte](<../.gitbook/assets/image (79).png>)
 
-### Árbol de respuestas potenciales
+## Arbre des réponses potentielles
 
 La documentación relativa a esta parte de la pregunta se puede encontrar [aquí](https://github.com/maths/moodle-qtype\_stack/blob/master/doc/en/Authoring/Feedback.md).
 
