@@ -121,16 +121,16 @@ Ceux que nous utiliserons généralement sont :
 
 ## Arbre des réponses potentielles
 
-La documentación relativa a esta parte de la pregunta se puede encontrar [aquí](https://github.com/maths/moodle-qtype\_stack/blob/master/doc/en/Authoring/Feedback.md).
+La documentation concernant cette partie de la question peut être trouvée [ici](https://github.com/maths/moodle-qtype\_stack/blob/master/doc/en/Authoring/Feedback.md).
 
 ![](<../.gitbook/assets/image (40).png>)
 
 {% hint style="info" %}
-Aquí será donde:
+Ce sera l'endroit où :
 
-* Haremos todas las comprobaciones que deseemos a la respuesta del usuario.
-* Asignaremos la puntuación que consideremos dependiendo del resultado de dichas comprobaciones.
-* Ofreceremos retroalimentación al usuario dependiendo del resultado de las comprobaciones que hagamos.
+* Nous ferons toutes les vérifications que nous souhaitons à la réponse de l'utilisateur.
+* Nous attribuerons le score que nous considérons en fonction du résultat de ces contrôles.
+* Nous offrirons des commentaires à l'utilisateur en fonction du résultat des vérifications que nous effectuons.
 {% endhint %}
 
 En nuestra pregunta, únicamente verificamos que la respuesta del usuario(`Sans` que en este caso hemos llamado `ans1`) sea algebraicamente equivalente a la respuesta correcta (`Tans` que en este caso hemos llamado `tans1`). En caso de que así sea, que se asigna el 100% de la puntuación (1) y en caso contrario, se asigna una puntuación de cero. No ofrecemos retroalimentación.
