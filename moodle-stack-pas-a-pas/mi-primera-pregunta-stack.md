@@ -130,18 +130,18 @@ Ce sera l'endroit où :
 
 * Nous ferons toutes les vérifications que nous souhaitons à la réponse de l'utilisateur.
 * Nous attribuerons le score que nous considérons en fonction du résultat de ces contrôles.
-* Nous offrirons des commentaires à l'utilisateur en fonction du résultat des vérifications que nous effectuons.
+* Nous donnerons des commentaires à l'utilisateur en fonction du résultat des vérifications que nous effectuons.
 {% endhint %}
 
-En nuestra pregunta, únicamente verificamos que la respuesta del usuario(`Sans` que en este caso hemos llamado `ans1`) sea algebraicamente equivalente a la respuesta correcta (`Tans` que en este caso hemos llamado `tans1`). En caso de que así sea, que se asigna el 100% de la puntuación (1) y en caso contrario, se asigna una puntuación de cero. No ofrecemos retroalimentación.
+Dans notre question, nous vérifions seulement que la réponse de l'utilisateur (Sans, que nous avons appelée dans ce cas ans1) est algébriquement équivalente à la bonne réponse (Tans, que nous avons appelée dans ce cas tans1). Si c'est le cas, 100 % du score (1) est attribuée et sinon, un score de zéro est attribuée. Nous n'offrons pas de commentaires.
 
-Un campo importante a configurar es **PRT Feedback Style** ya que determinará qué información se ofrece al usuario tras la corrección. De momento lo dejaremos en Standard. Veremos más adelante, en otras preguntas, qué tipos de feedback podemos utilizar.
+Un champ important à configurer est le **PRT Feedback Style**, car il déterminera quelles informations sont proposées à l'utilisateur après la correction. Pour l'instant, nous allons le laisser en Standard. Nous verrons plus tard, dans d'autres questions, quels types de feedback nous pouvons utiliser.
 
-### Resultado de la pregunta
+## Résultat de la question
 
 ![](<../.gitbook/assets/image (5).png>)
 
-### Despliegue de variantes y tests
+## Déploiement de variantes et de tests
 
 ![](<../.gitbook/assets/image (96).png>)
 
