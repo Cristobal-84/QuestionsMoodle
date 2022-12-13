@@ -146,7 +146,7 @@ Un champ important à configurer est le **PRT Feedback Style**, car il détermin
 ![](<../.gitbook/assets/image (96).png>)
 
 {% hint style="info" %}
-Cuando las preguntas incluyen aleatoriedad, Moodle ofrece la posibilidad (y encarecidamente recomienda) la generación de **variantes**, que son cada una de las versiones de la pregunta que se mostrarán a los alumnos.
+Lorsque les questions incluent des variables aléatoires, Moodle offre la possibilité (et recommande fortement) de générer des **variantes**, qui sont chaque version de la question qui sera montrée aux étudiants.
 {% endhint %}
 
 El despliegue de variantes nos permitirá tener **control sobre la aleatoriedad** que se genera en las preguntas ya que podremos eliminar aquellas variantes cuya combinación de variables aleatorias no sea de nuestro agrado (valores que se repiten, resultados fraccionarios indeseados...).
