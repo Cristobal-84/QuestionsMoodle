@@ -149,26 +149,26 @@ Un champ important à configurer est le **PRT Feedback Style**, car il détermin
 Lorsque les questions incluent des variables aléatoires, Moodle offre la possibilité (et recommande fortement) de générer des **variantes**, qui sont chaque version de la question qui sera montrée aux étudiants.
 {% endhint %}
 
-El despliegue de variantes nos permitirá tener **control sobre la aleatoriedad** que se genera en las preguntas ya que podremos eliminar aquellas variantes cuya combinación de variables aleatorias no sea de nuestro agrado (valores que se repiten, resultados fraccionarios indeseados...).
+Le déploiement de variantes nous permettra de **contrôler le caractère aléatoire** généré dans les questions, puisque nous pourrons éliminer les variantes dont la combinaison de variables aléatoires ne nous convient pas (valeurs répétées, résultats fractionnaires indésirables...) .
 
 ![](<../.gitbook/assets/image (57).png>)
 
-En nuestra pregunta hay potencialmente 4 tipos de estancia por 5 anchos diferentes por 5 largos diferentes, lo que da un total de 100 variantes distintas. Nosotros desplegaremos 30.
+Dans notre question, il y a potentiellement 4 types de pièces pour 5 largeurs différentes par 5 longueurs différentes, soit un total de 100 variantes différentes. Nous en déploierons 30.
 
 ![](<../.gitbook/assets/image (49).png>)
 
-Aquí podremos eliminar las variantes que no nos "gusten" haciendo click en la Papelera.
+Ici, nous pouvons éliminer les variantes que nous "n'aimons pas" en cliquant sur la corbeille.
 
-Para terminar la pregunta, únicamente nos faltará generar un **caso de prueba**.
+Pour terminer la question, il nous suffit de générer un **cas de test**.
 
 {% hint style="info" %}
-Los **casos de prueba** sirven para identificar variantes que no funcionan correctamente.
+Les **cas de test** sont utilisés pour identifier les variantes qui ne fonctionnent pas correctement.
 {% endhint %}
 
-En este caso, generaremos un caso de prueba elemental en que se verifique que si la respuesta del usuario (ans1) es igual a la respuesta modelo (tans1) se asigne una puntuación del 100% del valor de la pregunta.
+Dans ce cas, nous allons générer un cas de test élémentaire dans lequel on vérifie que si la réponse de l'utilisateur (ans1) est égale à la réponse modèle (tans1) un score de 100% de la valeur de la question est attribué.
 
 ![](<../.gitbook/assets/image (93).png>)
 
-Con esto, en la pantalla en que se observan las variantes desplegadas, se puede realizar el test a todas las variantes (Run all tests on deployed variants):
+Avec cela, sur l'écran où vous pouvez voir les variantes déployées, vous pouvez effectuer le test sur toutes les variantes (Run all tests on deployed variants) :
 
 ![](<../.gitbook/assets/image (48).png>)
