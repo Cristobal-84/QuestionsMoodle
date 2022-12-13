@@ -1,10 +1,5 @@
-# Preguntas "sencillas"
+# Questions "simples"
 
-Esta sección es una recopilación de ejemplos comentados de preguntas de tipo Fórmulas.
+Cette section est une collection d'exemples annotés de questions de type Formulas.
 
-No tienen un orden de lectura concreto ya que en cada pregunta se abordará una o varias cuestiones específicas indicadas en el título.
-
-
-
-
-
+Elles n'ont pas d'ordre de lecture spécifique puisque chaque question portera sur un ou plusieurs problèmes spécifiques indiqués dans le titre.
