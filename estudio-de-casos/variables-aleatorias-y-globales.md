@@ -1,8 +1,8 @@
-# Variables aleatorias y globales
+# Variables aléatoires et globales
 
-## Para qué las variables
+## Pourquoi les variables
 
-Las variables son parámetros que podemos utilizar tanto para  **generar aleatoriedad** en nuestras preguntas como para **realizar cálculos intermedios**. ****&#x20;
+Las variables son parámetros que podemos utilizar tanto para **generar aleatoriedad** en nuestras preguntas como para **realizar cálculos intermedios**. \*\*\*\*
 
 Se definen al principio de la pregunta y son, probablemente, los elementos más importantes de toda la pregunta.
 
@@ -31,7 +31,7 @@ c={1,3,5,7}; #La variable c tomará un valor aleatorio de los suministrados entr
 {% endhint %}
 
 {% hint style="success" %}
-Se pueden introducir combinaciones de intervalos y valores aislados.&#x20;
+Se pueden introducir combinaciones de intervalos y valores aislados.
 
 d={-7:0,1:8}; #d tomará un valor entre -7 y -1 o entre 1 y 7, es decir, toma un valor entre -7 y 7 y no puede valer cero.
 {% endhint %}
@@ -73,7 +73,7 @@ Cada vez que se genera la pregunta, Moodle sustituye los valores de cada variabl
 ![](<../.gitbook/assets/image (88).png>)
 
 {% hint style="success" %}
-Las variables se pueden utilizar tanto en el **enunciado** como en la  **respuesta correcta** o en el **feedback** que se da al alumno.&#x20;
+Las variables se pueden utilizar tanto en el **enunciado** como en la **respuesta correcta** o en el **feedback** que se da al alumno.
 {% endhint %}
 
 ## Variables en la respuesta

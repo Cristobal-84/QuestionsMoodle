@@ -3,7 +3,7 @@
 * [On commence](README.md)
 * [Premiers pas](untitled.md)
 * [Questions "simples"](estudio-de-casos/README.md)
-  * [Variables aleatorias y globales](estudio-de-casos/variables-aleatorias-y-globales.md)
+  * [Variables aléatoires et globales](estudio-de-casos/variables-aleatorias-y-globales.md)
   * [Introducción de contenido matemático](estudio-de-casos/funcionamiento-general-de-la-pregunta.md)
   * [Varias partes en una misma pregunta](estudio-de-casos/varias-partes-en-una-misma-pregunta.md)
   * [Preguntas de respuesta abierta](estudio-de-casos/preguntas-de-respuesta-abierta.md)
