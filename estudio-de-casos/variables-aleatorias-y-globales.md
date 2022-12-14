@@ -2,13 +2,13 @@
 
 ## Pourquoi les variables
 
-Las variables son parámetros que podemos utilizar tanto para **generar aleatoriedad** en nuestras preguntas como para **realizar cálculos intermedios**. \*\*\*\*
+Les variables sont des paramètres que nous pouvons utiliser à la fois pour générer du caractère aléatoire dans nos questions et pour **effectuer des calculs intermédiaires**. \*\*\*\*
 
-Se definen al principio de la pregunta y son, probablemente, los elementos más importantes de toda la pregunta.
+Elles sont définies au début de la question et sont probablement les éléments les plus importants de toute la question.
 
 ![](<../.gitbook/assets/Editar\_una\_pregunta\_de\_fórmulas (1).png>)
 
-En la pregunta de introducción vista en [Primeros pasos](../untitled.md#pregunta-en-xml) hemos definido dos variables aleatorias: a y b para que el enunciado de la pregunta cambie para cada uno de los alumnos.
+Dans la question d'introduction vue dans "[Premiers pas](../untitled.md#pregunta-en-xml)", nous avons défini deux variables aléatoires : a et b afin que la formulation de la question change pour chacun des élèves.
 
 {% hint style="danger" %}
 Entre la definición de una y otra variable hay que introducir **;** o dará error al comprobar.
