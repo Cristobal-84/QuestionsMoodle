@@ -8,43 +8,43 @@ Elles sont définies au début de la question et sont probablement les élément
 
 ![](<../.gitbook/assets/Editar\_una\_pregunta\_de\_fórmulas (1).png>)
 
-Dans la question d'introduction vue dans "[Premiers pas](../untitled.md#pregunta-en-xml)", nous avons défini deux variables aléatoires : a et b afin que la formulation de la question change pour chacun des élèves.
+Dans la question d'introduction vue dans "[Premiers pas](../untitled.md#pregunta-en-xml)", nous avons défini deux variables aléatoires : a et b, afin que la formulation de la question change pour chacun des élèves.
 
 {% hint style="danger" %}
-Entre la definición de una y otra variable hay que introducir **;** o dará error al comprobar.
+Entre la définition de l'une et l'autre variable il faut introduire le séparateur " ; " ou la vérification des variables aléatoires  échouera.
 {% endhint %}
 
-## Variables aleatorias
+## Variables aléatoires
 
 {% hint style="info" %}
-Varias opciones:
+Plusieurs choix :
 
-**Intervalos:**
+**Intervalles :**
 
-a={1:6}; #La variable a tomará valores aleatorios enteros entre 1 y 5 (el último valor no se coge)
+a={1:6}; #La variable a prendra des valeurs entières aléatoires entre 1 et 5 (la dernière valeur n'est pas prise).
 
-b={4:12:2}; #La variable b tomará valores aleatorios entre 4 y 10 con un incremento de 2 (es decir, únicamente tomará los valores pares)
+b={4:12:2}; #La variable b prendra des valeurs aléatoires entre 4 et 10 avec un incrément de 2 (c'est à dire qu'elle ne prendra que des valeurs paires).
 
-**Valores:**
+**Valeurs :**
 
-c={1,3,5,7}; #La variable c tomará un valor aleatorio de los suministrados entre comas (valdrá 1 o 3 o 5 o 7).
+c={1,3,5,7}; #La variable c prendra une valeur au hasard parmi celles fournies entre virgules (elle vaudra 1 ou 3 ou 5 ou 7).
 {% endhint %}
 
 {% hint style="success" %}
-Se pueden introducir combinaciones de intervalos y valores aislados.
+Des combinaisons d'intervalles et de valeurs isolées peuvent être saisies.
 
-d={-7:0,1:8}; #d tomará un valor entre -7 y -1 o entre 1 y 7, es decir, toma un valor entre -7 y 7 y no puede valer cero.
+d={-7:0,1:8}; #d prendra une valeur entre -7 et -1 ou entre 1 et 7, c'est-à-dire qu'il prendra une valeur entre -7 et 7 et ne pourra pas être nul.
 {% endhint %}
 
 ## Variables globales
 
-Las variables globales pueden utilizarse para realizar **cálculos intermedios** y permiten **aplicar funciones** implementadas en Moodle Fórmulas sobre las variables aleatorias. [Lista de funciones utilizables](https://moodleformulas.org/course/view.php?id=31\&section=1).
+Les variables globales peuvent être utilisées pour effectuer des **calculs intermédiaires** et permettre aux **fonctions** implémentées dans Moodle Formulas d'être appliquées à des variables aléatoires. [Liste des fonctions utilisables](https://dynamiccourseware.org/course/view.php?id=31\&section=4).
 
 ![](<../.gitbook/assets/image (114).png>)
 
-En la primera línea reasignamos el valor de b mediante un condicional y en la segunda hemos definido una nueva variable area como producto de las otras dos.
+Dans la première ligne, nous réattribuons la valeur de b par une condition et dans la seconde, nous avons défini une nouvelle aire variable comme le produit des deux autres.
 
-Las variables globales se pueden usar tanto en el enunciado de la pregunta como en la comprobación de las respuestas o en el feedback que se da al alumno.
+Les variables globales peuvent être utilisées à la fois dans l'énoncé de la question et dans la vérification des réponses ou dans le feedback donnée à l'élève.
 
 {% hint style="danger" %}
 En esta parte de la pregunta **2^3 NO ES 8.**
